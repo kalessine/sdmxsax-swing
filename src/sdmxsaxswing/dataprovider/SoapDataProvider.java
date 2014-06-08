@@ -10,7 +10,7 @@ import java.net.URL;
 import sdmx.Registry;
 import sdmx.registry.QueryableServiceRegistry;
 import sdmx.version.common.Queryable;
-import sdmx.version.twopointzero.Sdmx20SOAPQueryable;
+import sdmx.version.twopointzero.Sdmx20SDWSOAPQueryable;
 
 /**
  *
@@ -21,13 +21,13 @@ public class SoapDataProvider extends DataProvider {
     private String agencyId = null;
     private URL serviceURL = null;
     private String soapNamespace = null;
-    Sdmx20SOAPQueryable q = null;
+    Sdmx20SDWSOAPQueryable q = null;
 
     public SoapDataProvider(String agency, String serviceURL, String soapNamespace) throws MalformedURLException {
         this.agencyId = agency;
         this.serviceURL = new URL(serviceURL);
         this.soapNamespace = soapNamespace;
-        q = new Sdmx20SOAPQueryable(agencyId, serviceURL);
+        q = new Sdmx20SDWSOAPQueryable(agencyId, serviceURL);
         q.setSoapNamespace(soapNamespace);
     }
 

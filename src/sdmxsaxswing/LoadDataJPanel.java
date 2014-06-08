@@ -23,6 +23,7 @@ import sdmx.exception.ParseException;
 import sdmx.message.DataMessage;
 import sdmx.message.StructureType;
 import sdmx.registry.QueryableServiceRegistry;
+import sdmx.structure.dataflow.DataflowType;
 import sdmx.structureddata.StructuredDataMessage;
 import sdmx.version.common.Queryable;
 import sdmxsaxswing.dataandstructure.CombinedDataJFrame;
@@ -37,7 +38,7 @@ import sdmxsaxswing.dataprovider.DataProviderJFrame;
  */
 public class LoadDataJPanel extends javax.swing.JPanel {
 
-    DataStructureReferenceComboBoxModel refModel = new DataStructureReferenceComboBoxModel();
+    DataflowComboBoxModel refModel = new DataflowComboBoxModel();
 
     /**
      * Creates new form LoadDataJPanel
@@ -311,14 +312,14 @@ public class LoadDataJPanel extends javax.swing.JPanel {
             dataFis = new FileInputStream(data);
             StructureType struct = SdmxIO.parseStructure(strucFis);
             DataMessage dataMsg = SdmxIO.parseData(dataFis,false);
-            if( struct.listDataStructures().size()==0 ) return;
-            if (struct.listDataStructures().size() > 1) {
+            if( struct.getStructures().getDataStructures().getDataStructures().size()==0 ) return;
+            if (struct.getStructures().getDataStructures().getDataStructures().size() > 1) {
                 ChooseDataStructureJDialog dialog = new ChooseDataStructureJDialog(MainJFrame.FRAME, true);
                 dialog.setDataMessage(dataMsg);
                 dialog.setStructure(struct);
                 dialog.setVisible(true);
-            }else if( struct.listDataStructures().size()==1 ) {
-                dataMsg.setDataStructure(struct.listDataStructures().get(0),null);
+            }else if( struct.getStructures().getDataStructures().getDataStructures().size()==1 ) {
+                dataMsg.setDataStructure(struct.getStructures().getDataStructures().getDataStructures().get(0).asReference(),null);
                 CombinedDataJFrame frame = new CombinedDataJFrame();
                 StructuredDataMessage cds= new StructuredDataMessage(dataMsg,struct);
                 frame.setCombinedDataAndStructure(cds);
@@ -349,7 +350,7 @@ public class LoadDataJPanel extends javax.swing.JPanel {
     private void jcbProviderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbProviderActionPerformed
         try {
             Registry reg = ((DataProvider)jcbProvider.getSelectedItem()).getRegistry();
-            refModel.setList(reg.listDataStructures());
+            refModel.setList(reg.listDataflows());
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
             ex.printStackTrace();
@@ -365,7 +366,7 @@ public class LoadDataJPanel extends javax.swing.JPanel {
         DataProviderJFrame frame = new DataProviderJFrame();
         Registry reg = ((DataProvider)jcbProvider.getSelectedItem()).getRegistry();
         reg.reset();
-        frame.setDataStructure(((DataProvider)jcbProvider.getSelectedItem()).getRegistry(), (DataStructureReferenceType) refModel.getSelectedItem());
+        frame.setDataStructure(((DataProvider)jcbProvider.getSelectedItem()).getRegistry(), (DataflowType) refModel.getSelectedItem());
         MainJFrame.FRAME.showRequest(frame);
     }//GEN-LAST:event_jButton1ActionPerformed
 

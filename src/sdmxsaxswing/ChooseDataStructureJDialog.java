@@ -7,10 +7,15 @@
 package sdmxsaxswing;
 
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 import javax.swing.SwingUtilities;
-import sdmx.structureddata.StructuredDataMessage;
+import sdmx.commonreferences.DataStructureReferenceType;
 import sdmx.message.DataMessage;
 import sdmx.message.StructureType;
+import sdmx.structure.datastructure.DataStructureType;
+import sdmx.structureddata.StructuredDataMessage;
 import sdmxsaxswing.dataandstructure.CombinedDataJFrame;
 
 /**
@@ -177,7 +182,10 @@ public class ChooseDataStructureJDialog extends javax.swing.JDialog {
      */
     public void setStructure(StructureType structure) {
         this.structure = structure;
-        this.model.setList(structure.listDataStructures());
+        List<DataStructureReferenceType> list = new LinkedList<DataStructureReferenceType>();
+        Iterator<DataStructureType> it = structure.getStructures().getDataStructures().getDataStructures().iterator();
+        while(it.hasNext())list.add(it.next().asReference());
+        this.model.setList(list);
     }
 
 }

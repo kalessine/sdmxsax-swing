@@ -37,7 +37,7 @@ import sdmx.structure.datastructure.DataStructureType;
 import sdmx.structure.datastructure.DimensionType;
 import sdmx.structure.datastructure.PrimaryMeasure;
 import sdmx.structure.datastructure.TimeDimensionType;
-import sdmx.version.twopointzero.Sdmx20SOAPQueryable;
+import sdmx.version.twopointzero.Sdmx20SDWSOAPQueryable;
 import sdmx.xml.DateTime;
 
 /**
@@ -190,8 +190,8 @@ public class ConceptChoiceModel {
 
     public DataQueryMessage toDataQuery() {
         DataQueryMessage query = new DataQueryMessage();
-        if (registry instanceof Sdmx20SOAPQueryable) {
-            Sdmx20SOAPQueryable soap = (Sdmx20SOAPQueryable) registry;
+        if (registry instanceof Sdmx20SDWSOAPQueryable) {
+            Sdmx20SDWSOAPQueryable soap = (Sdmx20SDWSOAPQueryable) registry;
             query.setHeader(soap.getBaseHeader());
         }
         DataQuery q = new DataQuery();

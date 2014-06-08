@@ -19,9 +19,10 @@ import sdmx.message.DataMessage;
 import sdmx.message.DataQueryMessage;
 import sdmx.query.data.DataQuery;
 import sdmx.registry.QueryableServiceRegistry;
+import sdmx.structure.dataflow.DataflowType;
 import sdmx.structure.datastructure.DataStructureType;
 import sdmx.structureddata.StructuredDataMessage;
-import sdmx.version.twopointzero.Sdmx20SOAPQueryable;
+import sdmx.version.twopointzero.Sdmx20SDWSOAPQueryable;
 import sdmxsaxswing.MainJFrame;
 import sdmxsaxswing.dataandstructure.CombinedDataJFrame;
 import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoice;
@@ -149,16 +150,15 @@ public class DataProviderJFrame extends javax.swing.JFrame {
     private Registry registry = null;
     private DataStructureReferenceType ref = null;
 
-    public void setDataStructure(Registry reg, DataStructureReferenceType ref) {
+    public void setDataStructure(Registry reg, DataflowType flow) {
         this.registry = reg;
-        this.ref = ref;
+        this.ref = flow.getStructure();
         ConceptChoiceModel.MODEL.setDataStructure(reg, ref);
         for (int i = 0; i < ConceptChoiceModel.MODEL.size(); i++) {
             ConceptChoice cc = ConceptChoiceModel.MODEL.getConceptChoice(i);
             ConceptChoiceJPanel panel = new ConceptChoiceJPanel();
             panel.setId(cc.getId());
             jTabbedPane1.add(panel, cc.getId());
-            
             panel.get();
         }
 
