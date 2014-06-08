@@ -151,6 +151,7 @@ public class DataProviderJFrame extends javax.swing.JFrame {
     private DataStructureReferenceType ref = null;
 
     public void setDataStructure(Registry reg, DataflowType flow) {
+        this.setTitle(flow.toString());
         this.registry = reg;
         this.ref = flow.getStructure();
         ConceptChoiceModel.MODEL.setDataStructure(reg, ref);
@@ -161,7 +162,6 @@ public class DataProviderJFrame extends javax.swing.JFrame {
             jTabbedPane1.add(panel, cc.getId());
             panel.get();
         }
-
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -7,6 +7,7 @@
 package sdmxsaxswing;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.Frame;
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,6 +31,8 @@ public class MainJFrame extends javax.swing.JFrame {
      */
     public MainJFrame() {
         initComponents();
+        setSize(new Dimension(600,600));
+        setPreferredSize(new Dimension(600,600));
         currentFrame=this;
     }
 
@@ -49,8 +52,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new java.awt.GridBagLayout());
-        getContentPane().add(loadDataJPanel1, new java.awt.GridBagConstraints());
+        getContentPane().add(loadDataJPanel1, java.awt.BorderLayout.CENTER);
 
         jMenu1.setText("File");
 
@@ -68,7 +70,8 @@ public class MainJFrame extends javax.swing.JFrame {
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
-
+        setSize(new Dimension(400,400));
+        setPreferredSize(new Dimension(400,400));
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -83,7 +86,7 @@ public class MainJFrame extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
