@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?><message:CompactData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd http://stat.abs.gov.au/Data http://maingano-public.iprod.abs.gov.au/RestSDMX/sdmx.ashx/GetSchema/ALC" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:ABS="http://stat.abs.gov.au/Data" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+               <Header>
+                  <ID>none</ID>
+                  <Test>false</Test>
+                  <Truncated>false</Truncated>
+                  <Prepared>2013-06-25T00:40:09</Prepared>
+                  <Sender id="ABS"/>
+               </Header>
+               <ABS:DataSet>
+                  <ABS:Series TYP="1" MEA="1" BEVT="1" SUB="3" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="6280"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="6280"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="6091"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="6171"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="5900"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="5381"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="4813"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="4247"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="3872"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="3310"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="1" SUB="4" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="7012"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="7594"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="8619"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="8407"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="8767"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="9336"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="9513"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="9862"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="10143"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="10207"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="1" SUB="5" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="61870"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="64893"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="60863"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="60497"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="61721"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="63131"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="65170"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="67040"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="65721"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="63546"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="1" SUB="6" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="75162"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="78767"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="75573"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="75075"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="76388"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="77849"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="79496"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="81148"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="79736"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="77063"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="2" SUB="7" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="24500"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="25023"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="26039"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="26648"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="27447"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="29389"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="29866"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="31193"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="32525"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="32642"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="2" SUB="8" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="17324"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="19150"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="19772"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="21039"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="21322"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="23058"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="23122"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="24379"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="25119"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="24892"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="2" SUB="9" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="8437"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="8699"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="9311"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="9588"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="9541"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="9816"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="9819"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="10028"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="10807"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="10494"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="2" SUB="10" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="50261"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="52872"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="55122"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="57275"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="58311"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="62263"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="62807"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="65600"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="68451"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="68028"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="3" SUB="11" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2003" OBS_VALUE="19439"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="19336"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="19667"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="19154"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="19355"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="20160"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="22908"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="23015"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="24112"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="3" SUB="12" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2003" OBS_VALUE="12190"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="13589"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="15338"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="16383"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="18123"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="18693"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="13012"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="12811"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="12814"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="3" SUB="13" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="29008"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="31629"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="32925"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="35005"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="35537"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="37478"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="38853"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="35920"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="35826"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="36926"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="1" BEVT="4" SUB="14" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="154431"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="163268"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="163620"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="167355"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="170236"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="177590"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="181156"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="182668"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="184013"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="182016"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="1" SUB="3" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="0.38"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="0.38"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="0.36"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="0.32"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="0.28"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="0.24"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="0.22"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="0.18"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="1" SUB="4" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="0.45"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="0.48"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="0.54"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="0.52"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="0.53"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="0.56"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="0.55"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="0.56"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="0.57"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="0.56"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="1" SUB="5" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="3.98"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="4.11"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="3.73"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="3.74"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="3.76"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="3.82"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="3.67"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="3.49"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="1" SUB="6" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="4.84"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="4.99"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="4.72"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="4.62"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="4.63"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="4.63"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="4.63"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="4.62"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="4.45"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="4.23"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="2" SUB="7" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="1.58"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="1.59"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="1.63"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="1.64"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="1.66"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="1.75"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="1.74"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="1.78"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="1.81"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="1.79"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="2" SUB="8" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="1.11"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="1.21"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="1.24"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="1.29"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="1.37"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="1.35"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="1.39"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="1.37"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="2" SUB="9" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="0.54"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="0.55"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="0.58"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="0.59"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="0.58"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="0.58"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="0.57"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="0.57"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="0.58"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="2" SUB="10" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="3.23"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="3.35"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="3.44"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="3.53"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="3.53"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="3.7"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="3.66"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="3.73"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="3.82"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="3.74"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="3" SUB="11" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2003" OBS_VALUE="1.23"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="1.21"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="1.21"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="1.16"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="1.15"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="1.18"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="1.28"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="1.32"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="3" SUB="12" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2003" OBS_VALUE="0.77"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="0.85"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="0.94"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="0.99"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="1.08"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="1.09"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="0.74"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="0.71"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="0.7"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="3" SUB="13" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="1.87"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="2.01"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="2.06"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="2.16"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="2.15"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="2.23"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="2.26"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="2.04"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="2"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="2.03"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="1" MEA="2" BEVT="4" SUB="14" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="9.94"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="10.35"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="10.22"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="10.31"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="10.31"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="10.57"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="10.56"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="10.4"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="10.27"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="9.99"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="1" BEVT="1" SUB="3" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="229965"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="235531"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="229417"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="229080"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="218045"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="199581"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="176984"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="156906"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="144599"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="123602"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="1" BEVT="1" SUB="4" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="203817"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="217772"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="248835"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="240978"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="251676"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="268017"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="271807"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="281793"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="289815"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="291579"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="1" BEVT="1" SUB="5" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="1328807"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="1354094"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="1281984"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="1278128"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="1305476"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="1337286"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="1387008"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="1434112"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="1421697"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="1371049"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="1" BEVT="1" SUB="6" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="1762590"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="1807397"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="1760236"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="1748186"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="1775198"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="1804884"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="1835798"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="1872810"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="1856110"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="1786230"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="1" BEVT="2" SUB="7" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="206538"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="210094"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="217745"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="221943"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="227679"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="242814"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="245776"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="255677"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="266599"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="267554"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="1" BEVT="2" SUB="8" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="135636"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="148888"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="152659"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="161326"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="162381"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="174407"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="173716"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="181931"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="187454"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="185764"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="1" BEVT="2" SUB="9" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="61835"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="64054"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="69256"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="72640"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="73090"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="76257"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="76124"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="78171"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="85001"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="81496"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="1" BEVT="2" SUB="10" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="404009"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="423035"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="439659"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="455906"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="463151"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="493478"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="495616"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="515780"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="539055"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="534814"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="2" BEVT="1" SUB="3" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="14.8"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="14.93"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="14.33"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="14.11"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="13.21"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="11.87"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="10.32"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="8.93"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="8.07"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="6.79"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="2" BEVT="1" SUB="4" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="13.11"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="13.81"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="15.55"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="14.84"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="15.25"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="15.95"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="15.84"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="16.04"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="16.17"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="16.01"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="2" BEVT="1" SUB="5" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="85.49"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="85.85"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="80.09"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="78.7"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="79.09"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="79.56"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="80.84"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="81.62"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="79.31"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="75.28"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="2" BEVT="1" SUB="6" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="113.4"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="114.59"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="109.97"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="107.65"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="107.54"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="107.38"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="107"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="106.59"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="103.54"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="98.08"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="2" BEVT="2" SUB="7" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="13.29"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="13.32"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="13.6"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="13.67"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="13.79"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="14.45"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="14.32"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="14.55"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="14.87"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="14.69"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="2" BEVT="2" SUB="8" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="8.73"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="9.44"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="9.54"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="9.93"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="9.84"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="10.38"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="10.12"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="10.35"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="10.46"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="10.2"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="2" BEVT="2" SUB="9" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="3.98"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="4.06"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="4.33"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="4.47"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="4.43"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="4.54"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="4.44"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="4.45"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="4.74"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="4.47"/>
+                  </ABS:Series>
+                  <ABS:Series TYP="2" MEA="2" BEVT="2" SUB="10" FREQUENCY="A" TIME_FORMAT="P1Y">
+                     <ABS:Obs TIME="2002" OBS_VALUE="25.99"/>
+                     <ABS:Obs TIME="2003" OBS_VALUE="26.82"/>
+                     <ABS:Obs TIME="2004" OBS_VALUE="27.47"/>
+                     <ABS:Obs TIME="2005" OBS_VALUE="28.07"/>
+                     <ABS:Obs TIME="2006" OBS_VALUE="28.06"/>
+                     <ABS:Obs TIME="2007" OBS_VALUE="29.36"/>
+                     <ABS:Obs TIME="2008" OBS_VALUE="28.89"/>
+                     <ABS:Obs TIME="2009" OBS_VALUE="29.36"/>
+                     <ABS:Obs TIME="2010" OBS_VALUE="30.07"/>
+                     <ABS:Obs TIME="2011" OBS_VALUE="29.37"/>
+                  </ABS:Series>
+                  <ABS:Annotations>
+                     <common:Annotation>
+                        <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                        <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                     </common:Annotation>
+                  </ABS:Annotations>
+               </ABS:DataSet>
+            </message:CompactData>

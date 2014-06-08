@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?><message:Structure xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure http://www.sdmx.org/docs/2_0/SDMXStructure.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+               <Header xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+                  <ID>
+                     none
+                     <!--Statistical usage warning
+ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.-->
+                  </ID>
+                  <Test>false</Test>
+                  <Truncated>false</Truncated>
+                  <Prepared>2013-06-24T12:17:45</Prepared>
+                  <Sender id="ABS">
+                     <Name xml:lang="en">Australian Bureau of Statistics</Name>
+                  </Sender>
+               </Header>
+               <message:CodeLists>
+                  <CodeList id="CL_ALC_OBS_STATUS" agencyID="ABS">
+                     <Name xml:lang="en">Observation Status</Name>
+                     <Name xml:lang="fr">Statut d'observation</Name>
+                  </CodeList>
+                  <CodeList id="CL_ALC_TYP" agencyID="ABS">
+                     <Name xml:lang="en">ALC_TYP codelist</Name>
+                     <Code value="1">
+                        <Description xml:lang="en">Volume of pure alcohol</Description>
+                        <Description xml:lang="fr">1</Description>
+                     </Code>
+                     <Code value="2">
+                        <Description xml:lang="en">Volume of beverage</Description>
+                        <Description xml:lang="fr">2</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_ALC_MEA" agencyID="ABS">
+                     <Name xml:lang="en">ALC_MEA codelist</Name>
+                     <Code value="1">
+                        <Description xml:lang="en">Total apparent consumption ('000 litres)</Description>
+                        <Description xml:lang="fr">1</Description>
+                     </Code>
+                     <Code value="2">
+                        <Description xml:lang="en">Per capita apparent consumption (litres)</Description>
+                        <Description xml:lang="fr">2</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_ALC_BEVT" agencyID="ABS">
+                     <Name xml:lang="en">ALC_BEVT codelist</Name>
+                     <Code value="1">
+                        <Description xml:lang="en">Beer</Description>
+                        <Description xml:lang="fr">1</Description>
+                     </Code>
+                     <Code value="2">
+                        <Description xml:lang="en">Wine</Description>
+                        <Description xml:lang="fr">2</Description>
+                     </Code>
+                     <Code value="3">
+                        <Description xml:lang="en">Spirits and RTDs</Description>
+                        <Description xml:lang="fr">3</Description>
+                     </Code>
+                     <Code value="4">
+                        <Description xml:lang="en">Total all beverages</Description>
+                        <Description xml:lang="fr">4</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_ALC_SUB" agencyID="ABS">
+                     <Name xml:lang="en">ALC_SUB codelist</Name>
+                     <Code value="1">
+                        <Description xml:lang="en">Low alcohol beer</Description>
+                        <Description xml:lang="fr">1</Description>
+                     </Code>
+                     <Code value="2">
+                        <Description xml:lang="en">Other alcohol beer</Description>
+                        <Description xml:lang="fr">2</Description>
+                     </Code>
+                     <Code value="3">
+                        <Description xml:lang="en">Low strength beer</Description>
+                        <Description xml:lang="fr">3</Description>
+                     </Code>
+                     <Code value="4">
+                        <Description xml:lang="en">Mid strength beer</Description>
+                        <Description xml:lang="fr">4</Description>
+                     </Code>
+                     <Code value="5">
+                        <Description xml:lang="en">Full strength beer</Description>
+                        <Description xml:lang="fr">5</Description>
+                     </Code>
+                     <Code value="6">
+                        <Description xml:lang="en">Total beer</Description>
+                        <Description xml:lang="fr">6</Description>
+                     </Code>
+                     <Code value="7">
+                        <Description xml:lang="en">White table wine</Description>
+                        <Description xml:lang="fr">7</Description>
+                     </Code>
+                     <Code value="8">
+                        <Description xml:lang="en">Red table wine</Description>
+                        <Description xml:lang="fr">8</Description>
+                     </Code>
+                     <Code value="9">
+                        <Description xml:lang="en">Other wines</Description>
+                        <Description xml:lang="fr">9</Description>
+                     </Code>
+                     <Code value="10">
+                        <Description xml:lang="en">Total wine</Description>
+                        <Description xml:lang="fr">10</Description>
+                     </Code>
+                     <Code value="11">
+                        <Description xml:lang="en">Spirits</Description>
+                        <Description xml:lang="fr">11</Description>
+                     </Code>
+                     <Code value="12">
+                        <Description xml:lang="en">RTDs</Description>
+                        <Description xml:lang="fr">12</Description>
+                     </Code>
+                     <Code value="13">
+                        <Description xml:lang="en">Total spirits and RTDs</Description>
+                        <Description xml:lang="fr">13</Description>
+                     </Code>
+                     <Code value="14">
+                        <Description xml:lang="en">Total all beverages</Description>
+                        <Description xml:lang="fr">14</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_ALC_FREQUENCY" agencyID="ABS">
+                     <Name xml:lang="en">ALC_FREQUENCY codelist</Name>
+                     <Code value="A">
+                        <Description xml:lang="en">Annual</Description>
+                        <Description xml:lang="fr">Annuelle</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_ALC_TIME" agencyID="ABS">
+                     <Name xml:lang="en">ALC_TIME codelist</Name>
+                     <Code value="1945">
+                        <Description xml:lang="en">1945</Description>
+                        <Description xml:lang="fr">1945</Description>
+                     </Code>
+                     <Code value="1946">
+                        <Description xml:lang="en">1946</Description>
+                        <Description xml:lang="fr">1946</Description>
+                     </Code>
+                     <Code value="1947">
+                        <Description xml:lang="en">1947</Description>
+                        <Description xml:lang="fr">1947</Description>
+                     </Code>
+                     <Code value="1948">
+                        <Description xml:lang="en">1948</Description>
+                        <Description xml:lang="fr">1948</Description>
+                     </Code>
+                     <Code value="1949">
+                        <Description xml:lang="en">1949</Description>
+                        <Description xml:lang="fr">1949</Description>
+                     </Code>
+                     <Code value="1950">
+                        <Description xml:lang="en">1950</Description>
+                        <Description xml:lang="fr">1950</Description>
+                     </Code>
+                     <Code value="1951">
+                        <Description xml:lang="en">1951</Description>
+                        <Description xml:lang="fr">1951</Description>
+                     </Code>
+                     <Code value="1952">
+                        <Description xml:lang="en">1952</Description>
+                        <Description xml:lang="fr">1952</Description>
+                     </Code>
+                     <Code value="1953">
+                        <Description xml:lang="en">1953</Description>
+                        <Description xml:lang="fr">1953</Description>
+                     </Code>
+                     <Code value="1954">
+                        <Description xml:lang="en">1954</Description>
+                        <Description xml:lang="fr">1954</Description>
+                     </Code>
+                     <Code value="1955">
+                        <Description xml:lang="en">1955</Description>
+                        <Description xml:lang="fr">1955</Description>
+                     </Code>
+                     <Code value="1956">
+                        <Description xml:lang="en">1956</Description>
+                        <Description xml:lang="fr">1956</Description>
+                     </Code>
+                     <Code value="1957">
+                        <Description xml:lang="en">1957</Description>
+                        <Description xml:lang="fr">1957</Description>
+                     </Code>
+                     <Code value="1958">
+                        <Description xml:lang="en">1958</Description>
+                        <Description xml:lang="fr">1958</Description>
+                     </Code>
+                     <Code value="1959">
+                        <Description xml:lang="en">1959</Description>
+                        <Description xml:lang="fr">1959</Description>
+                     </Code>
+                     <Code value="1960">
+                        <Description xml:lang="en">1960</Description>
+                        <Description xml:lang="fr">1960</Description>
+                     </Code>
+                     <Code value="1961">
+                        <Description xml:lang="en">1961</Description>
+                        <Description xml:lang="fr">1961</Description>
+                     </Code>
+                     <Code value="1962">
+                        <Description xml:lang="en">1962</Description>
+                        <Description xml:lang="fr">1962</Description>
+                     </Code>
+                     <Code value="1963">
+                        <Description xml:lang="en">1963</Description>
+                        <Description xml:lang="fr">1963</Description>
+                     </Code>
+                     <Code value="1964">
+                        <Description xml:lang="en">1964</Description>
+                        <Description xml:lang="fr">1964</Description>
+                     </Code>
+                     <Code value="1965">
+                        <Description xml:lang="en">1965</Description>
+                        <Description xml:lang="fr">1965</Description>
+                     </Code>
+                     <Code value="1966">
+                        <Description xml:lang="en">1966</Description>
+                        <Description xml:lang="fr">1966</Description>
+                     </Code>
+                     <Code value="1967">
+                        <Description xml:lang="en">1967</Description>
+                        <Description xml:lang="fr">1967</Description>
+                     </Code>
+                     <Code value="1968">
+                        <Description xml:lang="en">1968</Description>
+                        <Description xml:lang="fr">1968</Description>
+                     </Code>
+                     <Code value="1969">
+                        <Description xml:lang="en">1969</Description>
+                        <Description xml:lang="fr">1969</Description>
+                     </Code>
+                     <Code value="1970">
+                        <Description xml:lang="en">1970</Description>
+                        <Description xml:lang="fr">1970</Description>
+                     </Code>
+                     <Code value="1971">
+                        <Description xml:lang="en">1971</Description>
+                        <Description xml:lang="fr">1971</Description>
+                     </Code>
+                     <Code value="1972">
+                        <Description xml:lang="en">1972</Description>
+                        <Description xml:lang="fr">1972</Description>
+                     </Code>
+                     <Code value="1973">
+                        <Description xml:lang="en">1973</Description>
+                        <Description xml:lang="fr">1973</Description>
+                     </Code>
+                     <Code value="1974">
+                        <Description xml:lang="en">1974</Description>
+                        <Description xml:lang="fr">1974</Description>
+                     </Code>
+                     <Code value="1975">
+                        <Description xml:lang="en">1975</Description>
+                        <Description xml:lang="fr">1975</Description>
+                     </Code>
+                     <Code value="1976">
+                        <Description xml:lang="en">1976</Description>
+                        <Description xml:lang="fr">1976</Description>
+                     </Code>
+                     <Code value="1977">
+                        <Description xml:lang="en">1977</Description>
+                        <Description xml:lang="fr">1977</Description>
+                     </Code>
+                     <Code value="1978">
+                        <Description xml:lang="en">1978</Description>
+                        <Description xml:lang="fr">1978</Description>
+                     </Code>
+                     <Code value="1979">
+                        <Description xml:lang="en">1979</Description>
+                        <Description xml:lang="fr">1979</Description>
+                     </Code>
+                     <Code value="1980">
+                        <Description xml:lang="en">1980</Description>
+                        <Description xml:lang="fr">1980</Description>
+                     </Code>
+                     <Code value="1981">
+                        <Description xml:lang="en">1981</Description>
+                        <Description xml:lang="fr">1981</Description>
+                     </Code>
+                     <Code value="1982">
+                        <Description xml:lang="en">1982</Description>
+                        <Description xml:lang="fr">1982</Description>
+                     </Code>
+                     <Code value="1983">
+                        <Description xml:lang="en">1983</Description>
+                        <Description xml:lang="fr">1983</Description>
+                     </Code>
+                     <Code value="1984">
+                        <Description xml:lang="en">1984</Description>
+                        <Description xml:lang="fr">1984</Description>
+                     </Code>
+                     <Code value="1985">
+                        <Description xml:lang="en">1985</Description>
+                        <Description xml:lang="fr">1985</Description>
+                     </Code>
+                     <Code value="1986">
+                        <Description xml:lang="en">1986</Description>
+                        <Description xml:lang="fr">1986</Description>
+                     </Code>
+                     <Code value="1987">
+                        <Description xml:lang="en">1987</Description>
+                        <Description xml:lang="fr">1987</Description>
+                     </Code>
+                     <Code value="1988">
+                        <Description xml:lang="en">1988</Description>
+                        <Description xml:lang="fr">1988</Description>
+                     </Code>
+                     <Code value="1989">
+                        <Description xml:lang="en">1989</Description>
+                        <Description xml:lang="fr">1989</Description>
+                     </Code>
+                     <Code value="1990">
+                        <Description xml:lang="en">1990</Description>
+                        <Description xml:lang="fr">1990</Description>
+                     </Code>
+                     <Code value="1991">
+                        <Description xml:lang="en">1991</Description>
+                        <Description xml:lang="fr">1991</Description>
+                     </Code>
+                     <Code value="1992">
+                        <Description xml:lang="en">1992</Description>
+                        <Description xml:lang="fr">1992</Description>
+                     </Code>
+                     <Code value="1993">
+                        <Description xml:lang="en">1993</Description>
+                        <Description xml:lang="fr">1993</Description>
+                     </Code>
+                     <Code value="1994">
+                        <Description xml:lang="en">1994</Description>
+                        <Description xml:lang="fr">1994</Description>
+                     </Code>
+                     <Code value="1995">
+                        <Description xml:lang="en">1995</Description>
+                        <Description xml:lang="fr">1995</Description>
+                     </Code>
+                     <Code value="1996">
+                        <Description xml:lang="en">1996</Description>
+                        <Description xml:lang="fr">1996</Description>
+                     </Code>
+                     <Code value="1997">
+                        <Description xml:lang="en">1997</Description>
+                        <Description xml:lang="fr">1997</Description>
+                     </Code>
+                     <Code value="1998">
+                        <Description xml:lang="en">1998</Description>
+                        <Description xml:lang="fr">1998</Description>
+                     </Code>
+                     <Code value="1999">
+                        <Description xml:lang="en">1999</Description>
+                        <Description xml:lang="fr">1999</Description>
+                     </Code>
+                     <Code value="2000">
+                        <Description xml:lang="en">2000</Description>
+                        <Description xml:lang="fr">2000</Description>
+                     </Code>
+                     <Code value="2001">
+                        <Description xml:lang="en">2001</Description>
+                        <Description xml:lang="fr">2001</Description>
+                     </Code>
+                     <Code value="2002">
+                        <Description xml:lang="en">2002</Description>
+                        <Description xml:lang="fr">2002</Description>
+                     </Code>
+                     <Code value="2003">
+                        <Description xml:lang="en">2003</Description>
+                        <Description xml:lang="fr">2003</Description>
+                     </Code>
+                     <Code value="2004">
+                        <Description xml:lang="en">2004</Description>
+                        <Description xml:lang="fr">2004</Description>
+                     </Code>
+                     <Code value="2005">
+                        <Description xml:lang="en">2005</Description>
+                        <Description xml:lang="fr">2005</Description>
+                     </Code>
+                     <Code value="2006">
+                        <Description xml:lang="en">2006</Description>
+                        <Description xml:lang="fr">2006</Description>
+                     </Code>
+                     <Code value="2007">
+                        <Description xml:lang="en">2007</Description>
+                        <Description xml:lang="fr">2007</Description>
+                     </Code>
+                     <Code value="2008">
+                        <Description xml:lang="en">2008</Description>
+                        <Description xml:lang="fr">2008</Description>
+                     </Code>
+                     <Code value="2009">
+                        <Description xml:lang="en">2009</Description>
+                        <Description xml:lang="fr">2009</Description>
+                     </Code>
+                     <Code value="2010">
+                        <Description xml:lang="en">2010</Description>
+                        <Description xml:lang="fr">2010</Description>
+                     </Code>
+                     <Code value="2011">
+                        <Description xml:lang="en">2011</Description>
+                        <Description xml:lang="fr">2011</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_ALC_TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">ALC_TIME_FORMAT codelist</Name>
+                     <Code value="P1Y">
+                        <Description xml:lang="en">Annual</Description>
+                        <Description xml:lang="fr">Annual</Description>
+                     </Code>
+                     <Code value="P1M">
+                        <Description xml:lang="en">Monthly</Description>
+                        <Description xml:lang="fr">Monthly</Description>
+                     </Code>
+                     <Code value="P3M">
+                        <Description xml:lang="en">Quarterly</Description>
+                        <Description xml:lang="fr">Quarterly</Description>
+                     </Code>
+                     <Code value="P6M">
+                        <Description xml:lang="en">Half-yearly</Description>
+                        <Description xml:lang="fr">Half-yearly</Description>
+                     </Code>
+                  </CodeList>
+               </message:CodeLists>
+               <message:Concepts>
+                  <Concept id="TYP" agencyID="ABS">
+                     <Name xml:lang="en">Type of Volume</Name>
+                     <Name xml:lang="fr">Type of Volume</Name>
+                  </Concept>
+                  <Concept id="MEA" agencyID="ABS">
+                     <Name xml:lang="en">Measure</Name>
+                     <Name xml:lang="fr">Measure</Name>
+                  </Concept>
+                  <Concept id="BEVT" agencyID="ABS">
+                     <Name xml:lang="en">Beverage Type</Name>
+                     <Name xml:lang="fr">Beverage Type</Name>
+                  </Concept>
+                  <Concept id="SUB" agencyID="ABS">
+                     <Name xml:lang="en">Beverage Subtype/Strength</Name>
+                     <Name xml:lang="fr">Beverage Subtype/Strength</Name>
+                  </Concept>
+                  <Concept id="FREQUENCY" agencyID="ABS">
+                     <Name xml:lang="en">Frequency</Name>
+                     <Name xml:lang="fr">Frequence</Name>
+                  </Concept>
+                  <Concept id="TIME" agencyID="ABS">
+                     <Name xml:lang="en">Time</Name>
+                     <Name xml:lang="fr">Temps</Name>
+                  </Concept>
+                  <Concept id="TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">Time format</Name>
+                     <Name xml:lang="fr">Time format</Name>
+                  </Concept>
+                  <Concept id="OBS_STATUS" agencyID="ABS">
+                     <Name xml:lang="en">Observation Status</Name>
+                     <Name xml:lang="fr">Statut d'observation</Name>
+                  </Concept>
+                  <Concept id="TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">Time Format</Name>
+                     <Name xml:lang="fr">Format de l'heure</Name>
+                  </Concept>
+                  <Concept id="OBS_VALUE" agencyID="OECD">
+                     <Name xml:lang="en">Observation Value</Name>
+                     <Name xml:lang="fr">Valeur d'observation</Name>
+                  </Concept>
+               </message:Concepts>
+               <message:KeyFamilies>
+                  <KeyFamily id="ALC" agencyID="ABS">
+                     <Name xml:lang="en">Apparent Consumption of Alcohol, Australia</Name>
+                     <Name xml:lang="fr">Apparent Consumption of Alcohol, Australia</Name>
+                     <Components>
+                        <Dimension conceptRef="TYP" codelist="CL_ALC_TYP"/>
+                        <Dimension conceptRef="MEA" codelist="CL_ALC_MEA"/>
+                        <Dimension conceptRef="BEVT" codelist="CL_ALC_BEVT"/>
+                        <Dimension conceptRef="SUB" codelist="CL_ALC_SUB"/>
+                        <Dimension conceptRef="FREQUENCY" codelist="CL_ALC_FREQUENCY" isFrequencyDimension="true"/>
+                        <TimeDimension conceptRef="TIME" codelist="CL_ALC_TIME"/>
+                        <PrimaryMeasure conceptRef="OBS_VALUE">
+                           <TextFormat textType="Double"/>
+                        </PrimaryMeasure>
+                        <Attribute conceptRef="OBS_STATUS" codelist="CL_ALC_OBS_STATUS" attachmentLevel="Observation" assignmentStatus="Conditional"/>
+                        <Attribute conceptRef="TIME_FORMAT" codelist="CL_ALC_TIME_FORMAT" attachmentLevel="Series" assignmentStatus="Conditional" isTimeFormat="true"/>
+                     </Components>
+                  </KeyFamily>
+               </message:KeyFamilies>
+            </message:Structure>
