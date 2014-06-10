@@ -57,6 +57,9 @@ public class BoundTo {
             return o1.toString().compareTo(o2.toString());
         }
     };
+    
+    private boolean measureDescriptor = false;
+    
     private Registry registry = null;
     private DataStructureReferenceType dataStruct = null;
     
@@ -121,5 +124,19 @@ public class BoundTo {
     }
     public int expectValues() {
         return 1;
+    }
+
+    /**
+     * @return the measureDescriptor
+     */
+    public boolean isMeasureDescriptor() {
+        return measureDescriptor;
+    }
+
+    /**
+     * @param measureDescriptor the measureDescriptor to set
+     */
+    public void setMeasureDescriptor(boolean measureDescriptor) {
+        this.measureDescriptor = measureDescriptor;
     }
 }

@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.util.List;
 import sdmx.Registry;
 import sdmx.commonreferences.DataStructureReferenceType;
+import sdmx.structure.dataflow.DataflowType;
 import sdmx.structure.datastructure.DataStructureType;
 import sdmxsaxswing.visualisation.bound.BoundToSeries;
 
@@ -35,12 +36,12 @@ public class Bindings {
     private List<BoundTo> bindings = new ArrayList<BoundTo>();
 
     private Registry registry = null;
-    private DataStructureReferenceType dataStructure = null;
+    private DataflowType dataFlow = null;
     
     
-    public Bindings(Registry registry, DataStructureReferenceType reference) {
+    public Bindings(Registry registry, DataflowType flow) {
         this.registry=registry;
-        this.dataStructure=reference;
+        this.dataFlow=flow;
     }
     
     
@@ -117,6 +118,30 @@ public class Bindings {
         return null;
     }
     public DataStructureType getDataStructure() {
-        return registry.findDataStructure(this.dataStructure.getRef().getAgencyId(), this.dataStructure.getRef().getId().asID(),this.dataStructure.getRef().getVersion());
+        return registry.findDataStructure(this.getDataFlow().getStructure().getRef().getAgencyId(), this.getDataFlow().getStructure().getRef().getId().asID(),this.getDataFlow().getStructure().getRef().getVersion());
+    }
+
+    /**
+     * @return the dataFlow
+     */
+    public DataflowType getDataFlow() {
+        return dataFlow;
+    }
+
+    /**
+     * @param dataFlow the dataFlow to set
+     */
+    public void setDataFlow(DataflowType dataFlow) {
+        this.dataFlow = dataFlow;
+    }
+    public BoundTo getMeasureDescriptor() {
+        Iterator<BoundTo> it = bindings.iterator();
+        while(it.hasNext()) {
+            BoundTo b = it.next();
+            if( b.isMeasureDescriptor() ) {
+                return b;
+            }
+        }
+        return null;
     }
 }

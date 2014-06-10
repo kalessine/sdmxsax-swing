@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
   <mes:Header>
-    <mes:ID>IDREF17463</mes:ID>
+    <mes:ID>IDREF17567</mes:ID>
     <mes:Test>false</mes:Test>
-    <mes:Prepared>2014-06-08T14:38:49.277Z</mes:Prepared>
+    <mes:Prepared>2014-06-09T04:38:52.826Z</mes:Prepared>
     <mes:Sender id="Unknown"/>
     <mes:Receiver id="Unknown"/>
   </mes:Header>
   <mes:Structures>
     <str:Codelists>
-      <str:Codelist id="CL_AGE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_AGE(1.0)" agencyID="ESTAT" version="1.0">
-        <com:Name xml:lang="en">AGE</com:Name>
-        <str:Code id="Y15-19" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AGE(1.0).Y15-19">
-          <com:Name xml:lang="en">From 15 to 19 years</com:Name>
+      <str:Codelist id="CL_FOS07" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_FOS07(1.0)" agencyID="ESTAT" version="1.0">
+        <com:Name xml:lang="en">FOS07</com:Name>
+        <str:Code id="FOS1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_FOS07(1.0).FOS1">
+          <com:Name xml:lang="en">Natural sciences</com:Name>
         </str:Code>
-        <str:Code id="Y15-24" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AGE(1.0).Y15-24">
-          <com:Name xml:lang="en">From 15 to 24 years</com:Name>
+        <str:Code id="FOS2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_FOS07(1.0).FOS2">
+          <com:Name xml:lang="en">Engineering and technology</com:Name>
         </str:Code>
-        <str:Code id="Y15-29" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AGE(1.0).Y15-29">
-          <com:Name xml:lang="en">From 15 to 29 years</com:Name>
+        <str:Code id="FOS3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_FOS07(1.0).FOS3">
+          <com:Name xml:lang="en">Medical and health sciences</com:Name>
         </str:Code>
-        <str:Code id="Y20-24" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AGE(1.0).Y20-24">
-          <com:Name xml:lang="en">From 20 to 24 years</com:Name>
+        <str:Code id="FOS4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_FOS07(1.0).FOS4">
+          <com:Name xml:lang="en">Agricultural sciences</com:Name>
         </str:Code>
-        <str:Code id="Y20-29" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AGE(1.0).Y20-29">
-          <com:Name xml:lang="en">From 20 to 29 years</com:Name>
+        <str:Code id="FOS5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_FOS07(1.0).FOS5">
+          <com:Name xml:lang="en">Social sciences</com:Name>
         </str:Code>
-        <str:Code id="Y25-29" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_AGE(1.0).Y25-29">
-          <com:Name xml:lang="en">From 25 to 29 years</com:Name>
+        <str:Code id="FOS6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_FOS07(1.0).FOS6">
+          <com:Name xml:lang="en">Humanities</com:Name>
+        </str:Code>
+        <str:Code id="NSP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_FOS07(1.0).NSP">
+          <com:Name xml:lang="en">Not specified</com:Name>
         </str:Code>
       </str:Codelist>
       <str:Codelist id="CL_FREQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_FREQ(1.0)" agencyID="ESTAT" version="1.0" isFinal="true">
@@ -53,20 +56,11 @@
       </str:Codelist>
       <str:Codelist id="CL_GEO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_GEO(1.0)" agencyID="ESTAT" version="1.0">
         <com:Name xml:lang="en">GEO</com:Name>
-        <str:Code id="EU28" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).EU28">
-          <com:Name xml:lang="en">European Union (28 countries)</com:Name>
-        </str:Code>
-        <str:Code id="EU27" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).EU27">
-          <com:Name xml:lang="en">European Union (27 countries)</com:Name>
-        </str:Code>
         <str:Code id="BE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).BE">
           <com:Name xml:lang="en">Belgium</com:Name>
         </str:Code>
         <str:Code id="BG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).BG">
           <com:Name xml:lang="en">Bulgaria</com:Name>
-        </str:Code>
-        <str:Code id="CZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).CZ">
-          <com:Name xml:lang="en">Czech Republic</com:Name>
         </str:Code>
         <str:Code id="DK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).DK">
           <com:Name xml:lang="en">Denmark</com:Name>
@@ -77,17 +71,8 @@
         <str:Code id="EE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).EE">
           <com:Name xml:lang="en">Estonia</com:Name>
         </str:Code>
-        <str:Code id="IE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).IE">
-          <com:Name xml:lang="en">Ireland</com:Name>
-        </str:Code>
-        <str:Code id="EL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).EL">
-          <com:Name xml:lang="en">Greece</com:Name>
-        </str:Code>
         <str:Code id="ES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).ES">
           <com:Name xml:lang="en">Spain</com:Name>
-        </str:Code>
-        <str:Code id="FR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).FR">
-          <com:Name xml:lang="en">France</com:Name>
         </str:Code>
         <str:Code id="HR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).HR">
           <com:Name xml:lang="en">Croatia</com:Name>
@@ -103,9 +88,6 @@
         </str:Code>
         <str:Code id="LT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).LT">
           <com:Name xml:lang="en">Lithuania</com:Name>
-        </str:Code>
-        <str:Code id="LU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).LU">
-          <com:Name xml:lang="en">Luxembourg</com:Name>
         </str:Code>
         <str:Code id="HU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).HU">
           <com:Name xml:lang="en">Hungary</com:Name>
@@ -125,23 +107,11 @@
         <str:Code id="PT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).PT">
           <com:Name xml:lang="en">Portugal</com:Name>
         </str:Code>
-        <str:Code id="RO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).RO">
-          <com:Name xml:lang="en">Romania</com:Name>
-        </str:Code>
         <str:Code id="SI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).SI">
           <com:Name xml:lang="en">Slovenia</com:Name>
         </str:Code>
-        <str:Code id="SK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).SK">
-          <com:Name xml:lang="en">Slovakia</com:Name>
-        </str:Code>
-        <str:Code id="FI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).FI">
-          <com:Name xml:lang="en">Finland</com:Name>
-        </str:Code>
         <str:Code id="SE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).SE">
           <com:Name xml:lang="en">Sweden</com:Name>
-        </str:Code>
-        <str:Code id="UK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).UK">
-          <com:Name xml:lang="en">United Kingdom</com:Name>
         </str:Code>
         <str:Code id="IS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).IS">
           <com:Name xml:lang="en">Iceland</com:Name>
@@ -149,23 +119,14 @@
         <str:Code id="NO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).NO">
           <com:Name xml:lang="en">Norway</com:Name>
         </str:Code>
-        <str:Code id="CH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).CH">
-          <com:Name xml:lang="en">Switzerland</com:Name>
-        </str:Code>
         <str:Code id="TR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).TR">
           <com:Name xml:lang="en">Turkey</com:Name>
         </str:Code>
-      </str:Codelist>
-      <str:Codelist id="CL_INCGRP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_INCGRP(1.0)" agencyID="ESTAT" version="1.0">
-        <com:Name xml:lang="en">INCGRP</com:Name>
-        <str:Code id="B_MD60" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_INCGRP(1.0).B_MD60">
-          <com:Name xml:lang="en">Below 60% of median equivalised income</com:Name>
+        <str:Code id="RU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).RU">
+          <com:Name xml:lang="en">Russia</com:Name>
         </str:Code>
-        <str:Code id="A_MD60" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_INCGRP(1.0).A_MD60">
-          <com:Name xml:lang="en">Above 60% of median equivalised income</com:Name>
-        </str:Code>
-        <str:Code id="TOTAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_INCGRP(1.0).TOTAL">
-          <com:Name xml:lang="en">Total</com:Name>
+        <str:Code id="US" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_GEO(1.0).US">
+          <com:Name xml:lang="en">United States</com:Name>
         </str:Code>
       </str:Codelist>
       <str:Codelist id="CL_OBS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_OBS_FLAG(1.0)" agencyID="ESTAT" version="1.0">
@@ -213,82 +174,75 @@
           <com:Name xml:lang="en">less than half of the unit used</com:Name>
         </str:Code>
       </str:Codelist>
-      <str:Codelist id="CL_SEX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_SEX(1.0)" agencyID="ESTAT" version="1.0">
-        <com:Name xml:lang="en">SEX</com:Name>
-        <str:Code id="T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_SEX(1.0).T">
-          <com:Name xml:lang="en">Total</com:Name>
-        </str:Code>
-        <str:Code id="M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_SEX(1.0).M">
-          <com:Name xml:lang="en">Males</com:Name>
-        </str:Code>
-        <str:Code id="F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_SEX(1.0).F">
-          <com:Name xml:lang="en">Females</com:Name>
-        </str:Code>
-      </str:Codelist>
       <str:Codelist id="CL_UNIT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_UNIT(1.0)" agencyID="ESTAT" version="1.0">
         <com:Name xml:lang="en">UNIT</com:Name>
-        <str:Code id="PC_POP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_UNIT(1.0).PC_POP">
-          <com:Name xml:lang="en">Percentage of total population</com:Name>
+        <str:Code id="PC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_UNIT(1.0).PC">
+          <com:Name xml:lang="en">Percentage</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist id="CL_Y_GRAD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ESTAT:CL_Y_GRAD(1.0)" agencyID="ESTAT" version="1.0">
+        <com:Name xml:lang="en">Y_GRAD</com:Name>
+        <str:Code id="TOTAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_Y_GRAD(1.0).TOTAL">
+          <com:Name xml:lang="en">Total</com:Name>
+        </str:Code>
+        <str:Code id="Y_GE1990" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ESTAT:CL_Y_GRAD(1.0).Y_GE1990">
+          <com:Name xml:lang="en">1990 and after</com:Name>
         </str:Code>
       </str:Codelist>
     </str:Codelists>
     <str:Concepts>
-      <str:ConceptScheme id="CS_DSD_yth_incl_160" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=ESTAT:CS_DSD_yth_incl_160(1.0)" agencyID="ESTAT" version="1.0" isFinal="true">
-        <com:Name xml:lang="en">Concept Scheme for DSD_yth_incl_160</com:Name>
-        <str:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).FREQ">
+      <str:ConceptScheme id="CS_DSD_cdh_e_fos" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=ESTAT:CS_DSD_cdh_e_fos(1.0)" agencyID="ESTAT" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">Concept Scheme for DSD_cdh_e_fos</com:Name>
+        <str:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).FREQ">
           <com:Name xml:lang="en">FREQ</com:Name>
           <com:Description xml:lang="en">The time interval at which observations occur over a given time period.</com:Description>
         </str:Concept>
-        <str:Concept id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).UNIT">
+        <str:Concept id="Y_GRAD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).Y_GRAD">
+          <com:Name xml:lang="en">Y_GRAD</com:Name>
+          <com:Description xml:lang="en">Y_GRAD</com:Description>
+        </str:Concept>
+        <str:Concept id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).UNIT">
           <com:Name xml:lang="en">UNIT</com:Name>
           <com:Description xml:lang="en">UNIT</com:Description>
         </str:Concept>
-        <str:Concept id="AGE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).AGE">
-          <com:Name xml:lang="en">AGE</com:Name>
-          <com:Description xml:lang="en">AGE</com:Description>
+        <str:Concept id="FOS07" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).FOS07">
+          <com:Name xml:lang="en">FOS07</com:Name>
+          <com:Description xml:lang="en">FOS07</com:Description>
         </str:Concept>
-        <str:Concept id="SEX" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).SEX">
-          <com:Name xml:lang="en">SEX</com:Name>
-          <com:Description xml:lang="en">SEX</com:Description>
-        </str:Concept>
-        <str:Concept id="INCGRP" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).INCGRP">
-          <com:Name xml:lang="en">INCGRP</com:Name>
-          <com:Description xml:lang="en">INCGRP</com:Description>
-        </str:Concept>
-        <str:Concept id="GEO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).GEO">
+        <str:Concept id="GEO" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).GEO">
           <com:Name xml:lang="en">GEO</com:Name>
           <com:Description xml:lang="en">GEO</com:Description>
         </str:Concept>
-        <str:Concept id="TIME" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).TIME">
+        <str:Concept id="TIME" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).TIME">
           <com:Name xml:lang="en">TIME</com:Name>
           <com:Description xml:lang="en">TIME</com:Description>
         </str:Concept>
-        <str:Concept id="INDICATORS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).INDICATORS">
+        <str:Concept id="INDICATORS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).INDICATORS">
           <com:Name xml:lang="en">INDICATORS</com:Name>
           <com:Description xml:lang="en">INDICATORS</com:Description>
         </str:Concept>
-        <str:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).OBS_VALUE">
+        <str:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).OBS_VALUE">
           <com:Name xml:lang="en">Observation value.</com:Name>
           <com:Description xml:lang="en">Observation value.</com:Description>
         </str:Concept>
-        <str:Concept id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).OBS_STATUS">
+        <str:Concept id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).OBS_STATUS">
           <com:Name xml:lang="en">Observation status.</com:Name>
           <com:Description xml:lang="en">Observation status.</com:Description>
         </str:Concept>
-        <str:Concept id="OBS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_yth_incl_160(1.0).OBS_FLAG">
+        <str:Concept id="OBS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ESTAT:CS_DSD_cdh_e_fos(1.0).OBS_FLAG">
           <com:Name xml:lang="en">Observation flag.</com:Name>
           <com:Description xml:lang="en">Observation flag.</com:Description>
         </str:Concept>
       </str:ConceptScheme>
     </str:Concepts>
     <str:DataStructures>
-      <str:DataStructure id="DSD_yth_incl_160" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ESTAT:DSD_yth_incl_160(1.0)" agencyID="ESTAT" version="1.0" isFinal="true">
+      <str:DataStructure id="DSD_cdh_e_fos" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ESTAT:DSD_cdh_e_fos(1.0)" agencyID="ESTAT" version="1.0" isFinal="true">
         <com:Name xml:lang="en">DSWS Data Structure Definition</com:Name>
         <str:DataStructureComponents>
-          <str:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=ESTAT:DSD_yth_incl_160(1.0).DimensionDescriptor">
-            <str:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_yth_incl_160(1.0).FREQ" position="1">
+          <str:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=ESTAT:DSD_cdh_e_fos(1.0).DimensionDescriptor">
+            <str:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_cdh_e_fos(1.0).FREQ" position="1">
               <str:ConceptIdentity>
-                <Ref id="FREQ" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+                <Ref id="FREQ" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:Enumeration>
@@ -296,9 +250,19 @@
                 </str:Enumeration>
               </str:LocalRepresentation>
             </str:Dimension>
-            <str:Dimension id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_yth_incl_160(1.0).UNIT" position="2">
+            <str:Dimension id="Y_GRAD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_cdh_e_fos(1.0).Y_GRAD" position="2">
               <str:ConceptIdentity>
-                <Ref id="UNIT" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+                <Ref id="Y_GRAD" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_Y_GRAD" version="1.0" agencyID="ESTAT" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_cdh_e_fos(1.0).UNIT" position="3">
+              <str:ConceptIdentity>
+                <Ref id="UNIT" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:Enumeration>
@@ -306,39 +270,19 @@
                 </str:Enumeration>
               </str:LocalRepresentation>
             </str:Dimension>
-            <str:Dimension id="AGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_yth_incl_160(1.0).AGE" position="3">
+            <str:Dimension id="FOS07" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_cdh_e_fos(1.0).FOS07" position="4">
               <str:ConceptIdentity>
-                <Ref id="AGE" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+                <Ref id="FOS07" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:Enumeration>
-                  <Ref id="CL_AGE" version="1.0" agencyID="ESTAT" package="codelist" class="Codelist"/>
+                  <Ref id="CL_FOS07" version="1.0" agencyID="ESTAT" package="codelist" class="Codelist"/>
                 </str:Enumeration>
               </str:LocalRepresentation>
             </str:Dimension>
-            <str:Dimension id="SEX" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_yth_incl_160(1.0).SEX" position="4">
+            <str:Dimension id="GEO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_cdh_e_fos(1.0).GEO" position="5">
               <str:ConceptIdentity>
-                <Ref id="SEX" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
-              </str:ConceptIdentity>
-              <str:LocalRepresentation>
-                <str:Enumeration>
-                  <Ref id="CL_SEX" version="1.0" agencyID="ESTAT" package="codelist" class="Codelist"/>
-                </str:Enumeration>
-              </str:LocalRepresentation>
-            </str:Dimension>
-            <str:Dimension id="INCGRP" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_yth_incl_160(1.0).INCGRP" position="5">
-              <str:ConceptIdentity>
-                <Ref id="INCGRP" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
-              </str:ConceptIdentity>
-              <str:LocalRepresentation>
-                <str:Enumeration>
-                  <Ref id="CL_INCGRP" version="1.0" agencyID="ESTAT" package="codelist" class="Codelist"/>
-                </str:Enumeration>
-              </str:LocalRepresentation>
-            </str:Dimension>
-            <str:Dimension id="GEO" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ESTAT:DSD_yth_incl_160(1.0).GEO" position="6">
-              <str:ConceptIdentity>
-                <Ref id="GEO" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+                <Ref id="GEO" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:Enumeration>
@@ -346,19 +290,19 @@
                 </str:Enumeration>
               </str:LocalRepresentation>
             </str:Dimension>
-            <str:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=ESTAT:DSD_yth_incl_160(1.0).TIME_PERIOD" position="7">
+            <str:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=ESTAT:DSD_cdh_e_fos(1.0).TIME_PERIOD" position="6">
               <str:ConceptIdentity>
-                <Ref id="TIME" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+                <Ref id="TIME" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:TextFormat/>
               </str:LocalRepresentation>
             </str:TimeDimension>
           </str:DimensionList>
-          <str:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=ESTAT:DSD_yth_incl_160(1.0).AttributeDescriptor">
-            <str:Attribute id="OBS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ESTAT:DSD_yth_incl_160(1.0).OBS_FLAG" assignmentStatus="Conditional">
+          <str:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=ESTAT:DSD_cdh_e_fos(1.0).AttributeDescriptor">
+            <str:Attribute id="OBS_FLAG" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ESTAT:DSD_cdh_e_fos(1.0).OBS_FLAG" assignmentStatus="Conditional">
               <str:ConceptIdentity>
-                <Ref id="OBS_FLAG" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+                <Ref id="OBS_FLAG" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:Enumeration>
@@ -371,9 +315,9 @@
                 </str:PrimaryMeasure>
               </str:AttributeRelationship>
             </str:Attribute>
-            <str:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ESTAT:DSD_yth_incl_160(1.0).OBS_STATUS" assignmentStatus="Conditional">
+            <str:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ESTAT:DSD_cdh_e_fos(1.0).OBS_STATUS" assignmentStatus="Conditional">
               <str:ConceptIdentity>
-                <Ref id="OBS_STATUS" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+                <Ref id="OBS_STATUS" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
               </str:ConceptIdentity>
               <str:LocalRepresentation>
                 <str:Enumeration>
@@ -387,10 +331,10 @@
               </str:AttributeRelationship>
             </str:Attribute>
           </str:AttributeList>
-          <str:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=ESTAT:DSD_yth_incl_160(1.0).MeasureDescriptor">
-            <str:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ESTAT:DSD_yth_incl_160(1.0).OBS_VALUE">
+          <str:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=ESTAT:DSD_cdh_e_fos(1.0).MeasureDescriptor">
+            <str:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ESTAT:DSD_cdh_e_fos(1.0).OBS_VALUE">
               <str:ConceptIdentity>
-                <Ref id="OBS_VALUE" maintainableParentID="CS_DSD_yth_incl_160" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
+                <Ref id="OBS_VALUE" maintainableParentID="CS_DSD_cdh_e_fos" maintainableParentVersion="1.0" agencyID="ESTAT" package="conceptscheme" class="Concept"/>
               </str:ConceptIdentity>
             </str:PrimaryMeasure>
           </str:MeasureList>

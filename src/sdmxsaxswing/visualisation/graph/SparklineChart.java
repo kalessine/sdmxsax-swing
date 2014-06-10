@@ -28,6 +28,7 @@ import org.jfree.ui.HorizontalAlignment;
 import org.jfree.ui.RectangleEdge;
 import sdmx.data.key.FullKey;
 import sdmxsaxswing.visualisation.Bindings;
+import sdmxsaxswing.visualisation.BoundTo;
 import sdmxsaxswing.visualisation.adapter.SeriesSparkline;
 
 /**
@@ -58,16 +59,22 @@ public class SparklineChart extends JFrame {
        this.table=table;
     }
     public JFreeChart createChart(SeriesSparkline spark, Bindings bindings, List<FullKey> table) {
+        String title = bindings.getDataFlow().toString();
+        BoundTo measureDescriptor = bindings.getMeasureDescriptor();
+        String axis = "";
+        if( table.size()>0){
+            axis = table.get(0).getComponent(measureDescriptor.getConcept()).toString();
+        }
         JFreeChart chart = ChartFactory.createLineChart(
-                "Java Standard Class Library", // chart title
-                null, // domain axis label
-                "Class Count", (CategoryDataset) spark.createDataset(bindings, table), // data
+                title, // chart title
+                "Time", // domain axis label
+                axis, (CategoryDataset) spark.createDataset(bindings, table), // data
                 PlotOrientation.VERTICAL, // orientation
                 true, // include legend
                 true, // tooltips
                 false // urls
         );
-        chart.addSubtitle(new TextTitle("Number of Classes By Release"));
+        //chart.addSubtitle(new TextTitle("Number of Classes By Release"));
         
         CategoryPlot plot = (CategoryPlot) chart.getPlot();
         plot.setRangePannable(true);

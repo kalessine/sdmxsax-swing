@@ -52,6 +52,8 @@ public class MainJFrame extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(400, 500));
+        setPreferredSize(new java.awt.Dimension(400, 500));
         getContentPane().add(loadDataJPanel1, java.awt.BorderLayout.CENTER);
 
         jMenu1.setText("File");
@@ -70,8 +72,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
-        setSize(new Dimension(400,400));
-        setPreferredSize(new Dimension(400,400));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 

@@ -33,6 +33,7 @@ import sdmx.message.StructureType;
 import sdmx.structure.base.Component;
 import sdmx.structure.base.ComponentList;
 import sdmx.structure.base.ItemType;
+import sdmx.structure.dataflow.DataflowType;
 import sdmx.structure.datastructure.DataStructureType;
 import sdmxsaxswing.visualisation.adapter.SeriesSparkline;
 import sdmxsaxswing.visualisation.bound.BoundToContinuousY;
@@ -67,15 +68,15 @@ public class Model {
         DataMessage data = SdmxIO.parseData(in);
         Cube cube = new Cube(struct.getStructures().getDataStructures().getDataStructures().get(0));
         data.getDataSets().get(0).query(cube, null);
-        Model model = new Model(struct,struct.getStructures().getDataStructures().getDataStructures().get(0).asReference());
+        Model model = new Model(struct,struct.getStructures().getDataStructures().getDataStructures().get(0).asDataflow());
         model.CUBE = cube;
         DataStructureRefType ref1 = new DataStructureRefType(new NestedNCNameIDType("ABS"), new IDType("ALC"), null);
         DataStructureReferenceType ref = new DataStructureReferenceType(ref1, null);
-
         BoundToDropDown b1 = new BoundToDropDown(struct, ref, "TYP");
         init(b1);
         BoundToDropDown b2 = new BoundToDropDown(struct, ref, "MEA");
         init(b2);
+        b2.setMeasureDescriptor(true);
         BoundToDropDown b3 = new BoundToDropDown(struct, ref, "BEVT");
         List<ItemType> b3vals = b3.getPossibleValues();
         b3.setCurrentValues(Collections.singletonList(b3vals.get(0)));
@@ -115,8 +116,8 @@ public class Model {
     List<FullKey> table = new LinkedList<FullKey>();
     FullKey key = new FullKey();
 
-    public Model(Registry registry, DataStructureReferenceType ref) {
-        this.bindings = new Bindings(registry,ref);
+    public Model(Registry registry, DataflowType flow) {
+        this.bindings = new Bindings(registry,flow);
     }
 
     public void visit() {
