@@ -17,8 +17,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
 import sdmx.SdmxIO;
+import sdmx.exception.ParseException;
 import sdmx.message.DataMessage;
+import sdmx.registry.LocalRegistry;
 
 /**
  *
@@ -58,7 +61,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jMenu1.setText("File");
 
-        jMenuItem1.setText("Open");
+        jMenuItem1.setText("Load Extern Reference Structure");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
@@ -77,7 +80,27 @@ public class MainJFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-
+        FileInputStream fis = null;
+        try {
+            JFileChooser jfc = new JFileChooser();
+            jfc.showOpenDialog(SwingUtilities.getRoot(this));
+            File file = jfc.getSelectedFile();
+            if ( file == null ) return;
+            fis = new FileInputStream(file);
+            SdmxIO.parseStructure(LocalRegistry.getDefaultWorkspace(), fis);
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(MainJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(MainJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (ParseException ex) {
+            Logger.getLogger(MainJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            try {
+                fis.close();
+            } catch (IOException ex) {
+                Logger.getLogger(MainJFrame.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**

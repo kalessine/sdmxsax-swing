@@ -22,6 +22,7 @@ import sdmx.commonreferences.DataStructureReferenceType;
 import sdmx.exception.ParseException;
 import sdmx.message.DataMessage;
 import sdmx.message.StructureType;
+import sdmx.registry.LocalRegistry;
 import sdmx.registry.QueryableServiceRegistry;
 import sdmx.structure.dataflow.DataflowType;
 import sdmx.structureddata.StructuredDataMessage;
@@ -310,7 +311,7 @@ public class LoadDataJPanel extends javax.swing.JPanel {
             File data = new File(jtData.getText());
             strucFis = new FileInputStream(structure);
             dataFis = new FileInputStream(data);
-            StructureType struct = SdmxIO.parseStructure(strucFis);
+            StructureType struct = SdmxIO.parseStructure(LocalRegistry.getDefaultWorkspace(),strucFis);
             DataMessage dataMsg = SdmxIO.parseData(dataFis,false);
             if( struct.getStructures().getDataStructures().getDataStructures().size()==0 ) return;
             if (struct.getStructures().getDataStructures().getDataStructures().size() > 1) {
@@ -321,7 +322,7 @@ public class LoadDataJPanel extends javax.swing.JPanel {
             }else if( struct.getStructures().getDataStructures().getDataStructures().size()==1 ) {
                 dataMsg.setDataStructure(struct.getStructures().getDataStructures().getDataStructures().get(0).asReference(),null);
                 CombinedDataJFrame frame = new CombinedDataJFrame();
-                StructuredDataMessage cds= new StructuredDataMessage(dataMsg,struct);
+                StructuredDataMessage cds= new StructuredDataMessage(dataMsg,LocalRegistry.getDefaultWorkspace());
                 frame.setCombinedDataAndStructure(cds);
                 MainJFrame.FRAME.showRequest(frame);
             }
