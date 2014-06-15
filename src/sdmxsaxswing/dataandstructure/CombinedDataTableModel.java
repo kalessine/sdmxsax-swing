@@ -26,18 +26,18 @@ public class CombinedDataTableModel implements TableModel {
     @Override
     public int getRowCount() {
         if( doc == null ) return 0;
-        return doc.getDecoratedDataSet(0).size();
+        return doc.getStructuredDataSet(0).size();
     }
 
     @Override
     public int getColumnCount() {
         if( doc == null ) return 0;
-        return doc.getDecoratedDataSet(0).getColumnCount();
+        return doc.getStructuredDataSet(0).getColumnCount();
     }
 
     @Override
     public String getColumnName(int columnIndex) {
-        return doc.getDecoratedDataSet(0).getColumnName(columnIndex);
+        return doc.getStructuredDataSet(0).getColumnName(columnIndex);
     }
 
     @Override
@@ -52,7 +52,7 @@ public class CombinedDataTableModel implements TableModel {
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-        StructuredDataSet ds = doc.getDecoratedDataSet(0);
+        StructuredDataSet ds = doc.getStructuredDataSet(0);
         return ds.getDecoratedValue(rowIndex, columnIndex).toString();
     }
 
