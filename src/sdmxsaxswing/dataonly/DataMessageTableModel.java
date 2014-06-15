@@ -11,6 +11,7 @@ import java.util.List;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
+import sdmx.data.DataSet;
 import sdmx.data.flat.FlatDataSet;
 import sdmx.data.structured.StructuredDataSet;
 import sdmx.message.DataMessage;
@@ -24,7 +25,7 @@ public class DataMessageTableModel implements TableModel{
     private DataMessage msg = null;
     private int dataSet =0;
     //private StructuredDataSet ds = null;
-    private FlatDataSet ds = null;
+    private DataSet ds = null;
     
     @Override
     public int getRowCount() {
@@ -97,7 +98,7 @@ public class DataMessageTableModel implements TableModel{
     public void setDataMessage(DataMessage msg) {
         this.msg = msg;
         //this.ds = (StructuredDataSet)msg.getDataSets().get(0);
-        this.ds = (FlatDataSet)msg.getDataSets().get(0);
+        this.ds = msg.getDataSets().get(0);
         TableModelEvent event = new TableModelEvent(this,0,this.getRowCount(),0,this.getColumnCount());
         for(int i=0;i<listeners.size();i++) {
             listeners.get(i).tableChanged(event);

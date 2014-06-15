@@ -91,24 +91,22 @@ public class DataProviderJFrame extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         DataQueryMessage q = ConceptChoiceModel.MODEL.toDataQuery();
         //System.out.println("Blah!" + registry);
-        if (registry instanceof QueryableServiceRegistry) {
-            //System.out.println("Query");
-            QueryableServiceRegistry soap = (QueryableServiceRegistry) registry;
-            DataMessage message = soap.getQueryable().query(q);
-            //System.out.println("Got DataMessage");
-            message.setDataStructure(ref, null);
+        //System.out.println("Query");
+        Registry soap = registry;
+        DataMessage message = soap.query(q);
+        //System.out.println("Got DataMessage");
+        message.setDataStructure(ref, null);
             //System.out.println("REg=" + registry);
-            //System.out.println("Ref=" + ref.getRef().getAgencyId() + ":" + ref.getRef().getId() + ":" + ref.getRef().getVersion());
-            DataStructureType ds = registry.findDataStructure(ref.getRef().getAgencyId(), (IDType) ref.getRef().getId(), ref.getRef().getVersion());
-            //System.out.println("DS=" + ds);
+        //System.out.println("Ref=" + ref.getRef().getAgencyId() + ":" + ref.getRef().getId() + ":" + ref.getRef().getVersion());
+        DataStructureType ds = registry.findDataStructure(ref.getRef().getAgencyId(), (IDType) ref.getRef().getId(), ref.getRef().getVersion());
+        //System.out.println("DS=" + ds);
 
-            StructuredDataMessage structured = new StructuredDataMessage(message, registry);
-            //System.out.println("Made structured");
-            CombinedDataJFrame frame = new CombinedDataJFrame();
-            frame.setCombinedDataAndStructure(structured);
-            //System.out.println("Set doc");
-            frame.setVisible(true);
-        }
+        StructuredDataMessage structured = new StructuredDataMessage(message, registry);
+        //System.out.println("Made structured");
+        CombinedDataJFrame frame = new CombinedDataJFrame();
+        frame.setCombinedDataAndStructure(structured);
+        //System.out.println("Set doc");
+        frame.setVisible(true);
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -154,7 +152,7 @@ public class DataProviderJFrame extends javax.swing.JFrame {
         this.setTitle(flow.toString());
         this.registry = reg;
         this.ref = flow.getStructure();
-        ConceptChoiceModel.MODEL.setDataStructure(reg, ref);
+        ConceptChoiceModel.MODEL.setDataStructure(reg, flow);
         for (int i = 0; i < ConceptChoiceModel.MODEL.size(); i++) {
             ConceptChoice cc = ConceptChoiceModel.MODEL.getConceptChoice(i);
             ConceptChoiceJPanel panel = new ConceptChoiceJPanel();

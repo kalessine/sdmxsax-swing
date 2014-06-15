@@ -32,6 +32,7 @@ import sdmx.structure.base.RepresentationType;
 import sdmx.structure.codelist.CodelistType;
 import sdmx.structure.concept.ConceptSchemeType;
 import sdmx.structure.concept.ConceptType;
+import sdmx.structure.dataflow.DataflowType;
 import sdmx.structure.datastructure.AttributeType;
 import sdmx.structure.datastructure.DataStructureType;
 import sdmx.structure.datastructure.DimensionType;
@@ -66,10 +67,13 @@ public class ConceptChoiceModel {
     private ObsValueConceptChoice obs = null;
 
     private Registry registry = null;
+    private DataflowType dataflow = null;
     private DataStructureReferenceType structureRef = null;
     private DataStructureType structure = null;
 
-    public void setDataStructure(Registry registry, DataStructureReferenceType ref) {
+    public void setDataStructure(Registry registry, DataflowType flow) {
+        this.dataflow=flow;
+        DataStructureReferenceType ref = flow.getStructure();
         conceptChoices = new ArrayList<ConceptChoice>();
         NestedNCNameIDType agency = ref.getRef().getAgencyId();
         NestedIDType id = ref.getRef().getId();
@@ -196,7 +200,7 @@ public class ConceptChoiceModel {
         }
         DataQuery q = new DataQuery();
         DataParametersAndType dw = new DataParametersAndType();
-        dw.setDataSetId(Collections.singletonList(new QueryIDType(structure.getId().toString())));
+        dw.setDataSetId(Collections.singletonList(new QueryIDType(dataflow.getId().toString())));
         List<DataParametersOrType> ors = new ArrayList<DataParametersOrType>();
         for (int i = 0; i < conceptChoices.size(); i++) {
             DataParametersOrType or = new DataParametersOrType();
