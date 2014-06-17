@@ -113,7 +113,7 @@ public class DisplayDataMessageJFrame extends javax.swing.JFrame {
         try{
             if( file == null ) return;
             fis = new FileInputStream(file);
-            msg = SdmxIO.parseData(fis, true);
+            msg = SdmxIO.parseData(fis, false);
             DataMessageTableModel model = new DataMessageTableModel();
             model.setDataMessage(msg);
             jTable1.setModel(model);

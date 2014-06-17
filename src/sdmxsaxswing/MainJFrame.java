@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package sdmxsaxswing;
 
 import java.awt.BorderLayout;
@@ -28,15 +27,17 @@ import sdmx.registry.LocalRegistry;
  * @author James
  */
 public class MainJFrame extends javax.swing.JFrame {
+
     public static MainJFrame FRAME = null;
+
     /**
      * Creates new form MainJFrame
      */
     public MainJFrame() {
         initComponents();
-        setSize(new Dimension(600,600));
-        setPreferredSize(new Dimension(600,600));
-        currentFrame=this;
+        setSize(new Dimension(600, 600));
+        setPreferredSize(new Dimension(600, 600));
+        currentFrame = this;
     }
 
     /**
@@ -83,11 +84,18 @@ public class MainJFrame extends javax.swing.JFrame {
         FileInputStream fis = null;
         try {
             JFileChooser jfc = new JFileChooser();
+            jfc.setMultiSelectionEnabled(true);
             jfc.showOpenDialog(SwingUtilities.getRoot(this));
-            File file = jfc.getSelectedFile();
-            if ( file == null ) return;
-            fis = new FileInputStream(file);
-            SdmxIO.parseStructure(LocalRegistry.getDefaultWorkspace(), fis);
+            File[] files = jfc.getSelectedFiles();
+            if (files == null || files.length == 0) {
+                return;
+            }
+            for (int i = 0; i < files.length; i++) {
+                System.out.println("Loading:"+files[i].getName());
+                fis = new FileInputStream(files[i]);
+                SdmxIO.parseStructure(LocalRegistry.getDefaultWorkspace(), fis);
+            }
+
         } catch (FileNotFoundException ex) {
             Logger.getLogger(MainJFrame.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
@@ -147,13 +155,12 @@ public class MainJFrame extends javax.swing.JFrame {
     private sdmxsaxswing.LoadDataJPanel loadDataJPanel1;
     // End of variables declaration//GEN-END:variables
 
-Frame currentFrame;
+    Frame currentFrame;
 
-public void showRequest(Frame frame)
-{
-  currentFrame.setVisible(false);
-  currentFrame = frame;
-  currentFrame.setVisible(true);
-}
+    public void showRequest(Frame frame) {
+        currentFrame.setVisible(false);
+        currentFrame = frame;
+        currentFrame.setVisible(true);
+    }
 
 }
