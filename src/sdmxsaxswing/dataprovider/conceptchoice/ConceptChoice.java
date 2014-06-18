@@ -13,6 +13,7 @@ import sdmx.common.Description;
 import sdmx.common.Name;
 import sdmx.commonreferences.ConceptReferenceType;
 import sdmx.structure.base.Component;
+import sdmx.structure.base.ItemSchemeType;
 import sdmx.structure.codelist.CodelistType;
 import sdmx.structure.concept.ConceptSchemeType;
 import sdmx.structure.concept.ConceptType;
@@ -156,7 +157,7 @@ public abstract class ConceptChoice {
         } 
         return conceptString;
     }
-    public CodelistType getCodes() {
+    public ItemSchemeType getCodes() {
         return ConceptChoiceModel.MODEL.getPossibleCodes(id);
     }
 

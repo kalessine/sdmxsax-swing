@@ -14,6 +14,7 @@ import sdmx.common.Description;
 import sdmx.common.Name;
 import sdmx.commonreferences.ConceptReferenceType;
 import sdmx.structure.base.Component;
+import sdmx.structure.base.ItemType;
 import sdmx.structure.codelist.CodeType;
 import sdmx.structure.concept.ConceptSchemeType;
 import sdmx.structure.concept.ConceptType;
@@ -296,15 +297,15 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
     private void jbAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbAddActionPerformed
         int index = jlAvailable.getSelectedIndex();
         //System.out.println("Index="+index);
-        selected.add((CodeType) available.getElementAt(index));
-        available.remove((CodeType) available.getElementAt(index));
+        selected.add((ItemType)available.getElementAt(index));
+        available.remove((ItemType)available.getElementAt(index));
         set();
     }//GEN-LAST:event_jbAddActionPerformed
 
     private void jbRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbRemoveActionPerformed
         int index = jlSelected.getSelectedIndex();
-        available.add((CodeType) available.getElementAt(index));
-        selected.remove((CodeType) selected.getElementAt(index));
+        available.add((ItemType)available.getElementAt(index));
+        selected.remove((ItemType)selected.getElementAt(index));
         set();
     }//GEN-LAST:event_jbRemoveActionPerformed
 

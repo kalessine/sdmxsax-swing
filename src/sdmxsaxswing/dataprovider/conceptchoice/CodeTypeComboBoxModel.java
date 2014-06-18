@@ -10,6 +10,8 @@ import java.util.List;
 import javax.swing.ComboBoxModel;
 import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
+import sdmx.structure.base.ItemSchemeType;
+import sdmx.structure.base.ItemType;
 import sdmx.structure.codelist.CodeType;
 import sdmx.structure.codelist.CodelistType;
 
@@ -30,14 +32,14 @@ import sdmx.structure.codelist.CodelistType;
  *
  * Copyright James Gardner 2014
  */
-public class CodeTypeComboBoxModel implements ComboBoxModel<CodeType> {
+public class CodeTypeComboBoxModel implements ComboBoxModel<ItemType> {
 
-    CodeType selected = null;
-    List<CodeType> codes = null;
+    ItemType selected = null;
+    List<ItemType> codes = null;
 
     @Override
     public void setSelectedItem(Object anItem) {
-        this.selected = (CodeType) anItem;
+        this.selected = (ItemType) anItem;
 
     }
 
@@ -55,7 +57,7 @@ public class CodeTypeComboBoxModel implements ComboBoxModel<CodeType> {
     }
 
     @Override
-    public CodeType getElementAt(int index) {
+    public ItemType getElementAt(int index) {
         return codes.get(index);
     }
 
@@ -71,13 +73,13 @@ public class CodeTypeComboBoxModel implements ComboBoxModel<CodeType> {
         listeners.remove(l);
     }
 
-    public void setCodes(CodelistType codel) {
+    public void setCodes(ItemSchemeType codel) {
         if (codel == null) {
             codes = null;
         } else {
-            codes = new ArrayList<CodeType>();
+            codes = new ArrayList<ItemType>();
             for (int i = 0; i < codel.size(); i++) {
-                codes.add(codel.getCode(i));
+                codes.add(codel.getItem(i));
             }
         }
         ListDataEvent lde = new ListDataEvent(this, ListDataEvent.CONTENTS_CHANGED, 0, getSize());
@@ -86,12 +88,12 @@ public class CodeTypeComboBoxModel implements ComboBoxModel<CodeType> {
         }
     }
 
-    public void setCodes(CodelistType codes, String defaultChoice) {
+    public void setCodes(ItemSchemeType codes, String defaultChoice) {
         if( codes == null ) return;
         setCodes(codes);
         for (int i = 0; i < codes.size(); i++) {
             if (codes.getId().equals(defaultChoice)) {
-                selected = codes.getCode(i);
+                selected = codes.getItem(i);
                 return;
             }
         }

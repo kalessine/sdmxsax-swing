@@ -85,7 +85,7 @@ public class LoadDataJPanel extends javax.swing.JPanel {
         });
 
         jTextField1.setEditable(false);
-        jTextField1.setText("CompactData, GenericData(2.0), StructureSpecific GenericData(2.1)");
+        jTextField1.setText("CompactData, GenericData(2.0), StructureSpecific, GenericData(2.1)");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

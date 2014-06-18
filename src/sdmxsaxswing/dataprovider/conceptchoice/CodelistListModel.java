@@ -10,6 +10,8 @@ import java.util.List;
 import javax.swing.ListModel;
 import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
+import sdmx.structure.base.ItemSchemeType;
+import sdmx.structure.base.ItemType;
 import sdmx.structure.codelist.CodeType;
 import sdmx.structure.codelist.CodelistType;
 
@@ -32,7 +34,7 @@ import sdmx.structure.codelist.CodelistType;
  */
 public class CodelistListModel implements ListModel {
 
-    List<CodeType> codes = new ArrayList<CodeType>();
+    List<ItemType> codes = new ArrayList<ItemType>();
 
     @Override
     public int getSize() {
@@ -59,13 +61,13 @@ public class CodelistListModel implements ListModel {
         listeners.remove(l);
     }
 
-    public void setCodelist(CodelistType codel) {
+    public void setCodelist(ItemSchemeType codel) {
         if (codel == null) {
             this.codes = null;
         } else {
-            this.codes = new ArrayList<CodeType>();
+            this.codes = new ArrayList<ItemType>();
             for (int i = 0; i < codel.size(); i++) {
-                codes.add(codel.getCode(i));
+                codes.add(codel.getItem(i));
             }
         }
         ListDataEvent lme = new ListDataEvent(this, ListDataEvent.CONTENTS_CHANGED, 0, getSize());
@@ -74,7 +76,7 @@ public class CodelistListModel implements ListModel {
         }
     }
 
-    public CodeType remove(CodeType code) {
+    public ItemType remove(ItemType code) {
         codes.remove(code);
         ListDataEvent lme = new ListDataEvent(this, ListDataEvent.CONTENTS_CHANGED, 0, getSize());
         for (int i = 0; i < listeners.size(); i++) {
@@ -83,7 +85,7 @@ public class CodelistListModel implements ListModel {
         return code;
     }
 
-    public void add(CodeType code) {
+    public void add(ItemType code) {
         codes.add(code);
         ListDataEvent lme = new ListDataEvent(this, ListDataEvent.CONTENTS_CHANGED, 0, getSize());
         for (int i = 0; i < listeners.size(); i++) {
@@ -100,7 +102,7 @@ public class CodelistListModel implements ListModel {
         return false;
     }
 
-    public CodeType findCode(String id) {
+    public ItemType findCode(String id) {
         for (int i = 0; i < getSize(); i++) {
             if (codes.get(i).getId().equals(id)) {
                 return codes.get(i);

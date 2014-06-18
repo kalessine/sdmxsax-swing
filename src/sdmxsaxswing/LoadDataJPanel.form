@@ -87,7 +87,7 @@
         <Component class="javax.swing.JTextField" name="jTextField1">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
-            <Property name="text" type="java.lang.String" value="CompactData, GenericData(2.0), StructureSpecific GenericData(2.1)"/>
+            <Property name="text" type="java.lang.String" value="CompactData, GenericData(2.0), StructureSpecific, GenericData(2.1)"/>
           </Properties>
         </Component>
       </SubComponents>

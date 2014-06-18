@@ -17,6 +17,7 @@ import sdmx.commonreferences.IDType;
 import sdmx.commonreferences.NestedIDType;
 import sdmx.commonreferences.NestedNCNameIDType;
 import sdmx.commonreferences.VersionType;
+import sdmx.commonreferences.types.ObjectTypeCodelistType;
 import sdmx.message.DataQueryMessage;
 import sdmx.message.DataStructure;
 import sdmx.query.base.QueryIDType;
@@ -28,6 +29,7 @@ import sdmx.query.data.DataQuery;
 import sdmx.query.data.DimensionValueType;
 import sdmx.query.data.TimeDimensionValueType;
 import sdmx.structure.base.Component;
+import sdmx.structure.base.ItemSchemeType;
 import sdmx.structure.base.RepresentationType;
 import sdmx.structure.codelist.CodelistType;
 import sdmx.structure.concept.ConceptSchemeType;
@@ -36,6 +38,7 @@ import sdmx.structure.dataflow.DataflowType;
 import sdmx.structure.datastructure.AttributeType;
 import sdmx.structure.datastructure.DataStructureType;
 import sdmx.structure.datastructure.DimensionType;
+import sdmx.structure.datastructure.MeasureDimensionType;
 import sdmx.structure.datastructure.PrimaryMeasure;
 import sdmx.structure.datastructure.TimeDimensionType;
 import sdmx.version.twopointzero.Sdmx20SDWSOAPQueryable;
@@ -87,7 +90,18 @@ public class ConceptChoiceModel {
             String concept = dim.getConceptIdentity().getRef().getId().toString();
             SingleValueConceptChoice choice = new SingleValueConceptChoice(registry, structure, concept);
             choice.setId(concept);
-            CodelistType codelist = getPossibleCodes(registry, ds, concept);
+            ItemSchemeType codelist = getPossibleCodes(registry, ds, concept);
+            if (codelist != null) {
+                choice.setDefaultChoice(codelist.getItem(0).getId().toString());
+            }
+            conceptChoices.add(choice);
+        }
+        for(int i=0;i<ds.getDataStructureComponents().getMeasureList().size();i++) {
+            MeasureDimensionType dim = ds.getDataStructureComponents().getMeasureList().getMeasure(i);
+            String concept = dim.getConceptIdentity().getRef().getId().toString();
+            SingleValueConceptChoice choice = new SingleValueConceptChoice(registry, structure, concept);
+            choice.setId(concept);
+            ItemSchemeType codelist = getPossibleCodes(registry, ds, concept);
             if (codelist != null) {
                 choice.setDefaultChoice(codelist.getItem(0).getId().toString());
             }
@@ -103,11 +117,11 @@ public class ConceptChoiceModel {
         }
     }
 
-    public CodelistType getPossibleCodes(String concept) {
+    public ItemSchemeType getPossibleCodes(String concept) {
         return getPossibleCodes(registry, structure, concept);
     }
 
-    public static CodelistType getPossibleCodes(Registry registry, DataStructureType struct, String column) {
+    public static ItemSchemeType getPossibleCodes(Registry registry, DataStructureType struct, String column) {
         Component dim = struct.getDataStructureComponents().findDimension(column);
         ConceptReferenceType conceptRef = dim.getConceptIdentity();
         RepresentationType rep = null;
@@ -126,7 +140,13 @@ public class ConceptChoiceModel {
         }
         if (rep != null) {
             if (rep.getEnumeration() != null) {
-                CodelistType codelist = registry.findCodelist(rep.getEnumeration());
+                ItemSchemeType codelist = null;
+                if( rep.getEnumeration().getRef().getRefClass().toInt()==ObjectTypeCodelistType.CONCEPTSCHEME.toInt()){
+                    codelist = registry.findConceptScheme(rep.getEnumeration().getRef().getAgencyId(),rep.getEnumeration().getRef().getId().asID());
+                }else {
+                    codelist = registry.findCodelist(rep.getEnumeration());
+                }
+                
                 if (codelist == null) {
                     throw new RuntimeException("Cant find codelist");
                 } else {
