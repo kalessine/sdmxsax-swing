@@ -107,7 +107,7 @@ public class ConceptChoiceModel {
             }
             conceptChoices.add(choice);
         }
-        TimeDimensionType timed = ds.getDataStructureComponents().getTimeDimension();
+        TimeDimensionType timed = ds.getDataStructureComponents().getDimensionList().getTimeDimension();
         String concept = timed.getConceptIdentity().getRef().getId().toString();
         setTime(new TimeValueConceptChoice(registry, structure, concept));
         PrimaryMeasure prim = ds.getDataStructureComponents().getMeasureList().getPrimaryMeasure();

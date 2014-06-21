@@ -291,7 +291,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
 
     private void jcbSingleValueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbSingleValueActionPerformed
         SingleValueConceptChoice cc = (SingleValueConceptChoice) ConceptChoiceModel.MODEL.getConceptChoice(getId());
-        cc.setDefaultChoice(((CodeType) jcbSingleValue.getSelectedItem()).getId().toString());
+        cc.setDefaultChoice(((ItemType) jcbSingleValue.getSelectedItem()).getId().toString());
     }//GEN-LAST:event_jcbSingleValueActionPerformed
 
     private void jbAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbAddActionPerformed
