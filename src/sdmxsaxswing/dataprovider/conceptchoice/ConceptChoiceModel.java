@@ -127,9 +127,9 @@ public class ConceptChoiceModel {
         RepresentationType rep = null;
         ConceptType concept = null;
         if (conceptRef != null) {
-            ConceptSchemeType con = registry.findConceptScheme(struct.getAgencyID(), conceptRef);
+            ConceptSchemeType con = registry.findConceptScheme(struct.getAgencyID(), conceptRef.getRef().getMaintainableParentId());
             if (con == null) {
-                System.out.println("Cant find concept:" + conceptRef.getRef().getId().getString());
+                System.out.println("Cant find concept:" + conceptRef.getRef().getMaintainableParentId().getString());
             }
             concept = con.findConcept(dim.getConceptIdentity().getRef().getId());
             rep = concept != null ? concept.getCoreRepresentation() : null;
