@@ -12,6 +12,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
@@ -138,6 +140,12 @@ public class MainJFrame extends javax.swing.JFrame {
         }
         //</editor-fold>
 
+        Date d1 = new Date(88697342142L);
+        Date d2 = new Date(883929254149L);
+        Date d3 = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy HH:mm:ss Z");
+        System.out.println(sdf.format(d1));
+        System.out.println(sdf.format(d2));
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {

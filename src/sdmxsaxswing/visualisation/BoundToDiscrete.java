@@ -49,6 +49,7 @@ public class BoundToDiscrete extends BoundTo {
         super(registry,dst,concept);
         DataStructureType struct = registry.findDataStructure(dst.getRef().getAgencyId(), (IDType) dst.getRef().getId(),dst.getRef().getVersion());
         Component comp = struct.findComponent(new IDType(concept));
+        System.out.println("Comp:"+concept+"="+comp);
         ItemSchemeReferenceBaseType ref = comp.getLocalRepresentation().getEnumeration();
         if( registry.findCodelist(ref)!=null) {
             CodelistType codelist = registry.findCodelist(ref);

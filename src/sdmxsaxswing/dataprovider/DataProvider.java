@@ -14,7 +14,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import sdmx.Registry;
 import sdmx.version.common.Queryable;
-import sdmx.version.twopointzero.Sdmx20RESTQueryable;
 import sdmx.version.twopointzero.Sdmx20SDWSOAPQueryable;
 
 /**

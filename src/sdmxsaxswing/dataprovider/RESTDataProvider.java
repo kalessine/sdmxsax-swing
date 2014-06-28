@@ -11,7 +11,6 @@ import sdmx.Registry;
 import sdmx.registry.QueryableServiceRegistry;
 import sdmx.registry.RESTServiceRegistry;
 import sdmx.version.common.Queryable;
-import sdmx.version.twopointzero.Sdmx20RESTQueryable;
 
 /**
  *
