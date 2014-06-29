@@ -139,13 +139,6 @@ public class MainJFrame extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(MainJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
-        Date d1 = new Date(88697342142L);
-        Date d2 = new Date(883929254149L);
-        Date d3 = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yyyy HH:mm:ss Z");
-        System.out.println(sdf.format(d1));
-        System.out.println(sdf.format(d2));
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
