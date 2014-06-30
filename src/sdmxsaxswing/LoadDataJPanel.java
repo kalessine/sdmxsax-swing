@@ -6,9 +6,11 @@
 package sdmxsaxswing;
 
 import java.awt.Frame;
+import java.awt.event.ActionEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -326,6 +328,11 @@ public class LoadDataJPanel extends javax.swing.JPanel {
                 frame.setCombinedDataAndStructure(cds);
                 MainJFrame.FRAME.showRequest(frame);
             }
+                File f = new File(System.currentTimeMillis()+".xml");
+                System.out.println("f="+f.getPath());
+                FileOutputStream fos = new FileOutputStream(f);
+                sdmx.version.twopointone.writer.Sdmx21StructureWriter.write(struct, fos);
+         
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LoadDataJPanel.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

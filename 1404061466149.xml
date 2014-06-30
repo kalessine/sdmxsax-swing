@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetCompactDataResponse xmlns="http://stats.oecd.org/OECDStatWS/SDMX/">
+            <GetCompactDataResult>
+                <message:CompactData xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:ABS="http://stat.abs.gov.au/Data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd http://stat.abs.gov.au/Data http://stat.abs.gov.au/RestSDMX/sdmx.ashx/GetSchema/ITPI_EXPORT" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+                    <Header>
+                        <ID>none</ID>
+                        <Test>false</Test>
+                        <Truncated>false</Truncated>
+                        <Prepared>2014-06-30T02:57:32</Prepared>
+                        <Sender id="ABS" />
+                    </Header>
+                    <ABS:DataSet keyFamilyURI="http://stat.abs.gov.au/RestSDMX/sdmx.ashx/GetKeyFamily/ITPI_EXPORT/ABS/?resolveRef=true" xmlns:ABS="http://stat.abs.gov.au/Data">
+                        <ABS:Series MEASURE="1" INDEX="3117007" FREQUENCY="Q" TIME_FORMAT="P3M">
+                            <ABS:Obs TIME="2008-Q1" OBS_VALUE="111.6" />
+                            <ABS:Obs TIME="2008-Q2" OBS_VALUE="122.1" />
+                            <ABS:Obs TIME="2008-Q3" OBS_VALUE="122.4" />
+                            <ABS:Obs TIME="2008-Q4" OBS_VALUE="144.1" />
+                            <ABS:Obs TIME="2009-Q1" OBS_VALUE="126.5" />
+                            <ABS:Obs TIME="2009-Q2" OBS_VALUE="110.1" />
+                            <ABS:Obs TIME="2009-Q3" OBS_VALUE="96.7" />
+                            <ABS:Obs TIME="2009-Q4" OBS_VALUE="87.4" />
+                            <ABS:Obs TIME="2010-Q1" OBS_VALUE="84.7" />
+                            <ABS:Obs TIME="2010-Q2" OBS_VALUE="85.2" />
+                            <ABS:Obs TIME="2010-Q3" OBS_VALUE="87.5" />
+                            <ABS:Obs TIME="2010-Q4" OBS_VALUE="97.2" />
+                            <ABS:Obs TIME="2011-Q1" OBS_VALUE="103.7" />
+                            <ABS:Obs TIME="2011-Q2" OBS_VALUE="107.5" />
+                            <ABS:Obs TIME="2011-Q3" OBS_VALUE="110.6" />
+                            <ABS:Obs TIME="2011-Q4" OBS_VALUE="101.4" />
+                            <ABS:Obs TIME="2012-Q1" OBS_VALUE="94.2" />
+                            <ABS:Obs TIME="2012-Q2" OBS_VALUE="93.9" />
+                            <ABS:Obs TIME="2012-Q3" OBS_VALUE="95.2" />
+                            <ABS:Obs TIME="2012-Q4" OBS_VALUE="105.3" />
+                            <ABS:Obs TIME="2013-Q1" OBS_VALUE="101.3" />
+                            <ABS:Obs TIME="2013-Q2" OBS_VALUE="102.9" />
+                            <ABS:Obs TIME="2013-Q3" OBS_VALUE="108.8" />
+                            <ABS:Obs TIME="2013-Q4" OBS_VALUE="102.9" />
+                        </ABS:Series>
+                        <ABS:Series MEASURE="2" INDEX="3117007" FREQUENCY="Q" TIME_FORMAT="P3M">
+                            <ABS:Obs TIME="2008-Q1" OBS_VALUE="28" />
+                            <ABS:Obs TIME="2008-Q2" OBS_VALUE="9.4" />
+                            <ABS:Obs TIME="2008-Q3" OBS_VALUE="0.2" />
+                            <ABS:Obs TIME="2008-Q4" OBS_VALUE="17.7" />
+                            <ABS:Obs TIME="2009-Q1" OBS_VALUE="-12.2" />
+                            <ABS:Obs TIME="2009-Q2" OBS_VALUE="-13" />
+                            <ABS:Obs TIME="2009-Q3" OBS_VALUE="-12.2" />
+                            <ABS:Obs TIME="2009-Q4" OBS_VALUE="-9.6" />
+                            <ABS:Obs TIME="2010-Q1" OBS_VALUE="-3.1" />
+                            <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.6" />
+                            <ABS:Obs TIME="2010-Q3" OBS_VALUE="2.7" />
+                            <ABS:Obs TIME="2010-Q4" OBS_VALUE="11.1" />
+                            <ABS:Obs TIME="2011-Q1" OBS_VALUE="6.7" />
+                            <ABS:Obs TIME="2011-Q2" OBS_VALUE="3.7" />
+                            <ABS:Obs TIME="2011-Q3" OBS_VALUE="2.9" />
+                            <ABS:Obs TIME="2011-Q4" OBS_VALUE="-8.3" />
+                            <ABS:Obs TIME="2012-Q1" OBS_VALUE="-7.1" />
+                            <ABS:Obs TIME="2012-Q2" OBS_VALUE="-0.3" />
+                            <ABS:Obs TIME="2012-Q3" OBS_VALUE="1.4" />
+                            <ABS:Obs TIME="2012-Q4" OBS_VALUE="10.6" />
+                            <ABS:Obs TIME="2013-Q1" OBS_VALUE="-3.8" />
+                            <ABS:Obs TIME="2013-Q2" OBS_VALUE="1.6" />
+                            <ABS:Obs TIME="2013-Q3" OBS_VALUE="5.7" />
+                            <ABS:Obs TIME="2013-Q4" OBS_VALUE="-5.4" />
+                        </ABS:Series>
+                        <ABS:Series MEASURE="3" INDEX="3117007" FREQUENCY="Q" TIME_FORMAT="P3M">
+                            <ABS:Obs TIME="2008-Q1" OBS_VALUE="49.4" />
+                            <ABS:Obs TIME="2008-Q2" OBS_VALUE="65.2" />
+                            <ABS:Obs TIME="2008-Q3" OBS_VALUE="59.2" />
+                            <ABS:Obs TIME="2008-Q4" OBS_VALUE="65.3" />
+                            <ABS:Obs TIME="2009-Q1" OBS_VALUE="13.4" />
+                            <ABS:Obs TIME="2009-Q2" OBS_VALUE="-9.8" />
+                            <ABS:Obs TIME="2009-Q3" OBS_VALUE="-21" />
+                            <ABS:Obs TIME="2009-Q4" OBS_VALUE="-39.3" />
+                            <ABS:Obs TIME="2010-Q1" OBS_VALUE="-33" />
+                            <ABS:Obs TIME="2010-Q2" OBS_VALUE="-22.6" />
+                            <ABS:Obs TIME="2010-Q3" OBS_VALUE="-9.5" />
+                            <ABS:Obs TIME="2010-Q4" OBS_VALUE="11.2" />
+                            <ABS:Obs TIME="2011-Q1" OBS_VALUE="22.4" />
+                            <ABS:Obs TIME="2011-Q2" OBS_VALUE="26.2" />
+                            <ABS:Obs TIME="2011-Q3" OBS_VALUE="26.4" />
+                            <ABS:Obs TIME="2011-Q4" OBS_VALUE="4.3" />
+                            <ABS:Obs TIME="2012-Q1" OBS_VALUE="-9.2" />
+                            <ABS:Obs TIME="2012-Q2" OBS_VALUE="-12.7" />
+                            <ABS:Obs TIME="2012-Q3" OBS_VALUE="-13.9" />
+                            <ABS:Obs TIME="2012-Q4" OBS_VALUE="3.8" />
+                            <ABS:Obs TIME="2013-Q1" OBS_VALUE="7.5" />
+                            <ABS:Obs TIME="2013-Q2" OBS_VALUE="9.6" />
+                            <ABS:Obs TIME="2013-Q3" OBS_VALUE="14.3" />
+                            <ABS:Obs TIME="2013-Q4" OBS_VALUE="-2.3" />
+                        </ABS:Series>
+                        <ABS:Annotations>
+                            <common:Annotation>
+                                <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                                <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                            </common:Annotation>
+                        </ABS:Annotations>
+                    </ABS:DataSet>
+                </message:CompactData>
+            </GetCompactDataResult>
+        </GetCompactDataResponse>
+    </soap:Body>
+</soap:Envelope>
