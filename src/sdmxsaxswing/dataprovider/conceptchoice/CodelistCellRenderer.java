@@ -38,9 +38,8 @@ public class CodelistCellRenderer extends JLabel implements ListCellRenderer<Cod
     public Component getListCellRendererComponent(JList<? extends CodeType> list, CodeType value, int index, boolean isSelected, boolean cellHasFocus) {
         Locale loc = Locale.getDefault();
         Name name = value.findName(loc.getLanguage());
-        if( name!=null ) {setText(name.getText());}
+        if( name!=null ) {setText(name.getText()+"("+value.getId()+")");}
         else setText(value.getId().toString());
         return this;
     }
-
 }
