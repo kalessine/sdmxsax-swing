@@ -214,10 +214,10 @@ public class ConceptChoiceModel {
 
     public DataQueryMessage toDataQuery() {
         DataQueryMessage query = new DataQueryMessage();
-        if (registry instanceof Sdmx20SDWSOAPQueryable) {
-            Sdmx20SDWSOAPQueryable soap = (Sdmx20SDWSOAPQueryable) registry;
-            query.setHeader(soap.getBaseHeader());
-        }
+        //if (registry instanceof Sdmx20SDWSOAPQueryable) {
+         //   Sdmx20SDWSOAPQueryable soap = (Sdmx20SDWSOAPQueryable) registry;
+         //   query.setHeader(soap.getBaseHeader());
+        //}
         DataQuery q = new DataQuery();
         DataParametersAndType dw = new DataParametersAndType();
         dw.setDataSetId(Collections.singletonList(new QueryIDType(dataflow.getId().toString())));

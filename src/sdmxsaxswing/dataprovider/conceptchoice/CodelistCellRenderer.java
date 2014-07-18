@@ -13,6 +13,8 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.ListCellRenderer;
 import sdmx.common.Name;
+import sdmx.structure.base.ItemType;
+import sdmx.structure.base.NameableType;
 import sdmx.structure.codelist.CodeType;
 
 /**
@@ -33,13 +35,13 @@ import sdmx.structure.codelist.CodeType;
  *
  *  Copyright James Gardner 2014
  */
-public class CodelistCellRenderer extends JLabel implements ListCellRenderer<CodeType> {
+public class CodelistCellRenderer extends DefaultListCellRenderer {
 
-    public Component getListCellRendererComponent(JList<? extends CodeType> list, CodeType value, int index, boolean isSelected, boolean cellHasFocus) {
+    public Component getListCellRendererComponent(JList list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
         Locale loc = Locale.getDefault();
-        Name name = value.findName(loc.getLanguage());
-        if( name!=null ) {setText(name.getText()+"("+value.getId()+")");}
-        else setText(value.getId().toString());
-        return this;
+        String s = NameableType.toString(value);
+        if( value!=null)s=s+"("+((ItemType)value).getId()+")";
+        return super.getListCellRendererComponent(list, s, index, isSelected, cellHasFocus);
     }
+
 }

@@ -31,6 +31,7 @@ import sdmxsaxswing.dataprovider.conceptchoice.SingleValueConceptChoice;
  */
 public class ConceptChoiceJPanel extends javax.swing.JPanel {
 
+    CodelistCellRenderer cellrenderer = new CodelistCellRenderer();
     /**
      * Creates new form ConceptChoiceJPanel
      */
@@ -96,7 +97,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
 
         jPanel1.setLayout(new java.awt.CardLayout());
 
-        jcbSingleValue.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jcbSingleValue.setRenderer(cellrenderer);
         jcbSingleValue.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jcbSingleValueActionPerformed(evt);
@@ -130,18 +131,10 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
 
         jPanel1.add(jpSingle, "Single");
 
-        jlAvailable.setModel(new javax.swing.AbstractListModel() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
-            public int getSize() { return strings.length; }
-            public Object getElementAt(int i) { return strings[i]; }
-        });
+        jlAvailable.setCellRenderer(cellrenderer);
         jScrollPane1.setViewportView(jlAvailable);
 
-        jlSelected.setModel(new javax.swing.AbstractListModel() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
-            public int getSize() { return strings.length; }
-            public Object getElementAt(int i) { return strings[i]; }
-        });
+        jlSelected.setCellRenderer(cellrenderer);
         jScrollPane2.setViewportView(jlSelected);
 
         jbAdd.setText(">");
@@ -165,14 +158,14 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
             .addGroup(jpManyLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jpManyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 172, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 147, Short.MAX_VALUE)
                     .addComponent(jbAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jpManyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane2)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 233, Short.MAX_VALUE)
                     .addGroup(jpManyLayout.createSequentialGroup()
                         .addComponent(jbRemove, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 157, Short.MAX_VALUE))))
+                        .addGap(0, 184, Short.MAX_VALUE))))
         );
         jpManyLayout.setVerticalGroup(
             jpManyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
