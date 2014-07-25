@@ -40,6 +40,7 @@ public class MainJFrame extends javax.swing.JFrame {
         setSize(new Dimension(600, 600));
         setPreferredSize(new Dimension(600, 600));
         currentFrame = this;
+        jcbSaveXml.setSelected(SdmxIO.isSaveXml());
     }
 
     /**
@@ -56,10 +57,10 @@ public class MainJFrame extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
+        jcbSaveXml = new javax.swing.JCheckBoxMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(400, 500));
-        setPreferredSize(new java.awt.Dimension(400, 500));
         getContentPane().add(loadDataJPanel1, java.awt.BorderLayout.CENTER);
 
         jMenu1.setText("File");
@@ -75,6 +76,16 @@ public class MainJFrame extends javax.swing.JFrame {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Edit");
+
+        jcbSaveXml.setSelected(true);
+        jcbSaveXml.setText("Auto Save Xml");
+        jcbSaveXml.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jcbSaveXmlActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jcbSaveXml);
+
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
@@ -112,6 +123,10 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void jcbSaveXmlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbSaveXmlActionPerformed
+        SdmxIO.setSaveXml(jcbSaveXml.isSelected());
+    }//GEN-LAST:event_jcbSaveXmlActionPerformed
 
     /**
      * @param args the command line arguments
@@ -153,6 +168,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JCheckBoxMenuItem jcbSaveXml;
     private sdmxsaxswing.LoadDataJPanel loadDataJPanel1;
     // End of variables declaration//GEN-END:variables
 
