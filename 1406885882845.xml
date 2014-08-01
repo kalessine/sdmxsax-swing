@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><message:StructureSpecificData xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:ecb_rtd1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ECB:ECB_RTD1(1.0):ObsLevelDim:TIME_PERIOD" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message http://a-sdw-wsrest.ecb.europa.eu/vocabulary/sdmx/2_1/SDMXMessage.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common http://a-sdw-wsrest.ecb.europa.eu/vocabulary/sdmx/2_1/SDMXCommon.xsd urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ECB:ECB_RTD1(1.0):ObsLevelDim:TIME_PERIOD http://a-sdw-wsrest.ecb.europa.eu/service/schema/datastructure/ECB/ECB_RTD1/1.0">
+<message:Header>
+<message:ID>54b1a8d6-14a8-45ca-9b32-c7649f7473db</message:ID>
+<message:Test>false</message:Test>
+<message:Prepared>2014-08-01T09:38:09.524Z</message:Prepared>
+<message:Sender id="ECB"/>
+<message:Structure structureID="ECB_RTD1" dimensionAtObservation="TIME_PERIOD" namespace="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ECB:ECB_RTD1(1.0):ObsLevelDim:TIME_PERIOD">
+<common:Structure>
+<URN>urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ECB:ECB_RTD1(1.0)</URN>
+</common:Structure>
+</message:Structure>
+</message:Header>
+<message:DataSet data:action="Replace" data:validFromDate="2014-08-01T09:38:09.524Z" data:structureRef="ECB_RTD1" data:dataScope="DataStructure" xsi:type="ecb_rtd1:DataSetType">
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_CEC_CGG_D0" RT_DENOM="F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Collective consumption expenditure (P32, ESA 95) - All sectors/ unspecified/ not applicable (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: N">
+<Obs TIME_PERIOD="2008" OBS_VALUE="7.96618" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="8.63065" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="8.43977" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="8.24145" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_CEF_CGG_D0" RT_DENOM="F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Final consumption expenditure (P.3) - All sectors/ unspecified/ not applicable (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: H">
+<Obs TIME_PERIOD="2008" OBS_VALUE="20.54841" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="22.28552" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="21.98175" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="21.5609" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_CEI_CGG_D0" RT_DENOM="F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Individual consumption expenditure (P31, ESA 95) - All sectors/ unspecified/ not applicable (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: O">
+<Obs TIME_PERIOD="2008" OBS_VALUE="12.58223" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="13.65486" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="13.54198" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="13.31943" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_CFC_CGG_D0" RT_DENOM="F" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: L" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Consumption of fixed capital - All sectors/ unspecified/ not applicable (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage">
+<Obs TIME_PERIOD="2008" OBS_VALUE="1.97608" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="2.06691" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="2.07835" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="2.06719" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_COE_CGG_D0" RT_DENOM="F" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: I" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Compensation of employees (D.1) - All sectors/ unspecified/ not applicable (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage">
+<Obs TIME_PERIOD="2008" OBS_VALUE="10.29224" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="11.05552" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="10.85849" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="10.61271" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_DEF_CLG_D0" RT_DENOM="F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Deficit or surplus - All sectors/ unspecified/ not applicable (ESA95)-NCBs - Local government (ESA95)-NCBs - Non-financial flows current prices - Percentage" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: E">
+<Obs TIME_PERIOD="2008" OBS_VALUE="-0.17551" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="-0.30336" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="-0.33291" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="-0.18259" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_DEF_CSF_D0" RT_DENOM="F" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Deficit or surplus - All sectors/ unspecified/ not applicable (ESA95)-NCBs - Social security funds (ESA95)-NCBs - Non-financial flows current prices - Percentage">
+<Obs TIME_PERIOD="2008" OBS_VALUE="0.52534" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="-0.37487" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="-0.08964" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="0.04938" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_DEF_CSG_D0" RT_DENOM="F" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: D" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Deficit or surplus - All sectors/ unspecified/ not applicable (ESA95)-NCBs - State government (ESA95)-NCBs - Non-financial flows current prices - Percentage">
+<Obs TIME_PERIOD="2008" OBS_VALUE="-0.20962" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="-0.49477" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="-0.69623" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="-0.70856" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_INC_CGG_D0" RT_DENOM="F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Intermediate consumption (P.2) - All sectors/ unspecified/ not applicable (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: J">
+<Obs TIME_PERIOD="2008" OBS_VALUE="5.1923" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="5.71932" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="5.66837" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="5.51282" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_SAL_C0_DGG" RT_DENOM="F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Sales - General government (ESA95)-NCBs - All sectors/ unspecified/ not applicable (ESA95)-NCBs - Non-financial flows current prices - Percentage" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: M">
+<Obs TIME_PERIOD="2008" OBS_VALUE="2.34792" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="2.52266" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="2.57498" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="2.59075" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_STM_CGG_DH" RT_DENOM="F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Social transfers in kind via non-government producers - Households (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: K">
+<Obs TIME_PERIOD="2008" OBS_VALUE="5.28719" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="5.8044" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="5.80538" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="5.76433" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_UMD_CCG_D0" RT_DENOM="F" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: C" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Deficit/surplus without UMTS proceeds - All sectors/ unspecified/ not applicable (ESA95)-NCBs - Central government (ESA95)-NCBs - Non-financial flows current prices - Percentage">
+<Obs TIME_PERIOD="2008" OBS_VALUE="-2.27262" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="-5.17263" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="-5.0807" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="-3.29248" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_UMD_CGG_D0" RT_DENOM="F" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: B" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Deficit/surplus without UMTS proceeds - All sectors/ unspecified/ not applicable (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage">
+<Obs TIME_PERIOD="2008" OBS_VALUE="-2.13241" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="-6.34563" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="-6.19956" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="-4.13422" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+<Series FREQ="A" REF_AREA="S0" ADJUSTMENT="N" RT_ECON_CONCEPT="F_UMS_CGG_D0" RT_DENOM="F" TITLE_COMPL="Euro area (moving concept in the Real Time database context) - Primary deficit/surplus without UMTS proceeds - All sectors/ unspecified/ not applicable (ESA95)-NCBs - General government (ESA95)-NCBs - Non-financial flows current prices - Percentage" COMPILATION="See &lt;a href=&quot;https://stats.ecb.europa.eu/stats/sdw/docu/rtdb_docu.pdf&quot;&gt; notes&lt;/a&gt;; block Annual; series: G">
+<Obs TIME_PERIOD="2008" OBS_VALUE="0.91307" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2009" OBS_VALUE="-3.4886" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2010" OBS_VALUE="-3.37423" OBS_STATUS="A" OBS_CONF="F"/>
+<Obs TIME_PERIOD="2011" OBS_VALUE="-1.10192" OBS_STATUS="A" OBS_CONF="F"/>
+</Series>
+</message:DataSet>
+</message:StructureSpecificData>

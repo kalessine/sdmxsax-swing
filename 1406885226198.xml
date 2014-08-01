@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message http://www.metadatatechnology.com/beta/SDMX2.1/SDMXMessage.xsd" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IDREF56586</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2014-08-01T09:27:12.840Z</mes:Prepared>
+    <mes:Sender id="ECB"/>
+    <mes:Receiver id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Codelists>
+      <str:Codelist id="CL_BKN_TYPE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ECB:CL_BKN_TYPE(1.0)" agencyID="ECB" version="1.0">
+        <com:Name xml:lang="en">Banknote or coin code list</com:Name>
+        <str:Code id="B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_TYPE(1.0).B">
+          <com:Name xml:lang="en">Banknotes</com:Name>
+        </str:Code>
+        <str:Code id="C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_TYPE(1.0).C">
+          <com:Name xml:lang="en">Coins</com:Name>
+        </str:Code>
+        <str:Code id="Z" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_TYPE(1.0).Z">
+          <com:Name xml:lang="en">Not applicable</com:Name>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+  </mes:Structures>
+</mes:Structure>

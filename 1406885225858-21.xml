@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+    <mes:Header>
+        <mes:ID>IDREF56585</mes:ID>
+        <mes:Test>false</mes:Test>
+        <mes:Prepared>2014-08-01T17:27:12.488+08:00</mes:Prepared>
+        <mes:Sender id="ECB"/>
+    </mes:Header>
+    <mes:Structures>
+        <str:Codelists>
+            <str:Codelist agencyID="ECB" isExternalReference="false" isFinal="false" version="1.0" id="CL_BKN_ITEM">
+                <com:Name xml:lang="en">Banknote &amp; coin related items code list</com:Name>
+                <str:Code id="A010" urn="">
+                    <com:Name xml:lang="en">Number of ATM with a withdrawal function for euro banknotes (excluding devices with cash-depositing functionalities)</com:Name>
+                </str:Code>
+                <str:Code id="A020" urn="">
+                    <com:Name xml:lang="en">Number of branches of Credit Institutions - Number of Credit Institutions and their branches providing cash services</com:Name>
+                </str:Code>
+                <str:Code id="A030" urn="">
+                    <com:Name xml:lang="en">Number of NCBs Branches - providing cash services</com:Name>
+                </str:Code>
+                <str:Code id="CL10" urn="">
+                    <com:Name xml:lang="en">Collector coins - Collector coins issued less collector coins returned; not intended for circulation; (net issuance)</com:Name>
+                </str:Code>
+                <str:Code id="IS10" urn="">
+                    <com:Name xml:lang="en">Issued - number of banknotes/coins put into circulation</com:Name>
+                </str:Code>
+                <str:Code id="LS10" urn="">
+                    <com:Name xml:lang="en">Logistical stock - banknotes held by the NCB; Eurosystem Strategic Reserve Stocks (ESS) not included (derived by aggregation of new and reissuable Logistical stocks, held to order and in transit)</com:Name>
+                </str:Code>
+                <str:Code id="NC10" urn="">
+                    <com:Name xml:lang="en">Net Circulation - number of banknotes/coins in circulation (for banknotes it has to be calculated, and equals created notes less destroyed notes less stocks of the NCB)</com:Name>
+                </str:Code>
+                <str:Code id="NS10" urn="">
+                    <com:Name xml:lang="en">NCB stock - NCB own coin stocks, physically held by reporting NCB</com:Name>
+                </str:Code>
+                <str:Code id="RE10" urn="">
+                    <com:Name xml:lang="en">Returned - number of banknotes/coins returned from circulation</com:Name>
+                </str:Code>
+                <str:Code id="SR10" urn="">
+                    <com:Name xml:lang="en">Sorted - number of banknotes/coins processed to check the authenticity and fitness</com:Name>
+                </str:Code>
+                <str:Code id="SR11" urn="">
+                    <com:Name xml:lang="en">Sorted to unfit - number of banknotes processed and sorted to unfit</com:Name>
+                </str:Code>
+                <str:Code id="SU10" urn="">
+                    <com:Name xml:lang="en">Surplus - number of banknotes/coins which exceeds the maximum level of logical stocks at national level</com:Name>
+                </str:Code>
+            </str:Codelist>
+        </str:Codelists>
+    </mes:Structures>
+</mes:Structure>

@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+    <mes:Header>
+        <mes:ID>IDREF56629</mes:ID>
+        <mes:Test>false</mes:Test>
+        <mes:Prepared>2014-08-01T17:37:56.556+08:00</mes:Prepared>
+        <mes:Sender id="ECB"/>
+    </mes:Header>
+    <mes:Structures>
+        <str:Codelists>
+            <str:Codelist agencyID="ECB" isExternalReference="false" isFinal="false" version="1.0" id="CL_AREA_EE">
+                <com:Name xml:lang="en">Area code list</com:Name>
+                <str:Code id="1A" urn="">
+                    <com:Name xml:lang="en">International organisations</com:Name>
+                </str:Code>
+                <str:Code id="1B" urn="">
+                    <com:Name xml:lang="en">UN organisations</com:Name>
+                </str:Code>
+                <str:Code id="1C" urn="">
+                    <com:Name xml:lang="en">International Monetary Fund (IMF)</com:Name>
+                </str:Code>
+                <str:Code id="1D" urn="">
+                    <com:Name xml:lang="en">World Trade Organisation</com:Name>
+                </str:Code>
+                <str:Code id="1E" urn="">
+                    <com:Name xml:lang="en">International Bank for Reconstruction and Development</com:Name>
+                </str:Code>
+                <str:Code id="1F" urn="">
+                    <com:Name xml:lang="en">International Development Association</com:Name>
+                </str:Code>
+                <str:Code id="1G" urn="">
+                    <com:Name xml:lang="en">Other UN Organisations (includes 1H, 1J-1T)</com:Name>
+                </str:Code>
+                <str:Code id="1H" urn="">
+                    <com:Name xml:lang="en">UNESCO (United Nations Educational, Scientific and Cultural Organisation)</com:Name>
+                </str:Code>
+                <str:Code id="1J" urn="">
+                    <com:Name xml:lang="en">FAO (Food and Agriculture Organisation)</com:Name>
+                </str:Code>
+                <str:Code id="1K" urn="">
+                    <com:Name xml:lang="en">WHO (World Health Organisation)</com:Name>
+                </str:Code>
+                <str:Code id="1L" urn="">
+                    <com:Name xml:lang="en">IFAD (International Fund for Agricultural Development)</com:Name>
+                </str:Code>
+                <str:Code id="1M" urn="">
+                    <com:Name xml:lang="en">IFC (International Finance Corporation)</com:Name>
+                </str:Code>
+                <str:Code id="1N" urn="">
+                    <com:Name xml:lang="en">MIGA (Multilateral Investment Guarantee Agency)</com:Name>
+                </str:Code>
+                <str:Code id="1O" urn="">
+                    <com:Name xml:lang="en">UNICEF (United Nations Children Fund)</com:Name>
+                </str:Code>
+                <str:Code id="1P" urn="">
+                    <com:Name xml:lang="en">UNHCR (United Nations High Commissioner for Refugees)</com:Name>
+                </str:Code>
+                <str:Code id="1Q" urn="">
+                    <com:Name xml:lang="en">UNRWA (United Nations Relief and Works Agency for Palestine)</com:Name>
+                </str:Code>
+                <str:Code id="1R" urn="">
+                    <com:Name xml:lang="en">IAEA (International Atomic Energy Agency)</com:Name>
+                </str:Code>
+                <str:Code id="1S" urn="">
+                    <com:Name xml:lang="en">ILO (International Labour Organisation)</com:Name>
+                </str:Code>
+                <str:Code id="1T" urn="">
+                    <com:Name xml:lang="en">ITU (International Telecommunication Union)</com:Name>
+                </str:Code>
+                <str:Code id="1W" urn="">
+                    <com:Name xml:lang="en">World Bank</com:Name>
+                </str:Code>
+                <str:Code id="1Z" urn="">
+                    <com:Name xml:lang="en">Rest of UN Organisations n.i.e.</com:Name>
+                </str:Code>
+                <str:Code id="4A" urn="">
+                    <com:Name xml:lang="en">European Community Institutions, Organs and Organisms</com:Name>
+                </str:Code>
+                <str:Code id="4B" urn="">
+                    <com:Name xml:lang="en">EMS (European Monetary System)</com:Name>
+                </str:Code>
+                <str:Code id="4C" urn="">
+                    <com:Name xml:lang="en">European Investment Bank</com:Name>
+                </str:Code>
+                <str:Code id="4D" urn="">
+                    <com:Name xml:lang="en">European Commission</com:Name>
+                </str:Code>
+                <str:Code id="4E" urn="">
+                    <com:Name xml:lang="en">European Development Fund</com:Name>
+                </str:Code>
+                <str:Code id="4F" urn="">
+                    <com:Name xml:lang="en">European Central Bank (ECB)</com:Name>
+                </str:Code>
+                <str:Code id="4G" urn="">
+                    <com:Name xml:lang="en">EIF (European Investment Fund)</com:Name>
+                </str:Code>
+                <str:Code id="4H" urn="">
+                    <com:Name xml:lang="en">European Community of Steel and Coal</com:Name>
+                </str:Code>
+                <str:Code id="4I" urn="">
+                    <com:Name xml:lang="en">Neighbourhood Investment Facility</com:Name>
+                </str:Code>
+                <str:Code id="4J" urn="">
+                    <com:Name xml:lang="en">Other EC Institutions, Organs and Organisms covered by General budget</com:Name>
+                </str:Code>
+                <str:Code id="4K" urn="">
+                    <com:Name xml:lang="en">European Parliament</com:Name>
+                </str:Code>
+                <str:Code id="4L" urn="">
+                    <com:Name xml:lang="en">Council of the European Union</com:Name>
+                </str:Code>
+                <str:Code id="4M" urn="">
+                    <com:Name xml:lang="en">Court of Justice</com:Name>
+                </str:Code>
+                <str:Code id="4N" urn="">
+                    <com:Name xml:lang="en">Court of Auditors</com:Name>
+                </str:Code>
+                <str:Code id="4O" urn="">
+                    <com:Name xml:lang="en">European Council</com:Name>
+                </str:Code>
+                <str:Code id="4P" urn="">
+                    <com:Name xml:lang="en">Economic and Social Committee</com:Name>
+                </str:Code>
+                <str:Code id="4Q" urn="">
+                    <com:Name xml:lang="en">Committee of Regions</com:Name>
+                </str:Code>
+                <str:Code id="4R" urn="">
+                    <com:Name xml:lang="en">EU-Africa Infrastructure Trust Fund</com:Name>
+                </str:Code>
+                <str:Code id="4S" urn="">
+                    <com:Name xml:lang="en">European Stability Mechanism (ESM)</com:Name>
+                </str:Code>
+                <str:Code id="4T" urn="">
+                    <com:Name xml:lang="en">Joint Committee of the European Supervisory Authorities (ESAs)</com:Name>
+                </str:Code>
+                <str:Code id="4V" urn="">
+                    <com:Name xml:lang="en">FEMIP (Facility for Euro-Mediterranean Investment and Partnership)</com:Name>
+                </str:Code>
+                <str:Code id="4X" urn="">
+                    <com:Name xml:lang="en">All the European Union Institutions not financed via the EU budget</com:Name>
+                </str:Code>
+                <str:Code id="4Y" urn="">
+                    <com:Name xml:lang="en">All EU Institutions (i.e. European Community Institutions, Organs and Organisms, the ECB and ESM)</com:Name>
+                </str:Code>
+                <str:Code id="4Z" urn="">
+                    <com:Name xml:lang="en">Other European Community Institutions, Organs and Organisms</com:Name>
+                </str:Code>
+                <str:Code id="5A" urn="">
+                    <com:Name xml:lang="en">Organisation for Economic Cooperation and Development (OECD)</com:Name>
+                </str:Code>
+                <str:Code id="5B" urn="">
+                    <com:Name xml:lang="en">Bank for International Settlements (BIS)</com:Name>
+                </str:Code>
+                <str:Code id="5C" urn="">
+                    <com:Name xml:lang="en">Inter-American Development Bank</com:Name>
+                </str:Code>
+                <str:Code id="5D" urn="">
+                    <com:Name xml:lang="en">African Development Bank</com:Name>
+                </str:Code>
+                <str:Code id="5E" urn="">
+                    <com:Name xml:lang="en">Asian Development Bank</com:Name>
+                </str:Code>
+                <str:Code id="5F" urn="">
+                    <com:Name xml:lang="en">European Bank for Reconstruction and Development</com:Name>
+                </str:Code>
+                <str:Code id="5G" urn="">
+                    <com:Name xml:lang="en">IIC (Inter-American Investment Corporation)</com:Name>
+                </str:Code>
+                <str:Code id="5H" urn="">
+                    <com:Name xml:lang="en">NIB (Nordic Investment Bank)</com:Name>
+                </str:Code>
+                <str:Code id="5I" urn="">
+                    <com:Name xml:lang="en">Eastern Caribbean Central Bank (ECCB)</com:Name>
+                </str:Code>
+                <str:Code id="5J" urn="">
+                    <com:Name xml:lang="en">IBEC (International Bank for Economic Co-operation)</com:Name>
+                </str:Code>
+                <str:Code id="5K" urn="">
+                    <com:Name xml:lang="en">IIB (International Investment Bank)</com:Name>
+                </str:Code>
+                <str:Code id="5L" urn="">
+                    <com:Name xml:lang="en">CDB (Caribbean Development Bank)</com:Name>
+                </str:Code>
+                <str:Code id="5M" urn="">
+                    <com:Name xml:lang="en">AMF (Arab Monetary Fund)</com:Name>
+                </str:Code>
+                <str:Code id="5N" urn="">
+                    <com:Name xml:lang="en">BADEA (Banque arabe pour le developpement economique en Afrique)</com:Name>
+                </str:Code>
+                <str:Code id="5O" urn="">
+                    <com:Name xml:lang="en">Banque Centrale des Etats de l`Afrique de l`Ouest (BCEAO)</com:Name>
+                </str:Code>
+                <str:Code id="5P" urn="">
+                    <com:Name xml:lang="en">CASDB (Central African States Development Bank)</com:Name>
+                </str:Code>
+                <str:Code id="5Q" urn="">
+                    <com:Name xml:lang="en">African Development Fund</com:Name>
+                </str:Code>
+                <str:Code id="5R" urn="">
+                    <com:Name xml:lang="en">Asian Development Fund</com:Name>
+                </str:Code>
+                <str:Code id="5S" urn="">
+                    <com:Name xml:lang="en">Fonds special unifie de developpement</com:Name>
+                </str:Code>
+                <str:Code id="5T" urn="">
+                    <com:Name xml:lang="en">CABEI (Central American Bank for Economic Integration)</com:Name>
+                </str:Code>
+                <str:Code id="5U" urn="">
+                    <com:Name xml:lang="en">ADC (Andean Development Corporation)</com:Name>
+                </str:Code>
+                <str:Code id="5V" urn="">
+                    <com:Name xml:lang="en">Other International Organisations (financial institutions)</com:Name>
+                </str:Code>
+                <str:Code id="5W" urn="">
+                    <com:Name xml:lang="en">Banque des Etats de l`Afrique Centrale (BEAC)</com:Name>
+                </str:Code>
+                <str:Code id="5X" urn="">
+                    <com:Name xml:lang="en">Communaute economique et Monetaire de l`Afrique Centrale (CEMAC)</com:Name>
+                </str:Code>
+                <str:Code id="5Y" urn="">
+                    <com:Name xml:lang="en">Eastern Caribbean Currency Union (ECCU)</com:Name>
+                </str:Code>
+                <str:Code id="5Z" urn="">
+                    <com:Name xml:lang="en">Other International Financial Organisations n.i.e.</com:Name>
+                </str:Code>
+                <str:Code id="6A" urn="">
+                    <com:Name xml:lang="en">Other International Organisations (non-financial institutions)</com:Name>
+                </str:Code>
+                <str:Code id="6B" urn="">
+                    <com:Name xml:lang="en">NATO (North Atlantic Treaty Organisation)</com:Name>
+                </str:Code>
+                <str:Code id="6C" urn="">
+                    <com:Name xml:lang="en">Council of Europe</com:Name>
+                </str:Code>
+                <str:Code id="6D" urn="">
+                    <com:Name xml:lang="en">ICRC (International Committee of the Red Cross)</com:Name>
+                </str:Code>
+                <str:Code id="6E" urn="">
+                    <com:Name xml:lang="en">ESA (European Space Agency)</com:Name>
+                </str:Code>
+                <str:Code id="6F" urn="">
+                    <com:Name xml:lang="en">EPO (European Patent Office)</com:Name>
+                </str:Code>
+                <str:Code id="6G" urn="">
+                    <com:Name xml:lang="en">EUROCONTROL (European Organisation for the Safety of Air Navigation)</com:Name>
+                </str:Code>
+                <str:Code id="6H" urn="">
+                    <com:Name xml:lang="en">EUTELSAT (European Telecommunications Satellite Organisation)</com:Name>
+                </str:Code>
+                <str:Code id="6I" urn="">
+                    <com:Name xml:lang="en">West African Economic and Monetary Union (WAEMU)</com:Name>
+                </str:Code>
+                <str:Code id="6J" urn="">
+                    <com:Name xml:lang="en">INTELSAT (International Telecommunications Satellite Organisation)</com:Name>
+                </str:Code>
+                <str:Code id="6K" urn="">
+                    <com:Name xml:lang="en">EBU/UER (European Broadcasting Union/Union europeenne de radio-television)</com:Name>
+                </str:Code>
+                <str:Code id="6L" urn="">
+                    <com:Name xml:lang="en">EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites)</com:Name>
+                </str:Code>
+                <str:Code id="6M" urn="">
+                    <com:Name xml:lang="en">ESO (European Southern Observatory)</com:Name>
+                </str:Code>
+                <str:Code id="6N" urn="">
+                    <com:Name xml:lang="en">ECMWF (European Centre for Medium-Range Weather Forecasts)</com:Name>
+                </str:Code>
+                <str:Code id="6O" urn="">
+                    <com:Name xml:lang="en">EMBL (European Molecular Biology Laboratory)</com:Name>
+                </str:Code>
+                <str:Code id="6P" urn="">
+                    <com:Name xml:lang="en">CERN (European Organisation for Nuclear Research)</com:Name>
+                </str:Code>
+                <str:Code id="6Q" urn="">
+                    <com:Name xml:lang="en">IOM (International Organisation for Migration)</com:Name>
+                </str:Code>
+                <str:Code id="6R" urn="">
+                    <com:Name xml:lang="en">Islamic Development Bank (IDB)</com:Name>
+                </str:Code>
+                <str:Code id="6S" urn="">
+                    <com:Name xml:lang="en">Eurasian Development Bank (EDB)</com:Name>
+                </str:Code>
+                <str:Code id="6T" urn="">
+                    <com:Name xml:lang="en">Paris Club Creditor Institutions</com:Name>
+                </str:Code>
+                <str:Code id="6U" urn="">
+                    <com:Name xml:lang="en">Council of Europe Development Bank (CEB)</com:Name>
+                </str:Code>
+                <str:Code id="6Z" urn="">
+                    <com:Name xml:lang="en">Other International Non-Financial Organisations n.i.e.</com:Name>
+                </str:Code>
+                <str:Code id="7Z" urn="">
+                    <com:Name xml:lang="en">International Organisations excluding Eur.Community Institutions (4A)</com:Name>
+                </str:Code>
+                <str:Code id="8A" urn="">
+                    <com:Name xml:lang="en">International Union of Credit and Investment Insurers</com:Name>
+                </str:Code>
+                <str:Code id="A0" urn="">
+                    <com:Name xml:lang="en">Other EEA countries (all countries excluding the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="A1" urn="">
+                    <com:Name xml:lang="en">World (all entities)</com:Name>
+                </str:Code>
+                <str:Code id="A2" urn="">
+                    <com:Name xml:lang="en">EUR12 (Intra Eur12)</com:Name>
+                </str:Code>
+                <str:Code id="A3" urn="">
+                    <com:Name xml:lang="en">Belgo-Luxembourg Economic Union</com:Name>
+                </str:Code>
+                <str:Code id="A4" urn="">
+                    <com:Name xml:lang="en">Extra EUR12</com:Name>
+                </str:Code>
+                <str:Code id="A5" urn="">
+                    <com:Name xml:lang="en">European Free Trade Association</com:Name>
+                </str:Code>
+                <str:Code id="A6" urn="">
+                    <com:Name xml:lang="en">European Economic Area</com:Name>
+                </str:Code>
+                <str:Code id="A7" urn="">
+                    <com:Name xml:lang="en">Extra EEA</com:Name>
+                </str:Code>
+                <str:Code id="A8" urn="">
+                    <com:Name xml:lang="en">OECD countries</com:Name>
+                </str:Code>
+                <str:Code id="A9" urn="">
+                    <com:Name xml:lang="en">Countries from Central and Eastern Europe</com:Name>
+                </str:Code>
+                <str:Code id="AD" urn="">
+                    <com:Name xml:lang="en">Andorra</com:Name>
+                </str:Code>
+                <str:Code id="AE" urn="">
+                    <com:Name xml:lang="en">United Arab Emirates</com:Name>
+                </str:Code>
+                <str:Code id="AF" urn="">
+                    <com:Name xml:lang="en">Afghanistan</com:Name>
+                </str:Code>
+                <str:Code id="AG" urn="">
+                    <com:Name xml:lang="en">Antigua and Barbuda</com:Name>
+                </str:Code>
+                <str:Code id="AI" urn="">
+                    <com:Name xml:lang="en">Anguilla</com:Name>
+                </str:Code>
+                <str:Code id="AL" urn="">
+                    <com:Name xml:lang="en">Albania</com:Name>
+                </str:Code>
+                <str:Code id="AM" urn="">
+                    <com:Name xml:lang="en">Armenia</com:Name>
+                </str:Code>
+                <str:Code id="AN" urn="">
+                    <com:Name xml:lang="en">Netherlands Antilles</com:Name>
+                </str:Code>
+                <str:Code id="AO" urn="">
+                    <com:Name xml:lang="en">Angola</com:Name>
+                </str:Code>
+                <str:Code id="AQ" urn="">
+                    <com:Name xml:lang="en">Antarctica</com:Name>
+                </str:Code>
+                <str:Code id="AR" urn="">
+                    <com:Name xml:lang="en">Argentina</com:Name>
+                </str:Code>
+                <str:Code id="AS" urn="">
+                    <com:Name xml:lang="en">American Samoa</com:Name>
+                </str:Code>
+                <str:Code id="AT" urn="">
+                    <com:Name xml:lang="en">Austria</com:Name>
+                </str:Code>
+                <str:Code id="AU" urn="">
+                    <com:Name xml:lang="en">Australia</com:Name>
+                </str:Code>
+                <str:Code id="AW" urn="">
+                    <com:Name xml:lang="en">Aruba</com:Name>
+                </str:Code>
+                <str:Code id="AX" urn="">
+                    <com:Name xml:lang="en">Aland Islands</com:Name>
+                </str:Code>
+                <str:Code id="AZ" urn="">
+                    <com:Name xml:lang="en">Azerbaijan</com:Name>
+                </str:Code>
+                <str:Code id="B0" urn="">
+                    <com:Name xml:lang="en">Emerging and developing economies</com:Name>
+                </str:Code>
+                <str:Code id="B1" urn="">
+                    <com:Name xml:lang="en">North American Free Trade Association</com:Name>
+                </str:Code>
+                <str:Code id="B2" urn="">
+                    <com:Name xml:lang="en">Latin America</com:Name>
+                </str:Code>
+                <str:Code id="B3" urn="">
+                    <com:Name xml:lang="en">Countries for the Association of South-East Asian Nations</com:Name>
+                </str:Code>
+                <str:Code id="B4" urn="">
+                    <com:Name xml:lang="en">Organization of Petroleum Exporting Countries</com:Name>
+                </str:Code>
+                <str:Code id="B5" urn="">
+                    <com:Name xml:lang="en">African, Caribbean and Pacific countries (Lome convention)</com:Name>
+                </str:Code>
+                <str:Code id="B6" urn="">
+                    <com:Name xml:lang="en">African ACP countries</com:Name>
+                </str:Code>
+                <str:Code id="B7" urn="">
+                    <com:Name xml:lang="en">Caribbean ACP countries</com:Name>
+                </str:Code>
+                <str:Code id="B8" urn="">
+                    <com:Name xml:lang="en">Pacific ACP countries</com:Name>
+                </str:Code>
+                <str:Code id="B9" urn="">
+                    <com:Name xml:lang="en">Core Newly Industrializing Countries</com:Name>
+                </str:Code>
+                <str:Code id="BA" urn="">
+                    <com:Name xml:lang="en">Bosnia and Herzegovina</com:Name>
+                </str:Code>
+                <str:Code id="BB" urn="">
+                    <com:Name xml:lang="en">Barbados</com:Name>
+                </str:Code>
+                <str:Code id="BD" urn="">
+                    <com:Name xml:lang="en">Bangladesh</com:Name>
+                </str:Code>
+                <str:Code id="BE" urn="">
+                    <com:Name xml:lang="en">Belgium</com:Name>
+                </str:Code>
+                <str:Code id="BF" urn="">
+                    <com:Name xml:lang="en">Burkina Faso</com:Name>
+                </str:Code>
+                <str:Code id="BG" urn="">
+                    <com:Name xml:lang="en">Bulgaria</com:Name>
+                </str:Code>
+                <str:Code id="BH" urn="">
+                    <com:Name xml:lang="en">Bahrain</com:Name>
+                </str:Code>
+                <str:Code id="BI" urn="">
+                    <com:Name xml:lang="en">Burundi</com:Name>
+                </str:Code>
+                <str:Code id="BJ" urn="">
+                    <com:Name xml:lang="en">Benin</com:Name>
+                </str:Code>
+                <str:Code id="BL" urn="">
+                    <com:Name xml:lang="en">Saint Barthelemy</com:Name>
+                </str:Code>
+                <str:Code id="BM" urn="">
+                    <com:Name xml:lang="en">Bermuda</com:Name>
+                </str:Code>
+                <str:Code id="BN" urn="">
+                    <com:Name xml:lang="en">Brunei Darussalam</com:Name>
+                </str:Code>
+                <str:Code id="BO" urn="">
+                    <com:Name xml:lang="en">Bolivia</com:Name>
+                </str:Code>
+                <str:Code id="BQ" urn="">
+                    <com:Name xml:lang="en">Bonaire, Saint Eustatius and Saba</com:Name>
+                </str:Code>
+                <str:Code id="BR" urn="">
+                    <com:Name xml:lang="en">Brazil</com:Name>
+                </str:Code>
+                <str:Code id="BS" urn="">
+                    <com:Name xml:lang="en">Bahamas</com:Name>
+                </str:Code>
+                <str:Code id="BT" urn="">
+                    <com:Name xml:lang="en">Bhutan</com:Name>
+                </str:Code>
+                <str:Code id="BV" urn="">
+                    <com:Name xml:lang="en">Bouvet Island</com:Name>
+                </str:Code>
+                <str:Code id="BW" urn="">
+                    <com:Name xml:lang="en">Botswana</com:Name>
+                </str:Code>
+                <str:Code id="BY" urn="">
+                    <com:Name xml:lang="en">Belarus</com:Name>
+                </str:Code>
+                <str:Code id="BZ" urn="">
+                    <com:Name xml:lang="en">Belize</com:Name>
+                </str:Code>
+                <str:Code id="C1" urn="">
+                    <com:Name xml:lang="en">Asian NICs of the second wave of industrialization</com:Name>
+                </str:Code>
+                <str:Code id="C2" urn="">
+                    <com:Name xml:lang="en">Latin American NICs of the second wave of industrialization</com:Name>
+                </str:Code>
+                <str:Code id="C3" urn="">
+                    <com:Name xml:lang="en">Mediterranean Basin countries</com:Name>
+                </str:Code>
+                <str:Code id="C4" urn="">
+                    <com:Name xml:lang="en">Offshore financial centers</com:Name>
+                </str:Code>
+                <str:Code id="C5" urn="">
+                    <com:Name xml:lang="en">French Franc zone</com:Name>
+                </str:Code>
+                <str:Code id="C6" urn="">
+                    <com:Name xml:lang="en">Community of Independant States</com:Name>
+                </str:Code>
+                <str:Code id="C7" urn="">
+                    <com:Name xml:lang="en">Maghreb countries</com:Name>
+                </str:Code>
+                <str:Code id="C8" urn="">
+                    <com:Name xml:lang="en">Mashrek Countries</com:Name>
+                </str:Code>
+                <str:Code id="C9" urn="">
+                    <com:Name xml:lang="en">Mercado comun de los paises del cono sur</com:Name>
+                </str:Code>
+                <str:Code id="CA" urn="">
+                    <com:Name xml:lang="en">Canada</com:Name>
+                </str:Code>
+                <str:Code id="CC" urn="">
+                    <com:Name xml:lang="en">Cocos (Keeling) Islands</com:Name>
+                </str:Code>
+                <str:Code id="CD" urn="">
+                    <com:Name xml:lang="en">Congo, the Democratic Republic of the</com:Name>
+                </str:Code>
+                <str:Code id="CF" urn="">
+                    <com:Name xml:lang="en">Central African Republic</com:Name>
+                </str:Code>
+                <str:Code id="CG" urn="">
+                    <com:Name xml:lang="en">Congo</com:Name>
+                </str:Code>
+                <str:Code id="CH" urn="">
+                    <com:Name xml:lang="en">Switzerland</com:Name>
+                </str:Code>
+                <str:Code id="CI" urn="">
+                    <com:Name xml:lang="en">Cote d`Ivoire</com:Name>
+                </str:Code>
+                <str:Code id="CK" urn="">
+                    <com:Name xml:lang="en">Cook Islands</com:Name>
+                </str:Code>
+                <str:Code id="CL" urn="">
+                    <com:Name xml:lang="en">Chile</com:Name>
+                </str:Code>
+                <str:Code id="CM" urn="">
+                    <com:Name xml:lang="en">Cameroon</com:Name>
+                </str:Code>
+                <str:Code id="CN" urn="">
+                    <com:Name xml:lang="en">China</com:Name>
+                </str:Code>
+                <str:Code id="CO" urn="">
+                    <com:Name xml:lang="en">Colombia</com:Name>
+                </str:Code>
+                <str:Code id="CR" urn="">
+                    <com:Name xml:lang="en">Costa Rica</com:Name>
+                </str:Code>
+                <str:Code id="CS" urn="">
+                    <com:Name xml:lang="en">Serbia and Montenegro</com:Name>
+                </str:Code>
+                <str:Code id="CU" urn="">
+                    <com:Name xml:lang="en">Cuba</com:Name>
+                </str:Code>
+                <str:Code id="CV" urn="">
+                    <com:Name xml:lang="en">Cape Verde</com:Name>
+                </str:Code>
+                <str:Code id="CW" urn="">
+                    <com:Name xml:lang="en">Curacao</com:Name>
+                </str:Code>
+                <str:Code id="CX" urn="">
+                    <com:Name xml:lang="en">Christmas Island</com:Name>
+                </str:Code>
+                <str:Code id="CY" urn="">
+                    <com:Name xml:lang="en">Cyprus</com:Name>
+                </str:Code>
+                <str:Code id="CZ" urn="">
+                    <com:Name xml:lang="en">Czech Republic</com:Name>
+                </str:Code>
+                <str:Code id="D0" urn="">
+                    <com:Name xml:lang="en">EU (changing composition)</com:Name>
+                </str:Code>
+                <str:Code id="D1" urn="">
+                    <com:Name xml:lang="en">Asia-Pacific Economic Co-operation</com:Name>
+                </str:Code>
+                <str:Code id="D2" urn="">
+                    <com:Name xml:lang="en">EU 15 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="D3" urn="">
+                    <com:Name xml:lang="en">EU 25 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="D4" urn="">
+                    <com:Name xml:lang="en">Extra-EU 15 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="D5" urn="">
+                    <com:Name xml:lang="en">Extra-EU 25 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="D6" urn="">
+                    <com:Name xml:lang="en">Candidate Countries (CCs)</com:Name>
+                </str:Code>
+                <str:Code id="D7" urn="">
+                    <com:Name xml:lang="en">Mediterranean countries in the Euro-Mediterranean Partnership</com:Name>
+                </str:Code>
+                <str:Code id="D8" urn="">
+                    <com:Name xml:lang="en">New EU member states 2004 (CY,CZ,EE,HU,LV,LT,MT,PL,SK,SI)</com:Name>
+                </str:Code>
+                <str:Code id="D9" urn="">
+                    <com:Name xml:lang="en">Extra-EU (changing composition)</com:Name>
+                </str:Code>
+                <str:Code id="DE" urn="">
+                    <com:Name xml:lang="en">Germany</com:Name>
+                </str:Code>
+                <str:Code id="DJ" urn="">
+                    <com:Name xml:lang="en">Djibouti</com:Name>
+                </str:Code>
+                <str:Code id="DK" urn="">
+                    <com:Name xml:lang="en">Denmark</com:Name>
+                </str:Code>
+                <str:Code id="DM" urn="">
+                    <com:Name xml:lang="en">Dominica</com:Name>
+                </str:Code>
+                <str:Code id="DO" urn="">
+                    <com:Name xml:lang="en">Dominican Republic</com:Name>
+                </str:Code>
+                <str:Code id="DZ" urn="">
+                    <com:Name xml:lang="en">Algeria</com:Name>
+                </str:Code>
+                <str:Code id="E0" urn="">
+                    <com:Name xml:lang="en">Other North American countries</com:Name>
+                </str:Code>
+                <str:Code id="E1" urn="">
+                    <com:Name xml:lang="en">Europe</com:Name>
+                </str:Code>
+                <str:Code id="E2" urn="">
+                    <com:Name xml:lang="en">Other European countries (not EU nor EFTA)</com:Name>
+                </str:Code>
+                <str:Code id="E3" urn="">
+                    <com:Name xml:lang="en">Baltic countries</com:Name>
+                </str:Code>
+                <str:Code id="E4" urn="">
+                    <com:Name xml:lang="en">Africa</com:Name>
+                </str:Code>
+                <str:Code id="E5" urn="">
+                    <com:Name xml:lang="en">North Africa countries</com:Name>
+                </str:Code>
+                <str:Code id="E6" urn="">
+                    <com:Name xml:lang="en">Central and South Africa countries</com:Name>
+                </str:Code>
+                <str:Code id="E7" urn="">
+                    <com:Name xml:lang="en">America</com:Name>
+                </str:Code>
+                <str:Code id="E8" urn="">
+                    <com:Name xml:lang="en">North American countries</com:Name>
+                </str:Code>
+                <str:Code id="E9" urn="">
+                    <com:Name xml:lang="en">Central American countries</com:Name>
+                </str:Code>
+                <str:Code id="EC" urn="">
+                    <com:Name xml:lang="en">Ecuador</com:Name>
+                </str:Code>
+                <str:Code id="EE" urn="">
+                    <com:Name xml:lang="en">Estonia</com:Name>
+                </str:Code>
+                <str:Code id="EG" urn="">
+                    <com:Name xml:lang="en">Egypt</com:Name>
+                </str:Code>
+                <str:Code id="EH" urn="">
+                    <com:Name xml:lang="en">Western Sahara</com:Name>
+                </str:Code>
+                <str:Code id="ER" urn="">
+                    <com:Name xml:lang="en">Eritrea</com:Name>
+                </str:Code>
+                <str:Code id="ES" urn="">
+                    <com:Name xml:lang="en">Spain</com:Name>
+                </str:Code>
+                <str:Code id="ET" urn="">
+                    <com:Name xml:lang="en">Ethiopia</com:Name>
+                </str:Code>
+                <str:Code id="F0" urn="">
+                    <com:Name xml:lang="en">Africa and Middle East countries</com:Name>
+                </str:Code>
+                <str:Code id="F1" urn="">
+                    <com:Name xml:lang="en">South American countries</com:Name>
+                </str:Code>
+                <str:Code id="F2" urn="">
+                    <com:Name xml:lang="en">Asia</com:Name>
+                </str:Code>
+                <str:Code id="F3" urn="">
+                    <com:Name xml:lang="en">Near and Middle East countries</com:Name>
+                </str:Code>
+                <str:Code id="F4" urn="">
+                    <com:Name xml:lang="en">Gulf Arabian Countries</com:Name>
+                </str:Code>
+                <str:Code id="F5" urn="">
+                    <com:Name xml:lang="en">Other Near and Middle East countries</com:Name>
+                </str:Code>
+                <str:Code id="F6" urn="">
+                    <com:Name xml:lang="en">Other Asian countries</com:Name>
+                </str:Code>
+                <str:Code id="F7" urn="">
+                    <com:Name xml:lang="en">Australia, Oceania and other territories</com:Name>
+                </str:Code>
+                <str:Code id="F8" urn="">
+                    <com:Name xml:lang="en">Australian Oceania</com:Name>
+                </str:Code>
+                <str:Code id="F9" urn="">
+                    <com:Name xml:lang="en">American Oceania</com:Name>
+                </str:Code>
+                <str:Code id="FI" urn="">
+                    <com:Name xml:lang="en">Finland</com:Name>
+                </str:Code>
+                <str:Code id="FJ" urn="">
+                    <com:Name xml:lang="en">Fiji</com:Name>
+                </str:Code>
+                <str:Code id="FK" urn="">
+                    <com:Name xml:lang="en">Falkland Islands (Malvinas)</com:Name>
+                </str:Code>
+                <str:Code id="FM" urn="">
+                    <com:Name xml:lang="en">Micronesia, Federated States of</com:Name>
+                </str:Code>
+                <str:Code id="FO" urn="">
+                    <com:Name xml:lang="en">Faroe Islands</com:Name>
+                </str:Code>
+                <str:Code id="FR" urn="">
+                    <com:Name xml:lang="en">France</com:Name>
+                </str:Code>
+                <str:Code id="G0" urn="">
+                    <com:Name xml:lang="en">Other European countries</com:Name>
+                </str:Code>
+                <str:Code id="G1" urn="">
+                    <com:Name xml:lang="en">New Zealand Oceania</com:Name>
+                </str:Code>
+                <str:Code id="G2" urn="">
+                    <com:Name xml:lang="en">Polar regions</com:Name>
+                </str:Code>
+                <str:Code id="G3" urn="">
+                    <com:Name xml:lang="en">G20 (Argentina,Australia,Brazil,Canada,China,European Union,France,Germany,India,Indonesia,Italy,Japan,Mexico,Russia,Saudi Arabia,South Africa,South Korea,Turkey,United Kingdom,United States)</com:Name>
+                </str:Code>
+                <str:Code id="GA" urn="">
+                    <com:Name xml:lang="en">Gabon</com:Name>
+                </str:Code>
+                <str:Code id="GB" urn="">
+                    <com:Name xml:lang="en">United Kingdom</com:Name>
+                </str:Code>
+                <str:Code id="GD" urn="">
+                    <com:Name xml:lang="en">Grenada</com:Name>
+                </str:Code>
+                <str:Code id="GE" urn="">
+                    <com:Name xml:lang="en">Georgia</com:Name>
+                </str:Code>
+                <str:Code id="GF" urn="">
+                    <com:Name xml:lang="en">French Guiana</com:Name>
+                </str:Code>
+                <str:Code id="GG" urn="">
+                    <com:Name xml:lang="en">Guernsey</com:Name>
+                </str:Code>
+                <str:Code id="GH" urn="">
+                    <com:Name xml:lang="en">Ghana</com:Name>
+                </str:Code>
+                <str:Code id="GI" urn="">
+                    <com:Name xml:lang="en">Gibraltar</com:Name>
+                </str:Code>
+                <str:Code id="GL" urn="">
+                    <com:Name xml:lang="en">Greenland</com:Name>
+                </str:Code>
+                <str:Code id="GM" urn="">
+                    <com:Name xml:lang="en">Gambia</com:Name>
+                </str:Code>
+                <str:Code id="GN" urn="">
+                    <com:Name xml:lang="en">Guinea</com:Name>
+                </str:Code>
+                <str:Code id="GP" urn="">
+                    <com:Name xml:lang="en">Guadeloupe</com:Name>
+                </str:Code>
+                <str:Code id="GQ" urn="">
+                    <com:Name xml:lang="en">Equatorial Guinea</com:Name>
+                </str:Code>
+                <str:Code id="GR" urn="">
+                    <com:Name xml:lang="en">Greece</com:Name>
+                </str:Code>
+                <str:Code id="GS" urn="">
+                    <com:Name xml:lang="en">South Georgia and the South Sandwich Islands</com:Name>
+                </str:Code>
+                <str:Code id="GT" urn="">
+                    <com:Name xml:lang="en">Guatemala</com:Name>
+                </str:Code>
+                <str:Code id="GU" urn="">
+                    <com:Name xml:lang="en">Guam</com:Name>
+                </str:Code>
+                <str:Code id="GW" urn="">
+                    <com:Name xml:lang="en">Guinea-Bissau</com:Name>
+                </str:Code>
+                <str:Code id="GY" urn="">
+                    <com:Name xml:lang="en">Guyana</com:Name>
+                </str:Code>
+                <str:Code id="H0" urn="">
+                    <com:Name xml:lang="en">EEA except the euro area and reference area</com:Name>
+                </str:Code>
+                <str:Code id="HK" urn="">
+                    <com:Name xml:lang="en">Hong Kong</com:Name>
+                </str:Code>
+                <str:Code id="HM" urn="">
+                    <com:Name xml:lang="en">Heard Island and McDonald Islands</com:Name>
+                </str:Code>
+                <str:Code id="HN" urn="">
+                    <com:Name xml:lang="en">Honduras</com:Name>
+                </str:Code>
+                <str:Code id="HR" urn="">
+                    <com:Name xml:lang="en">Croatia</com:Name>
+                </str:Code>
+                <str:Code id="HT" urn="">
+                    <com:Name xml:lang="en">Haiti</com:Name>
+                </str:Code>
+                <str:Code id="HU" urn="">
+                    <com:Name xml:lang="en">Hungary</com:Name>
+                </str:Code>
+                <str:Code id="I1" urn="">
+                    <com:Name xml:lang="en">Euro area 11 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="I2" urn="">
+                    <com:Name xml:lang="en">Euro area 12 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="I3" urn="">
+                    <com:Name xml:lang="en">Euro area 13 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="I4" urn="">
+                    <com:Name xml:lang="en">Euro area 15 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="I5" urn="">
+                    <com:Name xml:lang="en">Euro area 16 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="I6" urn="">
+                    <com:Name xml:lang="en">Euro area 17 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="I7" urn="">
+                    <com:Name xml:lang="en">Euro area 18 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="ID" urn="">
+                    <com:Name xml:lang="en">Indonesia</com:Name>
+                </str:Code>
+                <str:Code id="IE" urn="">
+                    <com:Name xml:lang="en">Ireland</com:Name>
+                </str:Code>
+                <str:Code id="IL" urn="">
+                    <com:Name xml:lang="en">Israel</com:Name>
+                </str:Code>
+                <str:Code id="IM" urn="">
+                    <com:Name xml:lang="en">Isle of Man</com:Name>
+                </str:Code>
+                <str:Code id="IN" urn="">
+                    <com:Name xml:lang="en">India</com:Name>
+                </str:Code>
+                <str:Code id="IO" urn="">
+                    <com:Name xml:lang="en">British Indian Ocean territory</com:Name>
+                </str:Code>
+                <str:Code id="IQ" urn="">
+                    <com:Name xml:lang="en">Iraq</com:Name>
+                </str:Code>
+                <str:Code id="IR" urn="">
+                    <com:Name xml:lang="en">Iran, Islamic Republic of</com:Name>
+                </str:Code>
+                <str:Code id="IS" urn="">
+                    <com:Name xml:lang="en">Iceland</com:Name>
+                </str:Code>
+                <str:Code id="IT" urn="">
+                    <com:Name xml:lang="en">Italy</com:Name>
+                </str:Code>
+                <str:Code id="J1" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 11 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="J2" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 12 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="J3" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 13 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="J4" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 15 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="J5" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 16 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="J6" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 17 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="J7" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 18 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="JE" urn="">
+                    <com:Name xml:lang="en">Jersey</com:Name>
+                </str:Code>
+                <str:Code id="JM" urn="">
+                    <com:Name xml:lang="en">Jamaica</com:Name>
+                </str:Code>
+                <str:Code id="JO" urn="">
+                    <com:Name xml:lang="en">Jordan</com:Name>
+                </str:Code>
+                <str:Code id="JP" urn="">
+                    <com:Name xml:lang="en">Japan</com:Name>
+                </str:Code>
+                <str:Code id="K1" urn="">
+                    <com:Name xml:lang="en">EU member states not belonging to Euro area 11 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="K2" urn="">
+                    <com:Name xml:lang="en">EU member states not belonging to Euro area 12 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="K3" urn="">
+                    <com:Name xml:lang="en">EU member states not belonging to Euro area 13 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="K4" urn="">
+                    <com:Name xml:lang="en">EU member states not belonging to Euro area 15 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="K5" urn="">
+                    <com:Name xml:lang="en">EU member states not belonging to Euro area 16 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="K6" urn="">
+                    <com:Name xml:lang="en">EU member states not belonging to Euro area 17 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="K7" urn="">
+                    <com:Name xml:lang="en">EU28 Member States not belonging to Euro Area 17 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="K8" urn="">
+                    <com:Name xml:lang="en">EU28 member states not belonging to Euro area 18 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="KE" urn="">
+                    <com:Name xml:lang="en">Kenya</com:Name>
+                </str:Code>
+                <str:Code id="KG" urn="">
+                    <com:Name xml:lang="en">Kyrgyzstan</com:Name>
+                </str:Code>
+                <str:Code id="KH" urn="">
+                    <com:Name xml:lang="en">Cambodia</com:Name>
+                </str:Code>
+                <str:Code id="KI" urn="">
+                    <com:Name xml:lang="en">Kiribati</com:Name>
+                </str:Code>
+                <str:Code id="KM" urn="">
+                    <com:Name xml:lang="en">Comoros</com:Name>
+                </str:Code>
+                <str:Code id="KN" urn="">
+                    <com:Name xml:lang="en">Saint Kitts and Nevis</com:Name>
+                </str:Code>
+                <str:Code id="KP" urn="">
+                    <com:Name xml:lang="en">Korea, Democratic People`s Republic of</com:Name>
+                </str:Code>
+                <str:Code id="KR" urn="">
+                    <com:Name xml:lang="en">Korea, Republic of</com:Name>
+                </str:Code>
+                <str:Code id="KW" urn="">
+                    <com:Name xml:lang="en">Kuwait</com:Name>
+                </str:Code>
+                <str:Code id="KY" urn="">
+                    <com:Name xml:lang="en">Cayman Islands</com:Name>
+                </str:Code>
+                <str:Code id="KZ" urn="">
+                    <com:Name xml:lang="en">Kazakhstan</com:Name>
+                </str:Code>
+                <str:Code id="L0" urn="">
+                    <com:Name xml:lang="en">Other EU member states (all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="L1" urn="">
+                    <com:Name xml:lang="en">Other Euro area 11 member states (fixed composition - all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="L2" urn="">
+                    <com:Name xml:lang="en">Other Euro area 12 member states (fixed composition - all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="L3" urn="">
+                    <com:Name xml:lang="en">Other Euro area 13 member states (fixed composition - all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="L4" urn="">
+                    <com:Name xml:lang="en">Other Euro area 15 member states (fixed composition - all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="L5" urn="">
+                    <com:Name xml:lang="en">Other Euro area 16 member states (fixed composition - all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="L6" urn="">
+                    <com:Name xml:lang="en">Other Euro area 17 member states (fixed composition - all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="L7" urn="">
+                    <com:Name xml:lang="en">Other Euro area 18 member states (fixed composition - all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="LA" urn="">
+                    <com:Name xml:lang="en">Lao People`s Democratic Republic</com:Name>
+                </str:Code>
+                <str:Code id="LB" urn="">
+                    <com:Name xml:lang="en">Lebanon</com:Name>
+                </str:Code>
+                <str:Code id="LC" urn="">
+                    <com:Name xml:lang="en">Saint Lucia</com:Name>
+                </str:Code>
+                <str:Code id="LI" urn="">
+                    <com:Name xml:lang="en">Liechtenstein</com:Name>
+                </str:Code>
+                <str:Code id="LK" urn="">
+                    <com:Name xml:lang="en">Sri Lanka</com:Name>
+                </str:Code>
+                <str:Code id="LR" urn="">
+                    <com:Name xml:lang="en">Liberia</com:Name>
+                </str:Code>
+                <str:Code id="LS" urn="">
+                    <com:Name xml:lang="en">Lesotho</com:Name>
+                </str:Code>
+                <str:Code id="LT" urn="">
+                    <com:Name xml:lang="en">Lithuania</com:Name>
+                </str:Code>
+                <str:Code id="LU" urn="">
+                    <com:Name xml:lang="en">Luxembourg</com:Name>
+                </str:Code>
+                <str:Code id="LV" urn="">
+                    <com:Name xml:lang="en">Latvia</com:Name>
+                </str:Code>
+                <str:Code id="LY" urn="">
+                    <com:Name xml:lang="en">Libya</com:Name>
+                </str:Code>
+                <str:Code id="M0" urn="">
+                    <com:Name xml:lang="en">All areas other than EU 15 and reference/home area</com:Name>
+                </str:Code>
+                <str:Code id="M1" urn="">
+                    <com:Name xml:lang="en">All areas other than Euro area 11 (fixed composition) and reference/home area</com:Name>
+                </str:Code>
+                <str:Code id="M2" urn="">
+                    <com:Name xml:lang="en">All areas other than Euro area 12 (fixed composition) and reference/home area</com:Name>
+                </str:Code>
+                <str:Code id="M3" urn="">
+                    <com:Name xml:lang="en">All areas other than Euro area 13 (fixed composition) and reference/home area</com:Name>
+                </str:Code>
+                <str:Code id="M4" urn="">
+                    <com:Name xml:lang="en">All areas other than Euro area 15 (fixed composition) and reference/home area</com:Name>
+                </str:Code>
+                <str:Code id="M5" urn="">
+                    <com:Name xml:lang="en">All areas other than Euro area 16 (fixed composition) and reference/home area</com:Name>
+                </str:Code>
+                <str:Code id="M6" urn="">
+                    <com:Name xml:lang="en">All areas other than Euro area 17 (fixed composition) and reference/home area</com:Name>
+                </str:Code>
+                <str:Code id="M7" urn="">
+                    <com:Name xml:lang="en">All areas other than Euro area 18 (fixed composition) and reference/home area</com:Name>
+                </str:Code>
+                <str:Code id="MA" urn="">
+                    <com:Name xml:lang="en">Morocco</com:Name>
+                </str:Code>
+                <str:Code id="MC" urn="">
+                    <com:Name xml:lang="en">Monaco</com:Name>
+                </str:Code>
+                <str:Code id="MD" urn="">
+                    <com:Name xml:lang="en">Moldova, Republic of</com:Name>
+                </str:Code>
+                <str:Code id="ME" urn="">
+                    <com:Name xml:lang="en">Montenegro</com:Name>
+                </str:Code>
+                <str:Code id="MF" urn="">
+                    <com:Name xml:lang="en">Saint Martin (French part)</com:Name>
+                </str:Code>
+                <str:Code id="MG" urn="">
+                    <com:Name xml:lang="en">Madagascar</com:Name>
+                </str:Code>
+                <str:Code id="MH" urn="">
+                    <com:Name xml:lang="en">Marshall islands</com:Name>
+                </str:Code>
+                <str:Code id="MK" urn="">
+                    <com:Name xml:lang="en">Macedonia, The Former Yugoslav Republic of</com:Name>
+                </str:Code>
+                <str:Code id="ML" urn="">
+                    <com:Name xml:lang="en">Mali</com:Name>
+                </str:Code>
+                <str:Code id="MM" urn="">
+                    <com:Name xml:lang="en">Myanmar</com:Name>
+                </str:Code>
+                <str:Code id="MN" urn="">
+                    <com:Name xml:lang="en">Mongolia</com:Name>
+                </str:Code>
+                <str:Code id="MO" urn="">
+                    <com:Name xml:lang="en">Macao</com:Name>
+                </str:Code>
+                <str:Code id="MP" urn="">
+                    <com:Name xml:lang="en">Northern Mariana Islands</com:Name>
+                </str:Code>
+                <str:Code id="MQ" urn="">
+                    <com:Name xml:lang="en">Martinique</com:Name>
+                </str:Code>
+                <str:Code id="MR" urn="">
+                    <com:Name xml:lang="en">Mauritania</com:Name>
+                </str:Code>
+                <str:Code id="MS" urn="">
+                    <com:Name xml:lang="en">Montserrat</com:Name>
+                </str:Code>
+                <str:Code id="MT" urn="">
+                    <com:Name xml:lang="en">Malta</com:Name>
+                </str:Code>
+                <str:Code id="MU" urn="">
+                    <com:Name xml:lang="en">Mauritius</com:Name>
+                </str:Code>
+                <str:Code id="MV" urn="">
+                    <com:Name xml:lang="en">Maldives</com:Name>
+                </str:Code>
+                <str:Code id="MW" urn="">
+                    <com:Name xml:lang="en">Malawi</com:Name>
+                </str:Code>
+                <str:Code id="MX" urn="">
+                    <com:Name xml:lang="en">Mexico</com:Name>
+                </str:Code>
+                <str:Code id="MY" urn="">
+                    <com:Name xml:lang="en">Malaysia</com:Name>
+                </str:Code>
+                <str:Code id="MZ" urn="">
+                    <com:Name xml:lang="en">Mozambique</com:Name>
+                </str:Code>
+                <str:Code id="N0" urn="">
+                    <com:Name xml:lang="en">Intra EU Extra Euro Area not allocated (changing composition)</com:Name>
+                </str:Code>
+                <str:Code id="N1" urn="">
+                    <com:Name xml:lang="en">Intra-Euro area 11 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="N2" urn="">
+                    <com:Name xml:lang="en">Intra-Euro area 12 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="N3" urn="">
+                    <com:Name xml:lang="en">Intra-Euro area 13 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="N4" urn="">
+                    <com:Name xml:lang="en">Intra-Euro area 15 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="N5" urn="">
+                    <com:Name xml:lang="en">Intra-Euro area 16 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="N6" urn="">
+                    <com:Name xml:lang="en">Intra-Euro area 17 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="NA" urn="">
+                    <com:Name xml:lang="en">Namibia</com:Name>
+                </str:Code>
+                <str:Code id="NC" urn="">
+                    <com:Name xml:lang="en">New Caledonia</com:Name>
+                </str:Code>
+                <str:Code id="NE" urn="">
+                    <com:Name xml:lang="en">Niger</com:Name>
+                </str:Code>
+                <str:Code id="NF" urn="">
+                    <com:Name xml:lang="en">Norfolk Island</com:Name>
+                </str:Code>
+                <str:Code id="NG" urn="">
+                    <com:Name xml:lang="en">Nigeria</com:Name>
+                </str:Code>
+                <str:Code id="NI" urn="">
+                    <com:Name xml:lang="en">Nicaragua</com:Name>
+                </str:Code>
+                <str:Code id="NL" urn="">
+                    <com:Name xml:lang="en">Netherlands</com:Name>
+                </str:Code>
+                <str:Code id="NO" urn="">
+                    <com:Name xml:lang="en">Norway</com:Name>
+                </str:Code>
+                <str:Code id="NP" urn="">
+                    <com:Name xml:lang="en">Nepal</com:Name>
+                </str:Code>
+                <str:Code id="NR" urn="">
+                    <com:Name xml:lang="en">Nauru</com:Name>
+                </str:Code>
+                <str:Code id="NU" urn="">
+                    <com:Name xml:lang="en">Niue</com:Name>
+                </str:Code>
+                <str:Code id="NZ" urn="">
+                    <com:Name xml:lang="en">New Zealand</com:Name>
+                </str:Code>
+                <str:Code id="O1" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 11 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="O2" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 12 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="O3" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 13 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="O4" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 15 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="O5" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 16 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="O6" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area 17 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="OM" urn="">
+                    <com:Name xml:lang="en">Oman</com:Name>
+                </str:Code>
+                <str:Code id="P1" urn="">
+                    <com:Name xml:lang="en">World not allocated (Euro area 11 - fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="P2" urn="">
+                    <com:Name xml:lang="en">World not allocated (Euro area 12 - fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="P3" urn="">
+                    <com:Name xml:lang="en">World not allocated (Euro area 13 - fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="P4" urn="">
+                    <com:Name xml:lang="en">World not allocated (Euro area 15 - fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="P5" urn="">
+                    <com:Name xml:lang="en">World not allocated (Euro area 16 - fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="P6" urn="">
+                    <com:Name xml:lang="en">World not allocated (Euro area 17 - fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="PA" urn="">
+                    <com:Name xml:lang="en">Panama</com:Name>
+                </str:Code>
+                <str:Code id="PE" urn="">
+                    <com:Name xml:lang="en">Peru</com:Name>
+                </str:Code>
+                <str:Code id="PF" urn="">
+                    <com:Name xml:lang="en">French Polynesia</com:Name>
+                </str:Code>
+                <str:Code id="PG" urn="">
+                    <com:Name xml:lang="en">Papua New Guinea</com:Name>
+                </str:Code>
+                <str:Code id="PH" urn="">
+                    <com:Name xml:lang="en">Philippines</com:Name>
+                </str:Code>
+                <str:Code id="PK" urn="">
+                    <com:Name xml:lang="en">Pakistan</com:Name>
+                </str:Code>
+                <str:Code id="PL" urn="">
+                    <com:Name xml:lang="en">Poland</com:Name>
+                </str:Code>
+                <str:Code id="PM" urn="">
+                    <com:Name xml:lang="en">Saint Pierre and Miquelon</com:Name>
+                </str:Code>
+                <str:Code id="PN" urn="">
+                    <com:Name xml:lang="en">Pitcairn</com:Name>
+                </str:Code>
+                <str:Code id="PR" urn="">
+                    <com:Name xml:lang="en">Puerto Rico</com:Name>
+                </str:Code>
+                <str:Code id="PS" urn="">
+                    <com:Name xml:lang="en">Palestinian Territory, Occupied</com:Name>
+                </str:Code>
+                <str:Code id="PT" urn="">
+                    <com:Name xml:lang="en">Portugal</com:Name>
+                </str:Code>
+                <str:Code id="PW" urn="">
+                    <com:Name xml:lang="en">Palau</com:Name>
+                </str:Code>
+                <str:Code id="PY" urn="">
+                    <com:Name xml:lang="en">Paraguay</com:Name>
+                </str:Code>
+                <str:Code id="Q6" urn="">
+                    <com:Name xml:lang="en">EU 28 member states, outside the euro area 18, excluding DK, SE, GB (CZ,HU,LT,PL,RO,BG)</com:Name>
+                </str:Code>
+                <str:Code id="QA" urn="">
+                    <com:Name xml:lang="en">Qatar</com:Name>
+                </str:Code>
+                <str:Code id="R0" urn="">
+                    <com:Name xml:lang="en">Candidate countries (IS,ME,MK,RS,TR)</com:Name>
+                </str:Code>
+                <str:Code id="R1" urn="">
+                    <com:Name xml:lang="en">West Germany</com:Name>
+                </str:Code>
+                <str:Code id="R2" urn="">
+                    <com:Name xml:lang="en">East Germany</com:Name>
+                </str:Code>
+                <str:Code id="R6" urn="">
+                    <com:Name xml:lang="en">Candidates countries (HR, MK, TR)</com:Name>
+                </str:Code>
+                <str:Code id="R7" urn="">
+                    <com:Name xml:lang="en">Candidate countries (HR,IS,MK,TR)</com:Name>
+                </str:Code>
+                <str:Code id="R8" urn="">
+                    <com:Name xml:lang="en">New EU member states joining in 2004 and 2007 (BG,CY,CZ,EE,HU,LV,LT,MT,PL,RO,SK,SI)</com:Name>
+                </str:Code>
+                <str:Code id="R9" urn="">
+                    <com:Name xml:lang="en">Candidate countries (HR,IS,ME,MK,TR)</com:Name>
+                </str:Code>
+                <str:Code id="RE" urn="">
+                    <com:Name xml:lang="en">Reunion</com:Name>
+                </str:Code>
+                <str:Code id="RO" urn="">
+                    <com:Name xml:lang="en">Romania</com:Name>
+                </str:Code>
+                <str:Code id="RS" urn="">
+                    <com:Name xml:lang="en">Serbia</com:Name>
+                </str:Code>
+                <str:Code id="RU" urn="">
+                    <com:Name xml:lang="en">Russian Federation</com:Name>
+                </str:Code>
+                <str:Code id="RW" urn="">
+                    <com:Name xml:lang="en">Rwanda</com:Name>
+                </str:Code>
+                <str:Code id="S0" urn="">
+                    <com:Name xml:lang="en">Euro area (moving concept in the Real Time database context)</com:Name>
+                </str:Code>
+                <str:Code id="S1" urn="">
+                    <com:Name xml:lang="en">EU 15 (fixed composition) excluding LU</com:Name>
+                </str:Code>
+                <str:Code id="S2" urn="">
+                    <com:Name xml:lang="en">EU 12 (fixed composition) including West Germany</com:Name>
+                </str:Code>
+                <str:Code id="S3" urn="">
+                    <com:Name xml:lang="en">EU 27 member states, outside the euro area 13, excluding DK, SE, GB (CY,CZ,EE,HU,LV,LT,MT,PL,SK,RO,BG)</com:Name>
+                </str:Code>
+                <str:Code id="S4" urn="">
+                    <com:Name xml:lang="en">EU 27 member states, outside the euro area 15, excluding DK, SE, GB (CZ,EE,HU,LV,LT,PL,SK,RO,BG)</com:Name>
+                </str:Code>
+                <str:Code id="S5" urn="">
+                    <com:Name xml:lang="en">EU 27 member states, outside the euro area 16, excluding DK, SE, GB (CZ,EE,HU,LV,LT,PL,RO,BG)</com:Name>
+                </str:Code>
+                <str:Code id="S6" urn="">
+                    <com:Name xml:lang="en">EU 27 member states, outside the euro area 17, excluding DK, SE, GB (CZ,HU,LV,LT,PL,RO,BG)</com:Name>
+                </str:Code>
+                <str:Code id="S7" urn="">
+                    <com:Name xml:lang="en">EU 28 member states, outside the euro area 17, excluding DK, SE, GB (CZ,HU,LV,LT,PL,RO,BG,HR)</com:Name>
+                </str:Code>
+                <str:Code id="SA" urn="">
+                    <com:Name xml:lang="en">Saudi Arabia</com:Name>
+                </str:Code>
+                <str:Code id="SB" urn="">
+                    <com:Name xml:lang="en">Solomon Islands</com:Name>
+                </str:Code>
+                <str:Code id="SC" urn="">
+                    <com:Name xml:lang="en">Seychelles</com:Name>
+                </str:Code>
+                <str:Code id="SD" urn="">
+                    <com:Name xml:lang="en">Sudan</com:Name>
+                </str:Code>
+                <str:Code id="SE" urn="">
+                    <com:Name xml:lang="en">Sweden</com:Name>
+                </str:Code>
+                <str:Code id="SG" urn="">
+                    <com:Name xml:lang="en">Singapore</com:Name>
+                </str:Code>
+                <str:Code id="SH" urn="">
+                    <com:Name xml:lang="en">Saint Helena</com:Name>
+                </str:Code>
+                <str:Code id="SI" urn="">
+                    <com:Name xml:lang="en">Slovenia</com:Name>
+                </str:Code>
+                <str:Code id="SJ" urn="">
+                    <com:Name xml:lang="en">Svalbard and Jan Mayen</com:Name>
+                </str:Code>
+                <str:Code id="SK" urn="">
+                    <com:Name xml:lang="en">Slovakia</com:Name>
+                </str:Code>
+                <str:Code id="SL" urn="">
+                    <com:Name xml:lang="en">Sierra Leone</com:Name>
+                </str:Code>
+                <str:Code id="SM" urn="">
+                    <com:Name xml:lang="en">San Marino</com:Name>
+                </str:Code>
+                <str:Code id="SN" urn="">
+                    <com:Name xml:lang="en">Senegal</com:Name>
+                </str:Code>
+                <str:Code id="SO" urn="">
+                    <com:Name xml:lang="en">Somalia</com:Name>
+                </str:Code>
+                <str:Code id="SR" urn="">
+                    <com:Name xml:lang="en">Suriname</com:Name>
+                </str:Code>
+                <str:Code id="SS" urn="">
+                    <com:Name xml:lang="en">South Sudan</com:Name>
+                </str:Code>
+                <str:Code id="ST" urn="">
+                    <com:Name xml:lang="en">Sao Tome and Principe</com:Name>
+                </str:Code>
+                <str:Code id="SV" urn="">
+                    <com:Name xml:lang="en">El Salvador</com:Name>
+                </str:Code>
+                <str:Code id="SX" urn="">
+                    <com:Name xml:lang="en">Sint Maarten (Dutch part)</com:Name>
+                </str:Code>
+                <str:Code id="SY" urn="">
+                    <com:Name xml:lang="en">Syrian Arab Republic</com:Name>
+                </str:Code>
+                <str:Code id="SZ" urn="">
+                    <com:Name xml:lang="en">Swaziland</com:Name>
+                </str:Code>
+                <str:Code id="T1" urn="">
+                    <com:Name xml:lang="en">Euro area 11 (fixed composition) excluding LU</com:Name>
+                </str:Code>
+                <str:Code id="T2" urn="">
+                    <com:Name xml:lang="en">Euro area countries except Germany, France, Italy and Spain</com:Name>
+                </str:Code>
+                <str:Code id="TC" urn="">
+                    <com:Name xml:lang="en">Turks and Caicos Islands</com:Name>
+                </str:Code>
+                <str:Code id="TD" urn="">
+                    <com:Name xml:lang="en">Chad</com:Name>
+                </str:Code>
+                <str:Code id="TF" urn="">
+                    <com:Name xml:lang="en">French Southern Territories</com:Name>
+                </str:Code>
+                <str:Code id="TG" urn="">
+                    <com:Name xml:lang="en">Togo</com:Name>
+                </str:Code>
+                <str:Code id="TH" urn="">
+                    <com:Name xml:lang="en">Thailand</com:Name>
+                </str:Code>
+                <str:Code id="TJ" urn="">
+                    <com:Name xml:lang="en">Tajikistan</com:Name>
+                </str:Code>
+                <str:Code id="TK" urn="">
+                    <com:Name xml:lang="en">Tokelau</com:Name>
+                </str:Code>
+                <str:Code id="TL" urn="">
+                    <com:Name xml:lang="en">Timor-Leste</com:Name>
+                </str:Code>
+                <str:Code id="TM" urn="">
+                    <com:Name xml:lang="en">Turkmenistan</com:Name>
+                </str:Code>
+                <str:Code id="TN" urn="">
+                    <com:Name xml:lang="en">Tunisia</com:Name>
+                </str:Code>
+                <str:Code id="TO" urn="">
+                    <com:Name xml:lang="en">Tonga</com:Name>
+                </str:Code>
+                <str:Code id="TR" urn="">
+                    <com:Name xml:lang="en">Turkey</com:Name>
+                </str:Code>
+                <str:Code id="TT" urn="">
+                    <com:Name xml:lang="en">Trinidad and Tobago</com:Name>
+                </str:Code>
+                <str:Code id="TV" urn="">
+                    <com:Name xml:lang="en">Tuvalu</com:Name>
+                </str:Code>
+                <str:Code id="TW" urn="">
+                    <com:Name xml:lang="en">Taiwan, Province of China</com:Name>
+                </str:Code>
+                <str:Code id="TZ" urn="">
+                    <com:Name xml:lang="en">Tanzania, United Republic of</com:Name>
+                </str:Code>
+                <str:Code id="U0" urn="">
+                    <com:Name xml:lang="en">EU excluding the Euro area and reference area</com:Name>
+                </str:Code>
+                <str:Code id="U2" urn="">
+                    <com:Name xml:lang="en">Euro area (changing composition)</com:Name>
+                </str:Code>
+                <str:Code id="U3" urn="">
+                    <com:Name xml:lang="en">EU member states not belonging to the Euro area</com:Name>
+                </str:Code>
+                <str:Code id="U4" urn="">
+                    <com:Name xml:lang="en">Extra Euro area</com:Name>
+                </str:Code>
+                <str:Code id="U5" urn="">
+                    <com:Name xml:lang="en">Other Euro area member states (all countries except the reference area)</com:Name>
+                </str:Code>
+                <str:Code id="U6" urn="">
+                    <com:Name xml:lang="en">Domestic (home or reference area)</com:Name>
+                </str:Code>
+                <str:Code id="U7" urn="">
+                    <com:Name xml:lang="en">Euro area and the reference area</com:Name>
+                </str:Code>
+                <str:Code id="U8" urn="">
+                    <com:Name xml:lang="en">All areas other than Euro area and ref./home area</com:Name>
+                </str:Code>
+                <str:Code id="U9" urn="">
+                    <com:Name xml:lang="en">All areas other than EU and ref./home area</com:Name>
+                </str:Code>
+                <str:Code id="UA" urn="">
+                    <com:Name xml:lang="en">Ukraine</com:Name>
+                </str:Code>
+                <str:Code id="UG" urn="">
+                    <com:Name xml:lang="en">Uganda</com:Name>
+                </str:Code>
+                <str:Code id="UM" urn="">
+                    <com:Name xml:lang="en">United States Minor outlying islands</com:Name>
+                </str:Code>
+                <str:Code id="US" urn="">
+                    <com:Name xml:lang="en">United States</com:Name>
+                </str:Code>
+                <str:Code id="UY" urn="">
+                    <com:Name xml:lang="en">Uruguay</com:Name>
+                </str:Code>
+                <str:Code id="UZ" urn="">
+                    <com:Name xml:lang="en">Uzbekistan</com:Name>
+                </str:Code>
+                <str:Code id="V1" urn="">
+                    <com:Name xml:lang="en">EU 27 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="V2" urn="">
+                    <com:Name xml:lang="en">Extra-EU 27 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="V3" urn="">
+                    <com:Name xml:lang="en">EU 28 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="V4" urn="">
+                    <com:Name xml:lang="en">Extra-EU 28 (fixed composition)</com:Name>
+                </str:Code>
+                <str:Code id="VA" urn="">
+                    <com:Name xml:lang="en">Holy See (Vatican City State)</com:Name>
+                </str:Code>
+                <str:Code id="VC" urn="">
+                    <com:Name xml:lang="en">Saint Vincent and the Grenadines</com:Name>
+                </str:Code>
+                <str:Code id="VE" urn="">
+                    <com:Name xml:lang="en">Venezuela, Bolivarian Republic</com:Name>
+                </str:Code>
+                <str:Code id="VG" urn="">
+                    <com:Name xml:lang="en">Virgin Islands, British</com:Name>
+                </str:Code>
+                <str:Code id="VI" urn="">
+                    <com:Name xml:lang="en">Virgin Islands, U.S.</com:Name>
+                </str:Code>
+                <str:Code id="VN" urn="">
+                    <com:Name xml:lang="en">Viet Nam</com:Name>
+                </str:Code>
+                <str:Code id="VU" urn="">
+                    <com:Name xml:lang="en">Vanuatu</com:Name>
+                </str:Code>
+                <str:Code id="W0" urn="">
+                    <com:Name xml:lang="en">Intra-EU (changing composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="W1" urn="">
+                    <com:Name xml:lang="en">Gaza and Jericho</com:Name>
+                </str:Code>
+                <str:Code id="W2" urn="">
+                    <com:Name xml:lang="en">Intra-Euro area not allocated</com:Name>
+                </str:Code>
+                <str:Code id="W4" urn="">
+                    <com:Name xml:lang="en">Extra-Euro area not allocated</com:Name>
+                </str:Code>
+                <str:Code id="W5" urn="">
+                    <com:Name xml:lang="en">Extra-EU 25 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="W6" urn="">
+                    <com:Name xml:lang="en">Residual for BOP and IIP step 3 ECB needs (J2-DK-GB-SE-4A-D8-CH-CA-US-JP-C4-7Z)</com:Name>
+                </str:Code>
+                <str:Code id="W7" urn="">
+                    <com:Name xml:lang="en">Intra-EU 25 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="W8" urn="">
+                    <com:Name xml:lang="en">Intra-EU 27 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="W9" urn="">
+                    <com:Name xml:lang="en">Extra-EU 27 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="WF" urn="">
+                    <com:Name xml:lang="en">Wallis and Futuna</com:Name>
+                </str:Code>
+                <str:Code id="WS" urn="">
+                    <com:Name xml:lang="en">Samoa</com:Name>
+                </str:Code>
+                <str:Code id="X0" urn="">
+                    <com:Name xml:lang="en">Not applicable</com:Name>
+                </str:Code>
+                <str:Code id="XK" urn="">
+                    <com:Name xml:lang="en">Kosovo</com:Name>
+                </str:Code>
+                <str:Code id="YE" urn="">
+                    <com:Name xml:lang="en">Yemen</com:Name>
+                </str:Code>
+                <str:Code id="YT" urn="">
+                    <com:Name xml:lang="en">Mayotte</com:Name>
+                </str:Code>
+                <str:Code id="YU" urn="">
+                    <com:Name xml:lang="en">Yugoslavia</com:Name>
+                </str:Code>
+                <str:Code id="Z0" urn="">
+                    <com:Name xml:lang="en">World not allocated (EU 12)</com:Name>
+                </str:Code>
+                <str:Code id="Z1" urn="">
+                    <com:Name xml:lang="en">World not allocated (EU 15)</com:Name>
+                </str:Code>
+                <str:Code id="Z2" urn="">
+                    <com:Name xml:lang="en">Intra-EU 12 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="Z3" urn="">
+                    <com:Name xml:lang="en">World not allocated (Euro area)</com:Name>
+                </str:Code>
+                <str:Code id="Z4" urn="">
+                    <com:Name xml:lang="en">Extra-EU 12 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="Z5" urn="">
+                    <com:Name xml:lang="en">World not allocated (geographically)</com:Name>
+                </str:Code>
+                <str:Code id="Z6" urn="">
+                    <com:Name xml:lang="en">Intra-EU 15 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="Z7" urn="">
+                    <com:Name xml:lang="en">Equally-shared control of UCIs (ultimate controlling institutional units of a foreign affiliate) of more than one EU member state</com:Name>
+                </str:Code>
+                <str:Code id="Z8" urn="">
+                    <com:Name xml:lang="en">Extra-EU 15 (fixed composition) not allocated</com:Name>
+                </str:Code>
+                <str:Code id="Z9" urn="">
+                    <com:Name xml:lang="en">Rest of the World</com:Name>
+                </str:Code>
+                <str:Code id="ZA" urn="">
+                    <com:Name xml:lang="en">South Africa</com:Name>
+                </str:Code>
+                <str:Code id="ZM" urn="">
+                    <com:Name xml:lang="en">Zambia</com:Name>
+                </str:Code>
+                <str:Code id="ZW" urn="">
+                    <com:Name xml:lang="en">Zimbabwe</com:Name>
+                </str:Code>
+            </str:Codelist>
+        </str:Codelists>
+    </mes:Structures>
+</mes:Structure>

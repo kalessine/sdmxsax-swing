@@ -48,9 +48,9 @@ public class DataStructureReferenceListModel implements ListModel {
     @Override
     public Object getElementAt(int index) {
         DataStructureReferenceType ref = list.get(index);
-        NestedNCNameIDType agency = ref.getRef().getAgencyId();
-        NestedIDType id = ref.getRef().getId();
-        VersionType vers = ref.getRef().getVersion();
+        NestedNCNameIDType agency = ref.getAgencyId();
+        NestedIDType id = ref.getId();
+        VersionType vers = ref.getVersion();
         return "Agency:"+agency.toString()+", ID:"+id.toString()+": Version:"+(vers==null?"":vers.toString());
     }
 

@@ -91,16 +91,16 @@ public class ConceptChoiceModel {
         this.dataflow=flow;
         DataStructureReferenceType ref = flow.getStructure();
         conceptChoices = new ArrayList<ConceptChoice>();
-        NestedNCNameIDType agency = ref.getRef().getAgencyId();
-        NestedIDType id = ref.getRef().getId();
-        VersionType vers = ref.getRef().getVersion();
+        NestedNCNameIDType agency = ref.getAgencyId();
+        NestedIDType id = ref.getId();
+        VersionType vers = ref.getVersion();
         this.setStructureRef(ref);
         DataStructureType ds = registry.findDataStructure(agency, new IDType(id.toString()), vers);
         this.setStructure(ds);
         this.registry = registry;
         for (int i = 0; i < ds.getDataStructureComponents().getDimensionList().size(); i++) {
             DimensionType dim = ds.getDataStructureComponents().getDimensionList().getDimension(i);
-            String concept = dim.getConceptIdentity().getRef().getId().toString();
+            String concept = dim.getConceptIdentity().getId().toString();
             SingleValueConceptChoice choice = new SingleValueConceptChoice(registry, structure, concept);
             choice.setId(concept);
             ItemSchemeType codelist = getPossibleCodes(registry, ds, concept);
@@ -111,7 +111,7 @@ public class ConceptChoiceModel {
         }
         for(int i=0;i<ds.getDataStructureComponents().getMeasureList().size();i++) {
             MeasureDimensionType dim = ds.getDataStructureComponents().getMeasureList().getMeasure(i);
-            String concept = dim.getConceptIdentity().getRef().getId().toString();
+            String concept = dim.getConceptIdentity().getId().toString();
             SingleValueConceptChoice choice = new SingleValueConceptChoice(registry, structure, concept);
             choice.setId(concept);
             ItemSchemeType codelist = getPossibleCodes(registry, ds, concept);
@@ -121,11 +121,11 @@ public class ConceptChoiceModel {
             conceptChoices.add(choice);
         }
         TimeDimensionType timed = ds.getDataStructureComponents().getDimensionList().getTimeDimension();
-        String concept = timed.getConceptIdentity().getRef().getId().toString();
+        String concept = timed.getConceptIdentity().getId().toString();
         setTime(new TimeValueConceptChoice(registry, structure, concept));
         PrimaryMeasure prim = ds.getDataStructureComponents().getMeasureList().getPrimaryMeasure();
         if (prim != null) {
-            concept = prim.getConceptIdentity().getRef().getId().toString();
+            concept = prim.getConceptIdentity().getId().toString();
             obs = new ObsValueConceptChoice(registry, structure, concept);
         }
     }
@@ -140,11 +140,11 @@ public class ConceptChoiceModel {
         RepresentationType rep = null;
         ConceptType concept = null;
         if (conceptRef != null) {
-            ConceptSchemeType con = registry.findConceptScheme(struct.getAgencyID(), conceptRef.getRef().getMaintainableParentId());
+            ConceptSchemeType con = registry.findConceptScheme(struct.getAgencyID(), conceptRef.getMaintainableParentId());
             if (con == null) {
-                System.out.println("Cant find concept:" + conceptRef.getRef().getMaintainableParentId().getString());
+                System.out.println("Cant find concept:" + conceptRef.getMaintainableParentId().getString());
             }
-            concept = con.findConcept(dim.getConceptIdentity().getRef().getId());
+            concept = con.findConcept(dim.getConceptIdentity().getId());
             rep = concept != null ? concept.getCoreRepresentation() : null;
         }
         RepresentationType localRep = dim.getLocalRepresentation();
@@ -154,8 +154,8 @@ public class ConceptChoiceModel {
         if (rep != null) {
             if (rep.getEnumeration() != null) {
                 ItemSchemeType codelist = null;
-                if( rep.getEnumeration().getRef().getRefClass().toInt()==ObjectTypeCodelistType.CONCEPTSCHEME.toInt()){
-                    codelist = registry.findConceptScheme(rep.getEnumeration().getRef().getAgencyId(),rep.getEnumeration().getRef().getId().asID());
+                if( rep.getEnumeration().getRefClass().toInt()==ObjectTypeCodelistType.CONCEPTSCHEME.toInt()){
+                    codelist = registry.findConceptScheme(rep.getEnumeration().getAgencyId(),rep.getEnumeration().getId().asID());
                 }else {
                     codelist = registry.findCodelist(rep.getEnumeration());
                 }

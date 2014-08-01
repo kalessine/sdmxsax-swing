@@ -134,12 +134,12 @@ public abstract class ConceptChoice {
         ConceptReferenceType conceptRef = c.getConceptIdentity();
         ConceptType concept = null;
         if (conceptRef != null) {
-            ConceptSchemeType con = registry.findConceptScheme(conceptRef.getRef().getAgencyId(), conceptRef.getRef().getMaintainableParentId());
+            ConceptSchemeType con = registry.findConceptScheme(conceptRef.getAgencyId(), conceptRef.getMaintainableParentId());
             if (con == null) {
-                System.out.println("Cant find concept:" + conceptRef.getRef().getMaintainableParentId());
+                System.out.println("Cant find concept:" + conceptRef.getMaintainableParentId());
             }
-            concept = con.findConcept(c.getConceptIdentity().getRef().getId());
-            if( concept==null) System.out.println("Can't find concept::"+c.getConceptIdentity().getRef().getId().toString());
+            concept = con.findConcept(c.getConceptIdentity().getId());
+            if( concept==null) System.out.println("Can't find concept::"+c.getConceptIdentity().getId().toString());
             Locale loc = Locale.getDefault();
             Name name = concept==null?null:concept.findName(loc.getLanguage());
             if (name == null) {
@@ -156,11 +156,11 @@ public abstract class ConceptChoice {
         ConceptReferenceType conceptRef = c.getConceptIdentity();
         ConceptType concept = null;
         if (conceptRef != null) {
-            ConceptSchemeType con = registry.findConceptScheme(conceptRef.getRef().getAgencyId(), conceptRef.getRef().getMaintainableParentId());
+            ConceptSchemeType con = registry.findConceptScheme(conceptRef.getAgencyId(), conceptRef.getMaintainableParentId());
             if (con == null) {
-                System.out.println("Cant find concept:" + conceptRef.getRef().getMaintainableParentId());
+                System.out.println("Cant find concept:" + conceptRef.getMaintainableParentId());
             }
-            concept = con.findConcept(c.getConceptIdentity().getRef().getId());
+            concept = con.findConcept(c.getConceptIdentity().getId());
             Locale loc = Locale.getDefault();
             Description name = concept==null?null:concept.findDescription(loc.getLanguage());
             if (name == null) {
@@ -185,7 +185,7 @@ public abstract class ConceptChoice {
         Component c = ConceptChoiceModel.MODEL.getStructure().getDataStructureComponents().findDimension(conceptString);
         System.out.println("Component:"+c);
         ConceptReferenceType conceptRef = c.getConceptIdentity();
-        System.out.println("ConceptRef:"+conceptRef.getRef().getId().toString());
+        System.out.println("ConceptRef:"+conceptRef.getId().toString());
         for(int i=0;i<getChoiceList().size();i++) {
             System.out.println("Choice:"+i+":"+getChoiceList().get(i));
         }

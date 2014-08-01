@@ -111,7 +111,7 @@ public class DataProviderJFrame extends javax.swing.JFrame {
         message.setDataStructure(ref, null);
             //System.out.println("REg=" + registry);
         //System.out.println("Ref=" + ref.getRef().getAgencyId() + ":" + ref.getRef().getId() + ":" + ref.getRef().getVersion());
-        DataStructureType ds = registry.findDataStructure(ref.getRef().getAgencyId(), (IDType) ref.getRef().getId(), ref.getRef().getVersion());
+        DataStructureType ds = registry.findDataStructure(ref.getAgencyId(), (IDType) ref.getId(), ref.getVersion());
         //System.out.println("DS=" + ds);
 
         StructuredDataMessage structured = new StructuredDataMessage(message, registry);

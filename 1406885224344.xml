@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message http://www.metadatatechnology.com/beta/SDMX2.1/SDMXMessage.xsd" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IDREF56584</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2014-08-01T09:27:10.965Z</mes:Prepared>
+    <mes:Sender id="ECB"/>
+    <mes:Receiver id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Codelists>
+      <str:Codelist id="CL_AREA_EE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ECB:CL_AREA_EE(1.0)" agencyID="ECB" version="1.0">
+        <com:Name xml:lang="en">Area code list</com:Name>
+        <str:Code id="1A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1A">
+          <com:Name xml:lang="en">International organisations</com:Name>
+        </str:Code>
+        <str:Code id="1B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1B">
+          <com:Name xml:lang="en">UN organisations</com:Name>
+        </str:Code>
+        <str:Code id="1C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1C">
+          <com:Name xml:lang="en">International Monetary Fund (IMF)</com:Name>
+        </str:Code>
+        <str:Code id="1D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1D">
+          <com:Name xml:lang="en">World Trade Organisation</com:Name>
+        </str:Code>
+        <str:Code id="1E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1E">
+          <com:Name xml:lang="en">International Bank for Reconstruction and Development</com:Name>
+        </str:Code>
+        <str:Code id="1F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1F">
+          <com:Name xml:lang="en">International Development Association</com:Name>
+        </str:Code>
+        <str:Code id="1G" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1G">
+          <com:Name xml:lang="en">Other UN Organisations (includes 1H, 1J-1T)</com:Name>
+        </str:Code>
+        <str:Code id="1H" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1H">
+          <com:Name xml:lang="en">UNESCO (United Nations Educational, Scientific and Cultural Organisation)</com:Name>
+        </str:Code>
+        <str:Code id="1J" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1J">
+          <com:Name xml:lang="en">FAO (Food and Agriculture Organisation)</com:Name>
+        </str:Code>
+        <str:Code id="1K" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1K">
+          <com:Name xml:lang="en">WHO (World Health Organisation)</com:Name>
+        </str:Code>
+        <str:Code id="1L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1L">
+          <com:Name xml:lang="en">IFAD (International Fund for Agricultural Development)</com:Name>
+        </str:Code>
+        <str:Code id="1M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1M">
+          <com:Name xml:lang="en">IFC (International Finance Corporation)</com:Name>
+        </str:Code>
+        <str:Code id="1N" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1N">
+          <com:Name xml:lang="en">MIGA (Multilateral Investment Guarantee Agency)</com:Name>
+        </str:Code>
+        <str:Code id="1O" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1O">
+          <com:Name xml:lang="en">UNICEF (United Nations Children Fund)</com:Name>
+        </str:Code>
+        <str:Code id="1P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1P">
+          <com:Name xml:lang="en">UNHCR (United Nations High Commissioner for Refugees)</com:Name>
+        </str:Code>
+        <str:Code id="1Q" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1Q">
+          <com:Name xml:lang="en">UNRWA (United Nations Relief and Works Agency for Palestine)</com:Name>
+        </str:Code>
+        <str:Code id="1R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1R">
+          <com:Name xml:lang="en">IAEA (International Atomic Energy Agency)</com:Name>
+        </str:Code>
+        <str:Code id="1S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1S">
+          <com:Name xml:lang="en">ILO (International Labour Organisation)</com:Name>
+        </str:Code>
+        <str:Code id="1T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1T">
+          <com:Name xml:lang="en">ITU (International Telecommunication Union)</com:Name>
+        </str:Code>
+        <str:Code id="1W" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1W">
+          <com:Name xml:lang="en">World Bank</com:Name>
+        </str:Code>
+        <str:Code id="1Z" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).1Z">
+          <com:Name xml:lang="en">Rest of UN Organisations n.i.e.</com:Name>
+        </str:Code>
+        <str:Code id="4A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4A">
+          <com:Name xml:lang="en">European Community Institutions, Organs and Organisms</com:Name>
+        </str:Code>
+        <str:Code id="4B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4B">
+          <com:Name xml:lang="en">EMS (European Monetary System)</com:Name>
+        </str:Code>
+        <str:Code id="4C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4C">
+          <com:Name xml:lang="en">European Investment Bank</com:Name>
+        </str:Code>
+        <str:Code id="4D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4D">
+          <com:Name xml:lang="en">European Commission</com:Name>
+        </str:Code>
+        <str:Code id="4E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4E">
+          <com:Name xml:lang="en">European Development Fund</com:Name>
+        </str:Code>
+        <str:Code id="4F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4F">
+          <com:Name xml:lang="en">European Central Bank (ECB)</com:Name>
+        </str:Code>
+        <str:Code id="4G" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4G">
+          <com:Name xml:lang="en">EIF (European Investment Fund)</com:Name>
+        </str:Code>
+        <str:Code id="4H" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4H">
+          <com:Name xml:lang="en">European Community of Steel and Coal</com:Name>
+        </str:Code>
+        <str:Code id="4I" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4I">
+          <com:Name xml:lang="en">Neighbourhood Investment Facility</com:Name>
+        </str:Code>
+        <str:Code id="4J" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4J">
+          <com:Name xml:lang="en">Other EC Institutions, Organs and Organisms covered by General budget</com:Name>
+        </str:Code>
+        <str:Code id="4K" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4K">
+          <com:Name xml:lang="en">European Parliament</com:Name>
+        </str:Code>
+        <str:Code id="4L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4L">
+          <com:Name xml:lang="en">Council of the European Union</com:Name>
+        </str:Code>
+        <str:Code id="4M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4M">
+          <com:Name xml:lang="en">Court of Justice</com:Name>
+        </str:Code>
+        <str:Code id="4N" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4N">
+          <com:Name xml:lang="en">Court of Auditors</com:Name>
+        </str:Code>
+        <str:Code id="4O" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4O">
+          <com:Name xml:lang="en">European Council</com:Name>
+        </str:Code>
+        <str:Code id="4P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4P">
+          <com:Name xml:lang="en">Economic and Social Committee</com:Name>
+        </str:Code>
+        <str:Code id="4Q" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4Q">
+          <com:Name xml:lang="en">Committee of Regions</com:Name>
+        </str:Code>
+        <str:Code id="4R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4R">
+          <com:Name xml:lang="en">EU-Africa Infrastructure Trust Fund</com:Name>
+        </str:Code>
+        <str:Code id="4S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4S">
+          <com:Name xml:lang="en">European Stability Mechanism (ESM)</com:Name>
+        </str:Code>
+        <str:Code id="4T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4T">
+          <com:Name xml:lang="en">Joint Committee of the European Supervisory Authorities (ESAs)</com:Name>
+        </str:Code>
+        <str:Code id="4V" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4V">
+          <com:Name xml:lang="en">FEMIP (Facility for Euro-Mediterranean Investment and Partnership)</com:Name>
+        </str:Code>
+        <str:Code id="4X" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4X">
+          <com:Name xml:lang="en">All the European Union Institutions not financed via the EU budget</com:Name>
+        </str:Code>
+        <str:Code id="4Y" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4Y">
+          <com:Name xml:lang="en">All EU Institutions (i.e. European Community Institutions, Organs and Organisms, the ECB and ESM)</com:Name>
+        </str:Code>
+        <str:Code id="4Z" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).4Z">
+          <com:Name xml:lang="en">Other European Community Institutions, Organs and Organisms</com:Name>
+        </str:Code>
+        <str:Code id="5A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5A">
+          <com:Name xml:lang="en">Organisation for Economic Cooperation and Development (OECD)</com:Name>
+        </str:Code>
+        <str:Code id="5B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5B">
+          <com:Name xml:lang="en">Bank for International Settlements (BIS)</com:Name>
+        </str:Code>
+        <str:Code id="5C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5C">
+          <com:Name xml:lang="en">Inter-American Development Bank</com:Name>
+        </str:Code>
+        <str:Code id="5D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5D">
+          <com:Name xml:lang="en">African Development Bank</com:Name>
+        </str:Code>
+        <str:Code id="5E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5E">
+          <com:Name xml:lang="en">Asian Development Bank</com:Name>
+        </str:Code>
+        <str:Code id="5F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5F">
+          <com:Name xml:lang="en">European Bank for Reconstruction and Development</com:Name>
+        </str:Code>
+        <str:Code id="5G" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5G">
+          <com:Name xml:lang="en">IIC (Inter-American Investment Corporation)</com:Name>
+        </str:Code>
+        <str:Code id="5H" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5H">
+          <com:Name xml:lang="en">NIB (Nordic Investment Bank)</com:Name>
+        </str:Code>
+        <str:Code id="5I" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5I">
+          <com:Name xml:lang="en">Eastern Caribbean Central Bank (ECCB)</com:Name>
+        </str:Code>
+        <str:Code id="5J" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5J">
+          <com:Name xml:lang="en">IBEC (International Bank for Economic Co-operation)</com:Name>
+        </str:Code>
+        <str:Code id="5K" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5K">
+          <com:Name xml:lang="en">IIB (International Investment Bank)</com:Name>
+        </str:Code>
+        <str:Code id="5L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5L">
+          <com:Name xml:lang="en">CDB (Caribbean Development Bank)</com:Name>
+        </str:Code>
+        <str:Code id="5M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5M">
+          <com:Name xml:lang="en">AMF (Arab Monetary Fund)</com:Name>
+        </str:Code>
+        <str:Code id="5N" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5N">
+          <com:Name xml:lang="en">BADEA (Banque arabe pour le developpement economique en Afrique)</com:Name>
+        </str:Code>
+        <str:Code id="5O" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5O">
+          <com:Name xml:lang="en">Banque Centrale des Etats de l`Afrique de l`Ouest (BCEAO)</com:Name>
+        </str:Code>
+        <str:Code id="5P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5P">
+          <com:Name xml:lang="en">CASDB (Central African States Development Bank)</com:Name>
+        </str:Code>
+        <str:Code id="5Q" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5Q">
+          <com:Name xml:lang="en">African Development Fund</com:Name>
+        </str:Code>
+        <str:Code id="5R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5R">
+          <com:Name xml:lang="en">Asian Development Fund</com:Name>
+        </str:Code>
+        <str:Code id="5S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5S">
+          <com:Name xml:lang="en">Fonds special unifie de developpement</com:Name>
+        </str:Code>
+        <str:Code id="5T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5T">
+          <com:Name xml:lang="en">CABEI (Central American Bank for Economic Integration)</com:Name>
+        </str:Code>
+        <str:Code id="5U" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5U">
+          <com:Name xml:lang="en">ADC (Andean Development Corporation)</com:Name>
+        </str:Code>
+        <str:Code id="5V" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5V">
+          <com:Name xml:lang="en">Other International Organisations (financial institutions)</com:Name>
+        </str:Code>
+        <str:Code id="5W" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5W">
+          <com:Name xml:lang="en">Banque des Etats de l`Afrique Centrale (BEAC)</com:Name>
+        </str:Code>
+        <str:Code id="5X" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5X">
+          <com:Name xml:lang="en">Communaute economique et Monetaire de l`Afrique Centrale (CEMAC)</com:Name>
+        </str:Code>
+        <str:Code id="5Y" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5Y">
+          <com:Name xml:lang="en">Eastern Caribbean Currency Union (ECCU)</com:Name>
+        </str:Code>
+        <str:Code id="5Z" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).5Z">
+          <com:Name xml:lang="en">Other International Financial Organisations n.i.e.</com:Name>
+        </str:Code>
+        <str:Code id="6A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6A">
+          <com:Name xml:lang="en">Other International Organisations (non-financial institutions)</com:Name>
+        </str:Code>
+        <str:Code id="6B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6B">
+          <com:Name xml:lang="en">NATO (North Atlantic Treaty Organisation)</com:Name>
+        </str:Code>
+        <str:Code id="6C" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6C">
+          <com:Name xml:lang="en">Council of Europe</com:Name>
+        </str:Code>
+        <str:Code id="6D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6D">
+          <com:Name xml:lang="en">ICRC (International Committee of the Red Cross)</com:Name>
+        </str:Code>
+        <str:Code id="6E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6E">
+          <com:Name xml:lang="en">ESA (European Space Agency)</com:Name>
+        </str:Code>
+        <str:Code id="6F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6F">
+          <com:Name xml:lang="en">EPO (European Patent Office)</com:Name>
+        </str:Code>
+        <str:Code id="6G" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6G">
+          <com:Name xml:lang="en">EUROCONTROL (European Organisation for the Safety of Air Navigation)</com:Name>
+        </str:Code>
+        <str:Code id="6H" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6H">
+          <com:Name xml:lang="en">EUTELSAT (European Telecommunications Satellite Organisation)</com:Name>
+        </str:Code>
+        <str:Code id="6I" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6I">
+          <com:Name xml:lang="en">West African Economic and Monetary Union (WAEMU)</com:Name>
+        </str:Code>
+        <str:Code id="6J" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6J">
+          <com:Name xml:lang="en">INTELSAT (International Telecommunications Satellite Organisation)</com:Name>
+        </str:Code>
+        <str:Code id="6K" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6K">
+          <com:Name xml:lang="en">EBU/UER (European Broadcasting Union/Union europeenne de radio-television)</com:Name>
+        </str:Code>
+        <str:Code id="6L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6L">
+          <com:Name xml:lang="en">EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites)</com:Name>
+        </str:Code>
+        <str:Code id="6M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6M">
+          <com:Name xml:lang="en">ESO (European Southern Observatory)</com:Name>
+        </str:Code>
+        <str:Code id="6N" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6N">
+          <com:Name xml:lang="en">ECMWF (European Centre for Medium-Range Weather Forecasts)</com:Name>
+        </str:Code>
+        <str:Code id="6O" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6O">
+          <com:Name xml:lang="en">EMBL (European Molecular Biology Laboratory)</com:Name>
+        </str:Code>
+        <str:Code id="6P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6P">
+          <com:Name xml:lang="en">CERN (European Organisation for Nuclear Research)</com:Name>
+        </str:Code>
+        <str:Code id="6Q" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6Q">
+          <com:Name xml:lang="en">IOM (International Organisation for Migration)</com:Name>
+        </str:Code>
+        <str:Code id="6R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6R">
+          <com:Name xml:lang="en">Islamic Development Bank (IDB)</com:Name>
+        </str:Code>
+        <str:Code id="6S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6S">
+          <com:Name xml:lang="en">Eurasian Development Bank (EDB)</com:Name>
+        </str:Code>
+        <str:Code id="6T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6T">
+          <com:Name xml:lang="en">Paris Club Creditor Institutions</com:Name>
+        </str:Code>
+        <str:Code id="6U" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6U">
+          <com:Name xml:lang="en">Council of Europe Development Bank (CEB)</com:Name>
+        </str:Code>
+        <str:Code id="6Z" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).6Z">
+          <com:Name xml:lang="en">Other International Non-Financial Organisations n.i.e.</com:Name>
+        </str:Code>
+        <str:Code id="7Z" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).7Z">
+          <com:Name xml:lang="en">International Organisations excluding Eur.Community Institutions (4A)</com:Name>
+        </str:Code>
+        <str:Code id="8A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).8A">
+          <com:Name xml:lang="en">International Union of Credit and Investment Insurers</com:Name>
+        </str:Code>
+        <str:Code id="A0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A0">
+          <com:Name xml:lang="en">Other EEA countries (all countries excluding the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="A1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A1">
+          <com:Name xml:lang="en">World (all entities)</com:Name>
+        </str:Code>
+        <str:Code id="A2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A2">
+          <com:Name xml:lang="en">EUR12 (Intra Eur12)</com:Name>
+        </str:Code>
+        <str:Code id="A3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A3">
+          <com:Name xml:lang="en">Belgo-Luxembourg Economic Union</com:Name>
+        </str:Code>
+        <str:Code id="A4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A4">
+          <com:Name xml:lang="en">Extra EUR12</com:Name>
+        </str:Code>
+        <str:Code id="A5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A5">
+          <com:Name xml:lang="en">European Free Trade Association</com:Name>
+        </str:Code>
+        <str:Code id="A6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A6">
+          <com:Name xml:lang="en">European Economic Area</com:Name>
+        </str:Code>
+        <str:Code id="A7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A7">
+          <com:Name xml:lang="en">Extra EEA</com:Name>
+        </str:Code>
+        <str:Code id="A8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A8">
+          <com:Name xml:lang="en">OECD countries</com:Name>
+        </str:Code>
+        <str:Code id="A9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).A9">
+          <com:Name xml:lang="en">Countries from Central and Eastern Europe</com:Name>
+        </str:Code>
+        <str:Code id="AD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AD">
+          <com:Name xml:lang="en">Andorra</com:Name>
+        </str:Code>
+        <str:Code id="AE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AE">
+          <com:Name xml:lang="en">United Arab Emirates</com:Name>
+        </str:Code>
+        <str:Code id="AF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AF">
+          <com:Name xml:lang="en">Afghanistan</com:Name>
+        </str:Code>
+        <str:Code id="AG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AG">
+          <com:Name xml:lang="en">Antigua and Barbuda</com:Name>
+        </str:Code>
+        <str:Code id="AI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AI">
+          <com:Name xml:lang="en">Anguilla</com:Name>
+        </str:Code>
+        <str:Code id="AL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AL">
+          <com:Name xml:lang="en">Albania</com:Name>
+        </str:Code>
+        <str:Code id="AM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AM">
+          <com:Name xml:lang="en">Armenia</com:Name>
+        </str:Code>
+        <str:Code id="AN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AN">
+          <com:Name xml:lang="en">Netherlands Antilles</com:Name>
+        </str:Code>
+        <str:Code id="AO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AO">
+          <com:Name xml:lang="en">Angola</com:Name>
+        </str:Code>
+        <str:Code id="AQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AQ">
+          <com:Name xml:lang="en">Antarctica</com:Name>
+        </str:Code>
+        <str:Code id="AR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AR">
+          <com:Name xml:lang="en">Argentina</com:Name>
+        </str:Code>
+        <str:Code id="AS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AS">
+          <com:Name xml:lang="en">American Samoa</com:Name>
+        </str:Code>
+        <str:Code id="AT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AT">
+          <com:Name xml:lang="en">Austria</com:Name>
+        </str:Code>
+        <str:Code id="AU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AU">
+          <com:Name xml:lang="en">Australia</com:Name>
+        </str:Code>
+        <str:Code id="AW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AW">
+          <com:Name xml:lang="en">Aruba</com:Name>
+        </str:Code>
+        <str:Code id="AX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AX">
+          <com:Name xml:lang="en">Aland Islands</com:Name>
+        </str:Code>
+        <str:Code id="AZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).AZ">
+          <com:Name xml:lang="en">Azerbaijan</com:Name>
+        </str:Code>
+        <str:Code id="B0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B0">
+          <com:Name xml:lang="en">Emerging and developing economies</com:Name>
+        </str:Code>
+        <str:Code id="B1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B1">
+          <com:Name xml:lang="en">North American Free Trade Association</com:Name>
+        </str:Code>
+        <str:Code id="B2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B2">
+          <com:Name xml:lang="en">Latin America</com:Name>
+        </str:Code>
+        <str:Code id="B3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B3">
+          <com:Name xml:lang="en">Countries for the Association of South-East Asian Nations</com:Name>
+        </str:Code>
+        <str:Code id="B4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B4">
+          <com:Name xml:lang="en">Organization of Petroleum Exporting Countries</com:Name>
+        </str:Code>
+        <str:Code id="B5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B5">
+          <com:Name xml:lang="en">African, Caribbean and Pacific countries (Lome convention)</com:Name>
+        </str:Code>
+        <str:Code id="B6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B6">
+          <com:Name xml:lang="en">African ACP countries</com:Name>
+        </str:Code>
+        <str:Code id="B7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B7">
+          <com:Name xml:lang="en">Caribbean ACP countries</com:Name>
+        </str:Code>
+        <str:Code id="B8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B8">
+          <com:Name xml:lang="en">Pacific ACP countries</com:Name>
+        </str:Code>
+        <str:Code id="B9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).B9">
+          <com:Name xml:lang="en">Core Newly Industrializing Countries</com:Name>
+        </str:Code>
+        <str:Code id="BA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BA">
+          <com:Name xml:lang="en">Bosnia and Herzegovina</com:Name>
+        </str:Code>
+        <str:Code id="BB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BB">
+          <com:Name xml:lang="en">Barbados</com:Name>
+        </str:Code>
+        <str:Code id="BD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BD">
+          <com:Name xml:lang="en">Bangladesh</com:Name>
+        </str:Code>
+        <str:Code id="BE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BE">
+          <com:Name xml:lang="en">Belgium</com:Name>
+        </str:Code>
+        <str:Code id="BF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BF">
+          <com:Name xml:lang="en">Burkina Faso</com:Name>
+        </str:Code>
+        <str:Code id="BG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BG">
+          <com:Name xml:lang="en">Bulgaria</com:Name>
+        </str:Code>
+        <str:Code id="BH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BH">
+          <com:Name xml:lang="en">Bahrain</com:Name>
+        </str:Code>
+        <str:Code id="BI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BI">
+          <com:Name xml:lang="en">Burundi</com:Name>
+        </str:Code>
+        <str:Code id="BJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BJ">
+          <com:Name xml:lang="en">Benin</com:Name>
+        </str:Code>
+        <str:Code id="BL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BL">
+          <com:Name xml:lang="en">Saint Barthelemy</com:Name>
+        </str:Code>
+        <str:Code id="BM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BM">
+          <com:Name xml:lang="en">Bermuda</com:Name>
+        </str:Code>
+        <str:Code id="BN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BN">
+          <com:Name xml:lang="en">Brunei Darussalam</com:Name>
+        </str:Code>
+        <str:Code id="BO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BO">
+          <com:Name xml:lang="en">Bolivia</com:Name>
+        </str:Code>
+        <str:Code id="BQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BQ">
+          <com:Name xml:lang="en">Bonaire, Saint Eustatius and Saba</com:Name>
+        </str:Code>
+        <str:Code id="BR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BR">
+          <com:Name xml:lang="en">Brazil</com:Name>
+        </str:Code>
+        <str:Code id="BS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BS">
+          <com:Name xml:lang="en">Bahamas</com:Name>
+        </str:Code>
+        <str:Code id="BT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BT">
+          <com:Name xml:lang="en">Bhutan</com:Name>
+        </str:Code>
+        <str:Code id="BV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BV">
+          <com:Name xml:lang="en">Bouvet Island</com:Name>
+        </str:Code>
+        <str:Code id="BW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BW">
+          <com:Name xml:lang="en">Botswana</com:Name>
+        </str:Code>
+        <str:Code id="BY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BY">
+          <com:Name xml:lang="en">Belarus</com:Name>
+        </str:Code>
+        <str:Code id="BZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).BZ">
+          <com:Name xml:lang="en">Belize</com:Name>
+        </str:Code>
+        <str:Code id="C1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C1">
+          <com:Name xml:lang="en">Asian NICs of the second wave of industrialization</com:Name>
+        </str:Code>
+        <str:Code id="C2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C2">
+          <com:Name xml:lang="en">Latin American NICs of the second wave of industrialization</com:Name>
+        </str:Code>
+        <str:Code id="C3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C3">
+          <com:Name xml:lang="en">Mediterranean Basin countries</com:Name>
+        </str:Code>
+        <str:Code id="C4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C4">
+          <com:Name xml:lang="en">Offshore financial centers</com:Name>
+        </str:Code>
+        <str:Code id="C5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C5">
+          <com:Name xml:lang="en">French Franc zone</com:Name>
+        </str:Code>
+        <str:Code id="C6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C6">
+          <com:Name xml:lang="en">Community of Independant States</com:Name>
+        </str:Code>
+        <str:Code id="C7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C7">
+          <com:Name xml:lang="en">Maghreb countries</com:Name>
+        </str:Code>
+        <str:Code id="C8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C8">
+          <com:Name xml:lang="en">Mashrek Countries</com:Name>
+        </str:Code>
+        <str:Code id="C9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).C9">
+          <com:Name xml:lang="en">Mercado comun de los paises del cono sur</com:Name>
+        </str:Code>
+        <str:Code id="CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CA">
+          <com:Name xml:lang="en">Canada</com:Name>
+        </str:Code>
+        <str:Code id="CC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CC">
+          <com:Name xml:lang="en">Cocos (Keeling) Islands</com:Name>
+        </str:Code>
+        <str:Code id="CD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CD">
+          <com:Name xml:lang="en">Congo, the Democratic Republic of the</com:Name>
+        </str:Code>
+        <str:Code id="CF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CF">
+          <com:Name xml:lang="en">Central African Republic</com:Name>
+        </str:Code>
+        <str:Code id="CG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CG">
+          <com:Name xml:lang="en">Congo</com:Name>
+        </str:Code>
+        <str:Code id="CH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CH">
+          <com:Name xml:lang="en">Switzerland</com:Name>
+        </str:Code>
+        <str:Code id="CI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CI">
+          <com:Name xml:lang="en">Cote d`Ivoire</com:Name>
+        </str:Code>
+        <str:Code id="CK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CK">
+          <com:Name xml:lang="en">Cook Islands</com:Name>
+        </str:Code>
+        <str:Code id="CL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CL">
+          <com:Name xml:lang="en">Chile</com:Name>
+        </str:Code>
+        <str:Code id="CM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CM">
+          <com:Name xml:lang="en">Cameroon</com:Name>
+        </str:Code>
+        <str:Code id="CN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CN">
+          <com:Name xml:lang="en">China</com:Name>
+        </str:Code>
+        <str:Code id="CO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CO">
+          <com:Name xml:lang="en">Colombia</com:Name>
+        </str:Code>
+        <str:Code id="CR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CR">
+          <com:Name xml:lang="en">Costa Rica</com:Name>
+        </str:Code>
+        <str:Code id="CS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CS">
+          <com:Name xml:lang="en">Serbia and Montenegro</com:Name>
+        </str:Code>
+        <str:Code id="CU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CU">
+          <com:Name xml:lang="en">Cuba</com:Name>
+        </str:Code>
+        <str:Code id="CV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CV">
+          <com:Name xml:lang="en">Cape Verde</com:Name>
+        </str:Code>
+        <str:Code id="CW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CW">
+          <com:Name xml:lang="en">Curacao</com:Name>
+        </str:Code>
+        <str:Code id="CX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CX">
+          <com:Name xml:lang="en">Christmas Island</com:Name>
+        </str:Code>
+        <str:Code id="CY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CY">
+          <com:Name xml:lang="en">Cyprus</com:Name>
+        </str:Code>
+        <str:Code id="CZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).CZ">
+          <com:Name xml:lang="en">Czech Republic</com:Name>
+        </str:Code>
+        <str:Code id="D0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D0">
+          <com:Name xml:lang="en">EU (changing composition)</com:Name>
+        </str:Code>
+        <str:Code id="D1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D1">
+          <com:Name xml:lang="en">Asia-Pacific Economic Co-operation</com:Name>
+        </str:Code>
+        <str:Code id="D2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D2">
+          <com:Name xml:lang="en">EU 15 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="D3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D3">
+          <com:Name xml:lang="en">EU 25 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="D4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D4">
+          <com:Name xml:lang="en">Extra-EU 15 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="D5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D5">
+          <com:Name xml:lang="en">Extra-EU 25 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="D6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D6">
+          <com:Name xml:lang="en">Candidate Countries (CCs)</com:Name>
+        </str:Code>
+        <str:Code id="D7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D7">
+          <com:Name xml:lang="en">Mediterranean countries in the Euro-Mediterranean Partnership</com:Name>
+        </str:Code>
+        <str:Code id="D8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D8">
+          <com:Name xml:lang="en">New EU member states 2004 (CY,CZ,EE,HU,LV,LT,MT,PL,SK,SI)</com:Name>
+        </str:Code>
+        <str:Code id="D9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).D9">
+          <com:Name xml:lang="en">Extra-EU (changing composition)</com:Name>
+        </str:Code>
+        <str:Code id="DE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).DE">
+          <com:Name xml:lang="en">Germany</com:Name>
+        </str:Code>
+        <str:Code id="DJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).DJ">
+          <com:Name xml:lang="en">Djibouti</com:Name>
+        </str:Code>
+        <str:Code id="DK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).DK">
+          <com:Name xml:lang="en">Denmark</com:Name>
+        </str:Code>
+        <str:Code id="DM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).DM">
+          <com:Name xml:lang="en">Dominica</com:Name>
+        </str:Code>
+        <str:Code id="DO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).DO">
+          <com:Name xml:lang="en">Dominican Republic</com:Name>
+        </str:Code>
+        <str:Code id="DZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).DZ">
+          <com:Name xml:lang="en">Algeria</com:Name>
+        </str:Code>
+        <str:Code id="E0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E0">
+          <com:Name xml:lang="en">Other North American countries</com:Name>
+        </str:Code>
+        <str:Code id="E1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E1">
+          <com:Name xml:lang="en">Europe</com:Name>
+        </str:Code>
+        <str:Code id="E2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E2">
+          <com:Name xml:lang="en">Other European countries (not EU nor EFTA)</com:Name>
+        </str:Code>
+        <str:Code id="E3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E3">
+          <com:Name xml:lang="en">Baltic countries</com:Name>
+        </str:Code>
+        <str:Code id="E4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E4">
+          <com:Name xml:lang="en">Africa</com:Name>
+        </str:Code>
+        <str:Code id="E5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E5">
+          <com:Name xml:lang="en">North Africa countries</com:Name>
+        </str:Code>
+        <str:Code id="E6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E6">
+          <com:Name xml:lang="en">Central and South Africa countries</com:Name>
+        </str:Code>
+        <str:Code id="E7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E7">
+          <com:Name xml:lang="en">America</com:Name>
+        </str:Code>
+        <str:Code id="E8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E8">
+          <com:Name xml:lang="en">North American countries</com:Name>
+        </str:Code>
+        <str:Code id="E9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).E9">
+          <com:Name xml:lang="en">Central American countries</com:Name>
+        </str:Code>
+        <str:Code id="EC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).EC">
+          <com:Name xml:lang="en">Ecuador</com:Name>
+        </str:Code>
+        <str:Code id="EE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).EE">
+          <com:Name xml:lang="en">Estonia</com:Name>
+        </str:Code>
+        <str:Code id="EG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).EG">
+          <com:Name xml:lang="en">Egypt</com:Name>
+        </str:Code>
+        <str:Code id="EH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).EH">
+          <com:Name xml:lang="en">Western Sahara</com:Name>
+        </str:Code>
+        <str:Code id="ER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ER">
+          <com:Name xml:lang="en">Eritrea</com:Name>
+        </str:Code>
+        <str:Code id="ES" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ES">
+          <com:Name xml:lang="en">Spain</com:Name>
+        </str:Code>
+        <str:Code id="ET" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ET">
+          <com:Name xml:lang="en">Ethiopia</com:Name>
+        </str:Code>
+        <str:Code id="F0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F0">
+          <com:Name xml:lang="en">Africa and Middle East countries</com:Name>
+        </str:Code>
+        <str:Code id="F1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F1">
+          <com:Name xml:lang="en">South American countries</com:Name>
+        </str:Code>
+        <str:Code id="F2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F2">
+          <com:Name xml:lang="en">Asia</com:Name>
+        </str:Code>
+        <str:Code id="F3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F3">
+          <com:Name xml:lang="en">Near and Middle East countries</com:Name>
+        </str:Code>
+        <str:Code id="F4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F4">
+          <com:Name xml:lang="en">Gulf Arabian Countries</com:Name>
+        </str:Code>
+        <str:Code id="F5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F5">
+          <com:Name xml:lang="en">Other Near and Middle East countries</com:Name>
+        </str:Code>
+        <str:Code id="F6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F6">
+          <com:Name xml:lang="en">Other Asian countries</com:Name>
+        </str:Code>
+        <str:Code id="F7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F7">
+          <com:Name xml:lang="en">Australia, Oceania and other territories</com:Name>
+        </str:Code>
+        <str:Code id="F8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F8">
+          <com:Name xml:lang="en">Australian Oceania</com:Name>
+        </str:Code>
+        <str:Code id="F9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).F9">
+          <com:Name xml:lang="en">American Oceania</com:Name>
+        </str:Code>
+        <str:Code id="FI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).FI">
+          <com:Name xml:lang="en">Finland</com:Name>
+        </str:Code>
+        <str:Code id="FJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).FJ">
+          <com:Name xml:lang="en">Fiji</com:Name>
+        </str:Code>
+        <str:Code id="FK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).FK">
+          <com:Name xml:lang="en">Falkland Islands (Malvinas)</com:Name>
+        </str:Code>
+        <str:Code id="FM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).FM">
+          <com:Name xml:lang="en">Micronesia, Federated States of</com:Name>
+        </str:Code>
+        <str:Code id="FO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).FO">
+          <com:Name xml:lang="en">Faroe Islands</com:Name>
+        </str:Code>
+        <str:Code id="FR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).FR">
+          <com:Name xml:lang="en">France</com:Name>
+        </str:Code>
+        <str:Code id="G0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).G0">
+          <com:Name xml:lang="en">Other European countries</com:Name>
+        </str:Code>
+        <str:Code id="G1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).G1">
+          <com:Name xml:lang="en">New Zealand Oceania</com:Name>
+        </str:Code>
+        <str:Code id="G2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).G2">
+          <com:Name xml:lang="en">Polar regions</com:Name>
+        </str:Code>
+        <str:Code id="G3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).G3">
+          <com:Name xml:lang="en">G20 (Argentina,Australia,Brazil,Canada,China,European Union,France,Germany,India,Indonesia,Italy,Japan,Mexico,Russia,Saudi Arabia,South Africa,South Korea,Turkey,United Kingdom,United States)</com:Name>
+        </str:Code>
+        <str:Code id="GA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GA">
+          <com:Name xml:lang="en">Gabon</com:Name>
+        </str:Code>
+        <str:Code id="GB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GB">
+          <com:Name xml:lang="en">United Kingdom</com:Name>
+        </str:Code>
+        <str:Code id="GD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GD">
+          <com:Name xml:lang="en">Grenada</com:Name>
+        </str:Code>
+        <str:Code id="GE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GE">
+          <com:Name xml:lang="en">Georgia</com:Name>
+        </str:Code>
+        <str:Code id="GF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GF">
+          <com:Name xml:lang="en">French Guiana</com:Name>
+        </str:Code>
+        <str:Code id="GG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GG">
+          <com:Name xml:lang="en">Guernsey</com:Name>
+        </str:Code>
+        <str:Code id="GH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GH">
+          <com:Name xml:lang="en">Ghana</com:Name>
+        </str:Code>
+        <str:Code id="GI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GI">
+          <com:Name xml:lang="en">Gibraltar</com:Name>
+        </str:Code>
+        <str:Code id="GL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GL">
+          <com:Name xml:lang="en">Greenland</com:Name>
+        </str:Code>
+        <str:Code id="GM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GM">
+          <com:Name xml:lang="en">Gambia</com:Name>
+        </str:Code>
+        <str:Code id="GN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GN">
+          <com:Name xml:lang="en">Guinea</com:Name>
+        </str:Code>
+        <str:Code id="GP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GP">
+          <com:Name xml:lang="en">Guadeloupe</com:Name>
+        </str:Code>
+        <str:Code id="GQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GQ">
+          <com:Name xml:lang="en">Equatorial Guinea</com:Name>
+        </str:Code>
+        <str:Code id="GR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GR">
+          <com:Name xml:lang="en">Greece</com:Name>
+        </str:Code>
+        <str:Code id="GS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GS">
+          <com:Name xml:lang="en">South Georgia and the South Sandwich Islands</com:Name>
+        </str:Code>
+        <str:Code id="GT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GT">
+          <com:Name xml:lang="en">Guatemala</com:Name>
+        </str:Code>
+        <str:Code id="GU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GU">
+          <com:Name xml:lang="en">Guam</com:Name>
+        </str:Code>
+        <str:Code id="GW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GW">
+          <com:Name xml:lang="en">Guinea-Bissau</com:Name>
+        </str:Code>
+        <str:Code id="GY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).GY">
+          <com:Name xml:lang="en">Guyana</com:Name>
+        </str:Code>
+        <str:Code id="H0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).H0">
+          <com:Name xml:lang="en">EEA except the euro area and reference area</com:Name>
+        </str:Code>
+        <str:Code id="HK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).HK">
+          <com:Name xml:lang="en">Hong Kong</com:Name>
+        </str:Code>
+        <str:Code id="HM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).HM">
+          <com:Name xml:lang="en">Heard Island and McDonald Islands</com:Name>
+        </str:Code>
+        <str:Code id="HN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).HN">
+          <com:Name xml:lang="en">Honduras</com:Name>
+        </str:Code>
+        <str:Code id="HR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).HR">
+          <com:Name xml:lang="en">Croatia</com:Name>
+        </str:Code>
+        <str:Code id="HT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).HT">
+          <com:Name xml:lang="en">Haiti</com:Name>
+        </str:Code>
+        <str:Code id="HU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).HU">
+          <com:Name xml:lang="en">Hungary</com:Name>
+        </str:Code>
+        <str:Code id="I1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).I1">
+          <com:Name xml:lang="en">Euro area 11 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="I2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).I2">
+          <com:Name xml:lang="en">Euro area 12 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="I3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).I3">
+          <com:Name xml:lang="en">Euro area 13 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="I4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).I4">
+          <com:Name xml:lang="en">Euro area 15 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="I5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).I5">
+          <com:Name xml:lang="en">Euro area 16 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="I6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).I6">
+          <com:Name xml:lang="en">Euro area 17 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="I7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).I7">
+          <com:Name xml:lang="en">Euro area 18 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="ID" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ID">
+          <com:Name xml:lang="en">Indonesia</com:Name>
+        </str:Code>
+        <str:Code id="IE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IE">
+          <com:Name xml:lang="en">Ireland</com:Name>
+        </str:Code>
+        <str:Code id="IL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IL">
+          <com:Name xml:lang="en">Israel</com:Name>
+        </str:Code>
+        <str:Code id="IM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IM">
+          <com:Name xml:lang="en">Isle of Man</com:Name>
+        </str:Code>
+        <str:Code id="IN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IN">
+          <com:Name xml:lang="en">India</com:Name>
+        </str:Code>
+        <str:Code id="IO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IO">
+          <com:Name xml:lang="en">British Indian Ocean territory</com:Name>
+        </str:Code>
+        <str:Code id="IQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IQ">
+          <com:Name xml:lang="en">Iraq</com:Name>
+        </str:Code>
+        <str:Code id="IR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IR">
+          <com:Name xml:lang="en">Iran, Islamic Republic of</com:Name>
+        </str:Code>
+        <str:Code id="IS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IS">
+          <com:Name xml:lang="en">Iceland</com:Name>
+        </str:Code>
+        <str:Code id="IT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).IT">
+          <com:Name xml:lang="en">Italy</com:Name>
+        </str:Code>
+        <str:Code id="J1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).J1">
+          <com:Name xml:lang="en">Extra-Euro area 11 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="J2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).J2">
+          <com:Name xml:lang="en">Extra-Euro area 12 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="J3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).J3">
+          <com:Name xml:lang="en">Extra-Euro area 13 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="J4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).J4">
+          <com:Name xml:lang="en">Extra-Euro area 15 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="J5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).J5">
+          <com:Name xml:lang="en">Extra-Euro area 16 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="J6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).J6">
+          <com:Name xml:lang="en">Extra-Euro area 17 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="J7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).J7">
+          <com:Name xml:lang="en">Extra-Euro area 18 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="JE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).JE">
+          <com:Name xml:lang="en">Jersey</com:Name>
+        </str:Code>
+        <str:Code id="JM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).JM">
+          <com:Name xml:lang="en">Jamaica</com:Name>
+        </str:Code>
+        <str:Code id="JO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).JO">
+          <com:Name xml:lang="en">Jordan</com:Name>
+        </str:Code>
+        <str:Code id="JP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).JP">
+          <com:Name xml:lang="en">Japan</com:Name>
+        </str:Code>
+        <str:Code id="K1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).K1">
+          <com:Name xml:lang="en">EU member states not belonging to Euro area 11 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="K2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).K2">
+          <com:Name xml:lang="en">EU member states not belonging to Euro area 12 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="K3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).K3">
+          <com:Name xml:lang="en">EU member states not belonging to Euro area 13 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="K4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).K4">
+          <com:Name xml:lang="en">EU member states not belonging to Euro area 15 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="K5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).K5">
+          <com:Name xml:lang="en">EU member states not belonging to Euro area 16 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="K6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).K6">
+          <com:Name xml:lang="en">EU member states not belonging to Euro area 17 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="K7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).K7">
+          <com:Name xml:lang="en">EU28 Member States not belonging to Euro Area 17 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="K8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).K8">
+          <com:Name xml:lang="en">EU28 member states not belonging to Euro area 18 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="KE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KE">
+          <com:Name xml:lang="en">Kenya</com:Name>
+        </str:Code>
+        <str:Code id="KG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KG">
+          <com:Name xml:lang="en">Kyrgyzstan</com:Name>
+        </str:Code>
+        <str:Code id="KH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KH">
+          <com:Name xml:lang="en">Cambodia</com:Name>
+        </str:Code>
+        <str:Code id="KI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KI">
+          <com:Name xml:lang="en">Kiribati</com:Name>
+        </str:Code>
+        <str:Code id="KM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KM">
+          <com:Name xml:lang="en">Comoros</com:Name>
+        </str:Code>
+        <str:Code id="KN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KN">
+          <com:Name xml:lang="en">Saint Kitts and Nevis</com:Name>
+        </str:Code>
+        <str:Code id="KP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KP">
+          <com:Name xml:lang="en">Korea, Democratic People`s Republic of</com:Name>
+        </str:Code>
+        <str:Code id="KR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KR">
+          <com:Name xml:lang="en">Korea, Republic of</com:Name>
+        </str:Code>
+        <str:Code id="KW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KW">
+          <com:Name xml:lang="en">Kuwait</com:Name>
+        </str:Code>
+        <str:Code id="KY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KY">
+          <com:Name xml:lang="en">Cayman Islands</com:Name>
+        </str:Code>
+        <str:Code id="KZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).KZ">
+          <com:Name xml:lang="en">Kazakhstan</com:Name>
+        </str:Code>
+        <str:Code id="L0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).L0">
+          <com:Name xml:lang="en">Other EU member states (all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="L1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).L1">
+          <com:Name xml:lang="en">Other Euro area 11 member states (fixed composition - all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="L2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).L2">
+          <com:Name xml:lang="en">Other Euro area 12 member states (fixed composition - all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="L3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).L3">
+          <com:Name xml:lang="en">Other Euro area 13 member states (fixed composition - all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="L4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).L4">
+          <com:Name xml:lang="en">Other Euro area 15 member states (fixed composition - all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="L5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).L5">
+          <com:Name xml:lang="en">Other Euro area 16 member states (fixed composition - all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="L6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).L6">
+          <com:Name xml:lang="en">Other Euro area 17 member states (fixed composition - all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="L7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).L7">
+          <com:Name xml:lang="en">Other Euro area 18 member states (fixed composition - all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="LA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LA">
+          <com:Name xml:lang="en">Lao People`s Democratic Republic</com:Name>
+        </str:Code>
+        <str:Code id="LB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LB">
+          <com:Name xml:lang="en">Lebanon</com:Name>
+        </str:Code>
+        <str:Code id="LC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LC">
+          <com:Name xml:lang="en">Saint Lucia</com:Name>
+        </str:Code>
+        <str:Code id="LI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LI">
+          <com:Name xml:lang="en">Liechtenstein</com:Name>
+        </str:Code>
+        <str:Code id="LK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LK">
+          <com:Name xml:lang="en">Sri Lanka</com:Name>
+        </str:Code>
+        <str:Code id="LR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LR">
+          <com:Name xml:lang="en">Liberia</com:Name>
+        </str:Code>
+        <str:Code id="LS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LS">
+          <com:Name xml:lang="en">Lesotho</com:Name>
+        </str:Code>
+        <str:Code id="LT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LT">
+          <com:Name xml:lang="en">Lithuania</com:Name>
+        </str:Code>
+        <str:Code id="LU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LU">
+          <com:Name xml:lang="en">Luxembourg</com:Name>
+        </str:Code>
+        <str:Code id="LV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LV">
+          <com:Name xml:lang="en">Latvia</com:Name>
+        </str:Code>
+        <str:Code id="LY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).LY">
+          <com:Name xml:lang="en">Libya</com:Name>
+        </str:Code>
+        <str:Code id="M0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).M0">
+          <com:Name xml:lang="en">All areas other than EU 15 and reference/home area</com:Name>
+        </str:Code>
+        <str:Code id="M1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).M1">
+          <com:Name xml:lang="en">All areas other than Euro area 11 (fixed composition) and reference/home area</com:Name>
+        </str:Code>
+        <str:Code id="M2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).M2">
+          <com:Name xml:lang="en">All areas other than Euro area 12 (fixed composition) and reference/home area</com:Name>
+        </str:Code>
+        <str:Code id="M3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).M3">
+          <com:Name xml:lang="en">All areas other than Euro area 13 (fixed composition) and reference/home area</com:Name>
+        </str:Code>
+        <str:Code id="M4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).M4">
+          <com:Name xml:lang="en">All areas other than Euro area 15 (fixed composition) and reference/home area</com:Name>
+        </str:Code>
+        <str:Code id="M5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).M5">
+          <com:Name xml:lang="en">All areas other than Euro area 16 (fixed composition) and reference/home area</com:Name>
+        </str:Code>
+        <str:Code id="M6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).M6">
+          <com:Name xml:lang="en">All areas other than Euro area 17 (fixed composition) and reference/home area</com:Name>
+        </str:Code>
+        <str:Code id="M7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).M7">
+          <com:Name xml:lang="en">All areas other than Euro area 18 (fixed composition) and reference/home area</com:Name>
+        </str:Code>
+        <str:Code id="MA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MA">
+          <com:Name xml:lang="en">Morocco</com:Name>
+        </str:Code>
+        <str:Code id="MC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MC">
+          <com:Name xml:lang="en">Monaco</com:Name>
+        </str:Code>
+        <str:Code id="MD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MD">
+          <com:Name xml:lang="en">Moldova, Republic of</com:Name>
+        </str:Code>
+        <str:Code id="ME" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ME">
+          <com:Name xml:lang="en">Montenegro</com:Name>
+        </str:Code>
+        <str:Code id="MF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MF">
+          <com:Name xml:lang="en">Saint Martin (French part)</com:Name>
+        </str:Code>
+        <str:Code id="MG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MG">
+          <com:Name xml:lang="en">Madagascar</com:Name>
+        </str:Code>
+        <str:Code id="MH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MH">
+          <com:Name xml:lang="en">Marshall islands</com:Name>
+        </str:Code>
+        <str:Code id="MK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MK">
+          <com:Name xml:lang="en">Macedonia, The Former Yugoslav Republic of</com:Name>
+        </str:Code>
+        <str:Code id="ML" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ML">
+          <com:Name xml:lang="en">Mali</com:Name>
+        </str:Code>
+        <str:Code id="MM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MM">
+          <com:Name xml:lang="en">Myanmar</com:Name>
+        </str:Code>
+        <str:Code id="MN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MN">
+          <com:Name xml:lang="en">Mongolia</com:Name>
+        </str:Code>
+        <str:Code id="MO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MO">
+          <com:Name xml:lang="en">Macao</com:Name>
+        </str:Code>
+        <str:Code id="MP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MP">
+          <com:Name xml:lang="en">Northern Mariana Islands</com:Name>
+        </str:Code>
+        <str:Code id="MQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MQ">
+          <com:Name xml:lang="en">Martinique</com:Name>
+        </str:Code>
+        <str:Code id="MR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MR">
+          <com:Name xml:lang="en">Mauritania</com:Name>
+        </str:Code>
+        <str:Code id="MS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MS">
+          <com:Name xml:lang="en">Montserrat</com:Name>
+        </str:Code>
+        <str:Code id="MT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MT">
+          <com:Name xml:lang="en">Malta</com:Name>
+        </str:Code>
+        <str:Code id="MU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MU">
+          <com:Name xml:lang="en">Mauritius</com:Name>
+        </str:Code>
+        <str:Code id="MV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MV">
+          <com:Name xml:lang="en">Maldives</com:Name>
+        </str:Code>
+        <str:Code id="MW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MW">
+          <com:Name xml:lang="en">Malawi</com:Name>
+        </str:Code>
+        <str:Code id="MX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MX">
+          <com:Name xml:lang="en">Mexico</com:Name>
+        </str:Code>
+        <str:Code id="MY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MY">
+          <com:Name xml:lang="en">Malaysia</com:Name>
+        </str:Code>
+        <str:Code id="MZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).MZ">
+          <com:Name xml:lang="en">Mozambique</com:Name>
+        </str:Code>
+        <str:Code id="N0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).N0">
+          <com:Name xml:lang="en">Intra EU Extra Euro Area not allocated (changing composition)</com:Name>
+        </str:Code>
+        <str:Code id="N1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).N1">
+          <com:Name xml:lang="en">Intra-Euro area 11 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="N2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).N2">
+          <com:Name xml:lang="en">Intra-Euro area 12 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="N3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).N3">
+          <com:Name xml:lang="en">Intra-Euro area 13 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="N4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).N4">
+          <com:Name xml:lang="en">Intra-Euro area 15 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="N5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).N5">
+          <com:Name xml:lang="en">Intra-Euro area 16 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="N6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).N6">
+          <com:Name xml:lang="en">Intra-Euro area 17 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="NA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NA">
+          <com:Name xml:lang="en">Namibia</com:Name>
+        </str:Code>
+        <str:Code id="NC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NC">
+          <com:Name xml:lang="en">New Caledonia</com:Name>
+        </str:Code>
+        <str:Code id="NE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NE">
+          <com:Name xml:lang="en">Niger</com:Name>
+        </str:Code>
+        <str:Code id="NF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NF">
+          <com:Name xml:lang="en">Norfolk Island</com:Name>
+        </str:Code>
+        <str:Code id="NG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NG">
+          <com:Name xml:lang="en">Nigeria</com:Name>
+        </str:Code>
+        <str:Code id="NI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NI">
+          <com:Name xml:lang="en">Nicaragua</com:Name>
+        </str:Code>
+        <str:Code id="NL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NL">
+          <com:Name xml:lang="en">Netherlands</com:Name>
+        </str:Code>
+        <str:Code id="NO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NO">
+          <com:Name xml:lang="en">Norway</com:Name>
+        </str:Code>
+        <str:Code id="NP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NP">
+          <com:Name xml:lang="en">Nepal</com:Name>
+        </str:Code>
+        <str:Code id="NR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NR">
+          <com:Name xml:lang="en">Nauru</com:Name>
+        </str:Code>
+        <str:Code id="NU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NU">
+          <com:Name xml:lang="en">Niue</com:Name>
+        </str:Code>
+        <str:Code id="NZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).NZ">
+          <com:Name xml:lang="en">New Zealand</com:Name>
+        </str:Code>
+        <str:Code id="O1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).O1">
+          <com:Name xml:lang="en">Extra-Euro area 11 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="O2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).O2">
+          <com:Name xml:lang="en">Extra-Euro area 12 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="O3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).O3">
+          <com:Name xml:lang="en">Extra-Euro area 13 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="O4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).O4">
+          <com:Name xml:lang="en">Extra-Euro area 15 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="O5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).O5">
+          <com:Name xml:lang="en">Extra-Euro area 16 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="O6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).O6">
+          <com:Name xml:lang="en">Extra-Euro area 17 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="OM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).OM">
+          <com:Name xml:lang="en">Oman</com:Name>
+        </str:Code>
+        <str:Code id="P1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).P1">
+          <com:Name xml:lang="en">World not allocated (Euro area 11 - fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="P2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).P2">
+          <com:Name xml:lang="en">World not allocated (Euro area 12 - fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="P3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).P3">
+          <com:Name xml:lang="en">World not allocated (Euro area 13 - fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="P4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).P4">
+          <com:Name xml:lang="en">World not allocated (Euro area 15 - fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="P5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).P5">
+          <com:Name xml:lang="en">World not allocated (Euro area 16 - fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="P6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).P6">
+          <com:Name xml:lang="en">World not allocated (Euro area 17 - fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="PA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PA">
+          <com:Name xml:lang="en">Panama</com:Name>
+        </str:Code>
+        <str:Code id="PE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PE">
+          <com:Name xml:lang="en">Peru</com:Name>
+        </str:Code>
+        <str:Code id="PF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PF">
+          <com:Name xml:lang="en">French Polynesia</com:Name>
+        </str:Code>
+        <str:Code id="PG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PG">
+          <com:Name xml:lang="en">Papua New Guinea</com:Name>
+        </str:Code>
+        <str:Code id="PH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PH">
+          <com:Name xml:lang="en">Philippines</com:Name>
+        </str:Code>
+        <str:Code id="PK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PK">
+          <com:Name xml:lang="en">Pakistan</com:Name>
+        </str:Code>
+        <str:Code id="PL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PL">
+          <com:Name xml:lang="en">Poland</com:Name>
+        </str:Code>
+        <str:Code id="PM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PM">
+          <com:Name xml:lang="en">Saint Pierre and Miquelon</com:Name>
+        </str:Code>
+        <str:Code id="PN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PN">
+          <com:Name xml:lang="en">Pitcairn</com:Name>
+        </str:Code>
+        <str:Code id="PR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PR">
+          <com:Name xml:lang="en">Puerto Rico</com:Name>
+        </str:Code>
+        <str:Code id="PS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PS">
+          <com:Name xml:lang="en">Palestinian Territory, Occupied</com:Name>
+        </str:Code>
+        <str:Code id="PT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PT">
+          <com:Name xml:lang="en">Portugal</com:Name>
+        </str:Code>
+        <str:Code id="PW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PW">
+          <com:Name xml:lang="en">Palau</com:Name>
+        </str:Code>
+        <str:Code id="PY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).PY">
+          <com:Name xml:lang="en">Paraguay</com:Name>
+        </str:Code>
+        <str:Code id="Q6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Q6">
+          <com:Name xml:lang="en">EU 28 member states, outside the euro area 18, excluding DK, SE, GB (CZ,HU,LT,PL,RO,BG)</com:Name>
+        </str:Code>
+        <str:Code id="QA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).QA">
+          <com:Name xml:lang="en">Qatar</com:Name>
+        </str:Code>
+        <str:Code id="R0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).R0">
+          <com:Name xml:lang="en">Candidate countries (IS,ME,MK,RS,TR)</com:Name>
+        </str:Code>
+        <str:Code id="R1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).R1">
+          <com:Name xml:lang="en">West Germany</com:Name>
+        </str:Code>
+        <str:Code id="R2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).R2">
+          <com:Name xml:lang="en">East Germany</com:Name>
+        </str:Code>
+        <str:Code id="R6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).R6">
+          <com:Name xml:lang="en">Candidates countries (HR, MK, TR)</com:Name>
+        </str:Code>
+        <str:Code id="R7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).R7">
+          <com:Name xml:lang="en">Candidate countries (HR,IS,MK,TR)</com:Name>
+        </str:Code>
+        <str:Code id="R8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).R8">
+          <com:Name xml:lang="en">New EU member states joining in 2004 and 2007 (BG,CY,CZ,EE,HU,LV,LT,MT,PL,RO,SK,SI)</com:Name>
+        </str:Code>
+        <str:Code id="R9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).R9">
+          <com:Name xml:lang="en">Candidate countries (HR,IS,ME,MK,TR)</com:Name>
+        </str:Code>
+        <str:Code id="RE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).RE">
+          <com:Name xml:lang="en">Reunion</com:Name>
+        </str:Code>
+        <str:Code id="RO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).RO">
+          <com:Name xml:lang="en">Romania</com:Name>
+        </str:Code>
+        <str:Code id="RS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).RS">
+          <com:Name xml:lang="en">Serbia</com:Name>
+        </str:Code>
+        <str:Code id="RU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).RU">
+          <com:Name xml:lang="en">Russian Federation</com:Name>
+        </str:Code>
+        <str:Code id="RW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).RW">
+          <com:Name xml:lang="en">Rwanda</com:Name>
+        </str:Code>
+        <str:Code id="S0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).S0">
+          <com:Name xml:lang="en">Euro area (moving concept in the Real Time database context)</com:Name>
+        </str:Code>
+        <str:Code id="S1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).S1">
+          <com:Name xml:lang="en">EU 15 (fixed composition) excluding LU</com:Name>
+        </str:Code>
+        <str:Code id="S2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).S2">
+          <com:Name xml:lang="en">EU 12 (fixed composition) including West Germany</com:Name>
+        </str:Code>
+        <str:Code id="S3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).S3">
+          <com:Name xml:lang="en">EU 27 member states, outside the euro area 13, excluding DK, SE, GB (CY,CZ,EE,HU,LV,LT,MT,PL,SK,RO,BG)</com:Name>
+        </str:Code>
+        <str:Code id="S4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).S4">
+          <com:Name xml:lang="en">EU 27 member states, outside the euro area 15, excluding DK, SE, GB (CZ,EE,HU,LV,LT,PL,SK,RO,BG)</com:Name>
+        </str:Code>
+        <str:Code id="S5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).S5">
+          <com:Name xml:lang="en">EU 27 member states, outside the euro area 16, excluding DK, SE, GB (CZ,EE,HU,LV,LT,PL,RO,BG)</com:Name>
+        </str:Code>
+        <str:Code id="S6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).S6">
+          <com:Name xml:lang="en">EU 27 member states, outside the euro area 17, excluding DK, SE, GB (CZ,HU,LV,LT,PL,RO,BG)</com:Name>
+        </str:Code>
+        <str:Code id="S7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).S7">
+          <com:Name xml:lang="en">EU 28 member states, outside the euro area 17, excluding DK, SE, GB (CZ,HU,LV,LT,PL,RO,BG,HR)</com:Name>
+        </str:Code>
+        <str:Code id="SA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SA">
+          <com:Name xml:lang="en">Saudi Arabia</com:Name>
+        </str:Code>
+        <str:Code id="SB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SB">
+          <com:Name xml:lang="en">Solomon Islands</com:Name>
+        </str:Code>
+        <str:Code id="SC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SC">
+          <com:Name xml:lang="en">Seychelles</com:Name>
+        </str:Code>
+        <str:Code id="SD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SD">
+          <com:Name xml:lang="en">Sudan</com:Name>
+        </str:Code>
+        <str:Code id="SE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SE">
+          <com:Name xml:lang="en">Sweden</com:Name>
+        </str:Code>
+        <str:Code id="SG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SG">
+          <com:Name xml:lang="en">Singapore</com:Name>
+        </str:Code>
+        <str:Code id="SH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SH">
+          <com:Name xml:lang="en">Saint Helena</com:Name>
+        </str:Code>
+        <str:Code id="SI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SI">
+          <com:Name xml:lang="en">Slovenia</com:Name>
+        </str:Code>
+        <str:Code id="SJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SJ">
+          <com:Name xml:lang="en">Svalbard and Jan Mayen</com:Name>
+        </str:Code>
+        <str:Code id="SK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SK">
+          <com:Name xml:lang="en">Slovakia</com:Name>
+        </str:Code>
+        <str:Code id="SL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SL">
+          <com:Name xml:lang="en">Sierra Leone</com:Name>
+        </str:Code>
+        <str:Code id="SM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SM">
+          <com:Name xml:lang="en">San Marino</com:Name>
+        </str:Code>
+        <str:Code id="SN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SN">
+          <com:Name xml:lang="en">Senegal</com:Name>
+        </str:Code>
+        <str:Code id="SO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SO">
+          <com:Name xml:lang="en">Somalia</com:Name>
+        </str:Code>
+        <str:Code id="SR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SR">
+          <com:Name xml:lang="en">Suriname</com:Name>
+        </str:Code>
+        <str:Code id="SS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SS">
+          <com:Name xml:lang="en">South Sudan</com:Name>
+        </str:Code>
+        <str:Code id="ST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ST">
+          <com:Name xml:lang="en">Sao Tome and Principe</com:Name>
+        </str:Code>
+        <str:Code id="SV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SV">
+          <com:Name xml:lang="en">El Salvador</com:Name>
+        </str:Code>
+        <str:Code id="SX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SX">
+          <com:Name xml:lang="en">Sint Maarten (Dutch part)</com:Name>
+        </str:Code>
+        <str:Code id="SY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SY">
+          <com:Name xml:lang="en">Syrian Arab Republic</com:Name>
+        </str:Code>
+        <str:Code id="SZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).SZ">
+          <com:Name xml:lang="en">Swaziland</com:Name>
+        </str:Code>
+        <str:Code id="T1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).T1">
+          <com:Name xml:lang="en">Euro area 11 (fixed composition) excluding LU</com:Name>
+        </str:Code>
+        <str:Code id="T2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).T2">
+          <com:Name xml:lang="en">Euro area countries except Germany, France, Italy and Spain</com:Name>
+        </str:Code>
+        <str:Code id="TC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TC">
+          <com:Name xml:lang="en">Turks and Caicos Islands</com:Name>
+        </str:Code>
+        <str:Code id="TD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TD">
+          <com:Name xml:lang="en">Chad</com:Name>
+        </str:Code>
+        <str:Code id="TF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TF">
+          <com:Name xml:lang="en">French Southern Territories</com:Name>
+        </str:Code>
+        <str:Code id="TG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TG">
+          <com:Name xml:lang="en">Togo</com:Name>
+        </str:Code>
+        <str:Code id="TH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TH">
+          <com:Name xml:lang="en">Thailand</com:Name>
+        </str:Code>
+        <str:Code id="TJ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TJ">
+          <com:Name xml:lang="en">Tajikistan</com:Name>
+        </str:Code>
+        <str:Code id="TK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TK">
+          <com:Name xml:lang="en">Tokelau</com:Name>
+        </str:Code>
+        <str:Code id="TL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TL">
+          <com:Name xml:lang="en">Timor-Leste</com:Name>
+        </str:Code>
+        <str:Code id="TM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TM">
+          <com:Name xml:lang="en">Turkmenistan</com:Name>
+        </str:Code>
+        <str:Code id="TN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TN">
+          <com:Name xml:lang="en">Tunisia</com:Name>
+        </str:Code>
+        <str:Code id="TO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TO">
+          <com:Name xml:lang="en">Tonga</com:Name>
+        </str:Code>
+        <str:Code id="TR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TR">
+          <com:Name xml:lang="en">Turkey</com:Name>
+        </str:Code>
+        <str:Code id="TT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TT">
+          <com:Name xml:lang="en">Trinidad and Tobago</com:Name>
+        </str:Code>
+        <str:Code id="TV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TV">
+          <com:Name xml:lang="en">Tuvalu</com:Name>
+        </str:Code>
+        <str:Code id="TW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TW">
+          <com:Name xml:lang="en">Taiwan, Province of China</com:Name>
+        </str:Code>
+        <str:Code id="TZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).TZ">
+          <com:Name xml:lang="en">Tanzania, United Republic of</com:Name>
+        </str:Code>
+        <str:Code id="U0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U0">
+          <com:Name xml:lang="en">EU excluding the Euro area and reference area</com:Name>
+        </str:Code>
+        <str:Code id="U2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U2">
+          <com:Name xml:lang="en">Euro area (changing composition)</com:Name>
+        </str:Code>
+        <str:Code id="U3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U3">
+          <com:Name xml:lang="en">EU member states not belonging to the Euro area</com:Name>
+        </str:Code>
+        <str:Code id="U4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U4">
+          <com:Name xml:lang="en">Extra Euro area</com:Name>
+        </str:Code>
+        <str:Code id="U5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U5">
+          <com:Name xml:lang="en">Other Euro area member states (all countries except the reference area)</com:Name>
+        </str:Code>
+        <str:Code id="U6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U6">
+          <com:Name xml:lang="en">Domestic (home or reference area)</com:Name>
+        </str:Code>
+        <str:Code id="U7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U7">
+          <com:Name xml:lang="en">Euro area and the reference area</com:Name>
+        </str:Code>
+        <str:Code id="U8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U8">
+          <com:Name xml:lang="en">All areas other than Euro area and ref./home area</com:Name>
+        </str:Code>
+        <str:Code id="U9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).U9">
+          <com:Name xml:lang="en">All areas other than EU and ref./home area</com:Name>
+        </str:Code>
+        <str:Code id="UA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).UA">
+          <com:Name xml:lang="en">Ukraine</com:Name>
+        </str:Code>
+        <str:Code id="UG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).UG">
+          <com:Name xml:lang="en">Uganda</com:Name>
+        </str:Code>
+        <str:Code id="UM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).UM">
+          <com:Name xml:lang="en">United States Minor outlying islands</com:Name>
+        </str:Code>
+        <str:Code id="US" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).US">
+          <com:Name xml:lang="en">United States</com:Name>
+        </str:Code>
+        <str:Code id="UY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).UY">
+          <com:Name xml:lang="en">Uruguay</com:Name>
+        </str:Code>
+        <str:Code id="UZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).UZ">
+          <com:Name xml:lang="en">Uzbekistan</com:Name>
+        </str:Code>
+        <str:Code id="V1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).V1">
+          <com:Name xml:lang="en">EU 27 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="V2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).V2">
+          <com:Name xml:lang="en">Extra-EU 27 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="V3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).V3">
+          <com:Name xml:lang="en">EU 28 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="V4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).V4">
+          <com:Name xml:lang="en">Extra-EU 28 (fixed composition)</com:Name>
+        </str:Code>
+        <str:Code id="VA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).VA">
+          <com:Name xml:lang="en">Holy See (Vatican City State)</com:Name>
+        </str:Code>
+        <str:Code id="VC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).VC">
+          <com:Name xml:lang="en">Saint Vincent and the Grenadines</com:Name>
+        </str:Code>
+        <str:Code id="VE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).VE">
+          <com:Name xml:lang="en">Venezuela, Bolivarian Republic</com:Name>
+        </str:Code>
+        <str:Code id="VG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).VG">
+          <com:Name xml:lang="en">Virgin Islands, British</com:Name>
+        </str:Code>
+        <str:Code id="VI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).VI">
+          <com:Name xml:lang="en">Virgin Islands, U.S.</com:Name>
+        </str:Code>
+        <str:Code id="VN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).VN">
+          <com:Name xml:lang="en">Viet Nam</com:Name>
+        </str:Code>
+        <str:Code id="VU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).VU">
+          <com:Name xml:lang="en">Vanuatu</com:Name>
+        </str:Code>
+        <str:Code id="W0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W0">
+          <com:Name xml:lang="en">Intra-EU (changing composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="W1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W1">
+          <com:Name xml:lang="en">Gaza and Jericho</com:Name>
+        </str:Code>
+        <str:Code id="W2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W2">
+          <com:Name xml:lang="en">Intra-Euro area not allocated</com:Name>
+        </str:Code>
+        <str:Code id="W4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W4">
+          <com:Name xml:lang="en">Extra-Euro area not allocated</com:Name>
+        </str:Code>
+        <str:Code id="W5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W5">
+          <com:Name xml:lang="en">Extra-EU 25 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="W6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W6">
+          <com:Name xml:lang="en">Residual for BOP and IIP step 3 ECB needs (J2-DK-GB-SE-4A-D8-CH-CA-US-JP-C4-7Z)</com:Name>
+        </str:Code>
+        <str:Code id="W7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W7">
+          <com:Name xml:lang="en">Intra-EU 25 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="W8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W8">
+          <com:Name xml:lang="en">Intra-EU 27 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="W9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).W9">
+          <com:Name xml:lang="en">Extra-EU 27 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="WF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).WF">
+          <com:Name xml:lang="en">Wallis and Futuna</com:Name>
+        </str:Code>
+        <str:Code id="WS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).WS">
+          <com:Name xml:lang="en">Samoa</com:Name>
+        </str:Code>
+        <str:Code id="X0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).X0">
+          <com:Name xml:lang="en">Not applicable</com:Name>
+        </str:Code>
+        <str:Code id="XK" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).XK">
+          <com:Name xml:lang="en">Kosovo</com:Name>
+        </str:Code>
+        <str:Code id="YE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).YE">
+          <com:Name xml:lang="en">Yemen</com:Name>
+        </str:Code>
+        <str:Code id="YT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).YT">
+          <com:Name xml:lang="en">Mayotte</com:Name>
+        </str:Code>
+        <str:Code id="YU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).YU">
+          <com:Name xml:lang="en">Yugoslavia</com:Name>
+        </str:Code>
+        <str:Code id="Z0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z0">
+          <com:Name xml:lang="en">World not allocated (EU 12)</com:Name>
+        </str:Code>
+        <str:Code id="Z1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z1">
+          <com:Name xml:lang="en">World not allocated (EU 15)</com:Name>
+        </str:Code>
+        <str:Code id="Z2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z2">
+          <com:Name xml:lang="en">Intra-EU 12 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="Z3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z3">
+          <com:Name xml:lang="en">World not allocated (Euro area)</com:Name>
+        </str:Code>
+        <str:Code id="Z4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z4">
+          <com:Name xml:lang="en">Extra-EU 12 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="Z5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z5">
+          <com:Name xml:lang="en">World not allocated (geographically)</com:Name>
+        </str:Code>
+        <str:Code id="Z6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z6">
+          <com:Name xml:lang="en">Intra-EU 15 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="Z7" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z7">
+          <com:Name xml:lang="en">Equally-shared control of UCIs (ultimate controlling institutional units of a foreign affiliate) of more than one EU member state</com:Name>
+        </str:Code>
+        <str:Code id="Z8" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z8">
+          <com:Name xml:lang="en">Extra-EU 15 (fixed composition) not allocated</com:Name>
+        </str:Code>
+        <str:Code id="Z9" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).Z9">
+          <com:Name xml:lang="en">Rest of the World</com:Name>
+        </str:Code>
+        <str:Code id="ZA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ZA">
+          <com:Name xml:lang="en">South Africa</com:Name>
+        </str:Code>
+        <str:Code id="ZM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ZM">
+          <com:Name xml:lang="en">Zambia</com:Name>
+        </str:Code>
+        <str:Code id="ZW" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_AREA_EE(1.0).ZW">
+          <com:Name xml:lang="en">Zimbabwe</com:Name>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+  </mes:Structures>
+</mes:Structure>

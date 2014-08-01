@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message http://www.metadatatechnology.com/beta/SDMX2.1/SDMXMessage.xsd" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IDREF56587</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2014-08-01T09:27:13.181Z</mes:Prepared>
+    <mes:Sender id="ECB"/>
+    <mes:Receiver id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Codelists>
+      <str:Codelist id="CL_BKN_DENOM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ECB:CL_BKN_DENOM(1.0)" agencyID="ECB" version="1.0">
+        <com:Name xml:lang="en">Banknote &amp; coin denomination breakdown code list</com:Name>
+        <str:Code id="10N1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10N1">
+          <com:Name xml:lang="en">10 cents</com:Name>
+        </str:Code>
+        <str:Code id="10N2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10N2">
+          <com:Name xml:lang="en">1 cent</com:Name>
+        </str:Code>
+        <str:Code id="10P0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10P0">
+          <com:Name xml:lang="en">1</com:Name>
+        </str:Code>
+        <str:Code id="10P1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10P1">
+          <com:Name xml:lang="en">10</com:Name>
+        </str:Code>
+        <str:Code id="10P2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10P2">
+          <com:Name xml:lang="en">100</com:Name>
+        </str:Code>
+        <str:Code id="10P3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10P3">
+          <com:Name xml:lang="en">1000</com:Name>
+        </str:Code>
+        <str:Code id="10P4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10P4">
+          <com:Name xml:lang="en">10000</com:Name>
+        </str:Code>
+        <str:Code id="10P5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10P5">
+          <com:Name xml:lang="en">100000</com:Name>
+        </str:Code>
+        <str:Code id="10P6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).10P6">
+          <com:Name xml:lang="en">1000000</com:Name>
+        </str:Code>
+        <str:Code id="20N1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).20N1">
+          <com:Name xml:lang="en">20 cents</com:Name>
+        </str:Code>
+        <str:Code id="20N2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).20N2">
+          <com:Name xml:lang="en">2 cents</com:Name>
+        </str:Code>
+        <str:Code id="20P0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).20P0">
+          <com:Name xml:lang="en">2</com:Name>
+        </str:Code>
+        <str:Code id="20P1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).20P1">
+          <com:Name xml:lang="en">20</com:Name>
+        </str:Code>
+        <str:Code id="20P2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).20P2">
+          <com:Name xml:lang="en">200</com:Name>
+        </str:Code>
+        <str:Code id="20P3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).20P3">
+          <com:Name xml:lang="en">2000</com:Name>
+        </str:Code>
+        <str:Code id="20P4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).20P4">
+          <com:Name xml:lang="en">20000</com:Name>
+        </str:Code>
+        <str:Code id="20P5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).20P5">
+          <com:Name xml:lang="en">200000</com:Name>
+        </str:Code>
+        <str:Code id="25N1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).25N1">
+          <com:Name xml:lang="en">25 cents</com:Name>
+        </str:Code>
+        <str:Code id="25N2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).25N2">
+          <com:Name xml:lang="en">2.5 cents</com:Name>
+        </str:Code>
+        <str:Code id="25P0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).25P0">
+          <com:Name xml:lang="en">2.5</com:Name>
+        </str:Code>
+        <str:Code id="25P1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).25P1">
+          <com:Name xml:lang="en">25</com:Name>
+        </str:Code>
+        <str:Code id="25P2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).25P2">
+          <com:Name xml:lang="en">250</com:Name>
+        </str:Code>
+        <str:Code id="25P3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).25P3">
+          <com:Name xml:lang="en">2500</com:Name>
+        </str:Code>
+        <str:Code id="25P4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).25P4">
+          <com:Name xml:lang="en">25000</com:Name>
+        </str:Code>
+        <str:Code id="25P5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).25P5">
+          <com:Name xml:lang="en">250000</com:Name>
+        </str:Code>
+        <str:Code id="50N1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).50N1">
+          <com:Name xml:lang="en">50 cents</com:Name>
+        </str:Code>
+        <str:Code id="50N2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).50N2">
+          <com:Name xml:lang="en">5 cents</com:Name>
+        </str:Code>
+        <str:Code id="50P0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).50P0">
+          <com:Name xml:lang="en">5</com:Name>
+        </str:Code>
+        <str:Code id="50P1" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).50P1">
+          <com:Name xml:lang="en">50</com:Name>
+        </str:Code>
+        <str:Code id="50P2" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).50P2">
+          <com:Name xml:lang="en">500</com:Name>
+        </str:Code>
+        <str:Code id="50P3" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).50P3">
+          <com:Name xml:lang="en">5000</com:Name>
+        </str:Code>
+        <str:Code id="50P4" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).50P4">
+          <com:Name xml:lang="en">50000</com:Name>
+        </str:Code>
+        <str:Code id="50P5" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).50P5">
+          <com:Name xml:lang="en">500000</com:Name>
+        </str:Code>
+        <str:Code id="ALLD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).ALLD">
+          <com:Name xml:lang="en">All denominations</com:Name>
+        </str:Code>
+        <str:Code id="OTHR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).OTHR">
+          <com:Name xml:lang="en">Other denominations</com:Name>
+        </str:Code>
+        <str:Code id="ZZZZ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_BKN_DENOM(1.0).ZZZZ">
+          <com:Name xml:lang="en">Not applicable</com:Name>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+  </mes:Structures>
+</mes:Structure>

@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message http://www.metadatatechnology.com/beta/SDMX2.1/SDMXMessage.xsd" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IDREF56581</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2014-08-01T09:27:08.384Z</mes:Prepared>
+    <mes:Sender id="ECB"/>
+    <mes:Receiver id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:DataStructures>
+      <str:DataStructure id="ECB_BKN1" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ECB:ECB_BKN1(1.0)" agencyID="ECB" version="1.0">
+        <com:Name xml:lang="en">Banknotes Statistics</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=ECB:ECB_BKN1(1.0).DimensionDescriptor">
+            <str:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).FREQ" position="1">
+              <str:ConceptIdentity>
+                <Ref id="FREQ" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_FREQ" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).REF_AREA" position="2">
+              <str:ConceptIdentity>
+                <Ref id="REF_AREA" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_AREA_EE" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="BKN_ITEM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_ITEM" position="3">
+              <str:ConceptIdentity>
+                <Ref id="BKN_ITEM" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_BKN_ITEM" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="BKN_TYPE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_TYPE" position="4">
+              <str:ConceptIdentity>
+                <Ref id="BKN_TYPE" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_BKN_TYPE" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="BKN_DENOM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_DENOM" position="5">
+              <str:ConceptIdentity>
+                <Ref id="BKN_DENOM" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_BKN_DENOM" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="BKN_SERIES" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).BKN_SERIES" position="6">
+              <str:ConceptIdentity>
+                <Ref id="BKN_SERIES" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_BKN_SERIES" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="DATA_TYPE_BKN" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).DATA_TYPE_BKN" position="7">
+              <str:ConceptIdentity>
+                <Ref id="DATA_TYPE_BKN" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_DATA_TYPE_BKN" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="SERIES_DENOM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=ECB:ECB_BKN1(1.0).SERIES_DENOM" position="8">
+              <str:ConceptIdentity>
+                <Ref id="SERIES_DENOM" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_SERIES_DENOM" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=ECB:ECB_BKN1(1.0).TIME_PERIOD" position="9">
+              <str:ConceptIdentity>
+                <Ref id="TIME_PERIOD" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="ObservationalTimePeriod"/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:Group id="Group" urn="urn:sdmx:org.sdmx.infomodel.datastructure.GroupDimensionDescriptor=ECB:ECB_BKN1(1.0).Group">
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="REF_AREA"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="BKN_ITEM"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="BKN_TYPE"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="BKN_DENOM"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="BKN_SERIES"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="DATA_TYPE_BKN"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+            <str:GroupDimension>
+              <str:DimensionReference>
+                <Ref id="SERIES_DENOM"/>
+              </str:DimensionReference>
+            </str:GroupDimension>
+          </str:Group>
+          <str:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=ECB:ECB_BKN1(1.0).AttributeDescriptor">
+            <str:Attribute id="TIME_FORMAT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).TIME_FORMAT" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="TIME_FORMAT" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" minLength="3" maxLength="3"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).OBS_STATUS" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="OBS_STATUS" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_OBS_STATUS" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="OBS_CONF" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).OBS_CONF" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="OBS_CONF" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_OBS_CONF" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="OBS_PRE_BREAK" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).OBS_PRE_BREAK" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="OBS_PRE_BREAK" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="15"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="OBS_COM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).OBS_COM" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="OBS_COM" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="1050"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="BREAKS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).BREAKS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="BREAKS" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="350"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COLLECTION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).COLLECTION" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="COLLECTION" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_COLLECTION" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DOM_SER_IDS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).DOM_SER_IDS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="DOM_SER_IDS" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="70"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBL_ECB" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).PUBL_ECB" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="PUBL_ECB" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="1050"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBL_MU" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).PUBL_MU" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="PUBL_MU" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="1050"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="PUBL_PUBLIC" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).PUBL_PUBLIC" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="PUBL_PUBLIC" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="1050"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="COMPILATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).COMPILATION" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="COMPILATION" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="1050"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DECIMALS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).DECIMALS" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="DECIMALS" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_DECIMALS" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="NAT_TITLE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).NAT_TITLE" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="NAT_TITLE" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="350"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="SOURCE_AGENCY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).SOURCE_AGENCY" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="SOURCE_AGENCY" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_ORGANISATION" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TITLE_COMPL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).TITLE_COMPL" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="TITLE_COMPL" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String" maxLength="1050"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).UNIT" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="UNIT" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_UNIT" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=ECB:ECB_BKN1(1.0).UNIT_MULT" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="UNIT_MULT" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_UNIT_MULT" version="1.0" agencyID="ECB" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_ITEM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_TYPE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_DENOM"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BKN_SERIES"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATA_TYPE_BKN"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="SERIES_DENOM"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=ECB:ECB_BKN1(1.0).MeasureDescriptor">
+            <str:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=ECB:ECB_BKN1(1.0).OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref id="OBS_VALUE" maintainableParentID="ECB_CONCEPTS" maintainableParentVersion="1.0" agencyID="ECB" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>

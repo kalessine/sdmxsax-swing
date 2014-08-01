@@ -38,9 +38,11 @@ public class DataProvider {
     static{
         try {
             LIST.add(new SoapDataProvider("ABS","http://stat.abs.gov.au/sdmxws/sdmx.asmx","http://stats.oecd.org/OECDStatWS/SDMX/"));
+            LIST.add(new SoapDataProvider("I","http://dati.istat.it/SDMXWS/sdmx.asmx","http://stats.oecd.org/OECDStatWS/SDMX/"));
             LIST.add(new SoapDataProvider("OECD","http://stats.oecd.org/SDMXWS/sdmx.asmx","http://stats.oecd.org/OECDStatWS/SDMX/"));
             LIST.add(new SoapDataProvider("IMF","http://sdmxws.imf.org/IMFStatWS_SDMX2/sdmx.asmx","http://stats.imf.org/DotStatWS/SDMX/"));
             LIST.add(new RESTDataProvider("ESTAT","http://www.ec.europa.eu/eurostat/SDMX/diss-web/rest"));
+            LIST.add(new RESTDataProvider("ECB","http://a-sdw-wsrest.ecb.europa.eu/service"));
             //LIST.add(new RESTDataProvider("FAO","http://www.fao.org/figis/sdmx/registry"));
             
         } catch (MalformedURLException ex) {
