@@ -1,20 +1,19 @@
 /**
- *  This file is part of SdmxSax.
+ * This file is part of SdmxSax.
  *
- *   SdmxSax is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- 
- *  SdmxSax is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
+ * SdmxSax is free software: you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  *
- *   You should have received a copy of the GNU General Public License
- *   along with SdmxSax.  If not, see <http://www.gnu.org/licenses/>.
+ * SdmxSax is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
- *  Copyright James Gardner 2014
+ * You should have received a copy of the GNU General Public License along with
+ * SdmxSax. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Copyright James Gardner 2014
  */
 package sdmxsaxswing;
 
@@ -326,26 +325,30 @@ public class LoadDataJPanel extends javax.swing.JPanel {
             File data = new File(jtData.getText());
             strucFis = new FileInputStream(structure);
             dataFis = new FileInputStream(data);
-            StructureType struct = SdmxIO.parseStructure(LocalRegistry.getDefaultWorkspace(),strucFis);
-            DataMessage dataMsg = SdmxIO.parseData(dataFis,false);
-            if( struct.getStructures().getDataStructures().getDataStructures().size()==0 ) return;
+            StructureType struct = SdmxIO.parseStructure(LocalRegistry.getDefaultWorkspace(), strucFis);
+            DataMessage dataMsg = SdmxIO.parseData(dataFis, false);
+            if (SdmxIO.isSaveXml()) {
+                File f = new File(System.currentTimeMillis() + ".xml");
+                System.out.println("f=" + f.getPath());
+                FileOutputStream fos = new FileOutputStream(f);
+                sdmx.version.twopointone.writer.Sdmx21StructureWriter.write(struct, fos);
+            }
+            if (struct.getStructures().getDataStructures().getDataStructures().size() == 0) {
+                return;
+            }
             if (struct.getStructures().getDataStructures().getDataStructures().size() > 1) {
                 ChooseDataStructureJDialog dialog = new ChooseDataStructureJDialog(MainJFrame.FRAME, true);
                 dialog.setDataMessage(dataMsg);
                 dialog.setStructure(struct);
                 dialog.setVisible(true);
-            }else if( struct.getStructures().getDataStructures().getDataStructures().size()==1 ) {
-                dataMsg.setDataStructure(struct.getStructures().getDataStructures().getDataStructures().get(0).asReference(),null);
+            } else if (struct.getStructures().getDataStructures().getDataStructures().size() == 1) {
+                dataMsg.setDataStructure(struct.getStructures().getDataStructures().getDataStructures().get(0).asReference(), null);
                 CombinedDataJFrame frame = new CombinedDataJFrame();
-                StructuredDataMessage cds= new StructuredDataMessage(dataMsg,LocalRegistry.getDefaultWorkspace());
+                StructuredDataMessage cds = new StructuredDataMessage(dataMsg, LocalRegistry.getDefaultWorkspace());
                 frame.setCombinedDataAndStructure(cds);
                 MainJFrame.FRAME.showRequest(frame);
             }
-                File f = new File(System.currentTimeMillis()+".xml");
-                System.out.println("f="+f.getPath());
-                FileOutputStream fos = new FileOutputStream(f);
-                sdmx.version.twopointone.writer.Sdmx21StructureWriter.write(struct, fos);
-         
+
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LoadDataJPanel.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
@@ -370,7 +373,7 @@ public class LoadDataJPanel extends javax.swing.JPanel {
 
     private void jcbProviderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbProviderActionPerformed
         try {
-            Registry reg = ((DataProvider)jcbProvider.getSelectedItem()).getRegistry();
+            Registry reg = ((DataProvider) jcbProvider.getSelectedItem()).getRegistry();
             refModel.setList(reg.listDataflows());
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
@@ -385,9 +388,9 @@ public class LoadDataJPanel extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         DataProviderJFrame frame = new DataProviderJFrame();
-        Registry reg = ((DataProvider)jcbProvider.getSelectedItem()).getRegistry();
+        Registry reg = ((DataProvider) jcbProvider.getSelectedItem()).getRegistry();
         reg.reset();
-        frame.setDataStructure(((DataProvider)jcbProvider.getSelectedItem()).getRegistry(), (DataflowType) refModel.getSelectedItem());
+        frame.setDataStructure(((DataProvider) jcbProvider.getSelectedItem()).getRegistry(), (DataflowType) refModel.getSelectedItem());
         MainJFrame.FRAME.showRequest(frame);
     }//GEN-LAST:event_jButton1ActionPerformed
 
