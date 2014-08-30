@@ -43,7 +43,9 @@ public class DataProvider {
             LIST.add(new SoapDataProvider("IMF","http://sdmxws.imf.org/IMFStatWS_SDMX2/sdmx.asmx","http://stats.imf.org/DotStatWS/SDMX/"));
             LIST.add(new RESTDataProvider("ESTAT","http://www.ec.europa.eu/eurostat/SDMX/diss-web/rest"));
             LIST.add(new RESTDataProvider("ECB","http://a-sdw-wsrest.ecb.europa.eu/service"));
-            //LIST.add(new RESTDataProvider("FAO","http://www.fao.org/figis/sdmx/registry"));
+            LIST.add(new NSIDataProvider("UIS","http://data.un.org/ws/NSIStdV20Service.asmx","http://ec.europa.eu/eurostat/sri/service/2.0"));
+            LIST.add(new NSIDataProvider("INEGI","http://www.snieg.mx/opendata/NSIStdV20Service.asmx","http://ec.europa.eu/eurostat/sri/service/2.0"));
+            LIST.add(new RESTDataProvider("FAO","http://data.fao.org/sdmx"));
             
         } catch (MalformedURLException ex) {
             Logger.getLogger(DataProvider.class.getName()).log(Level.SEVERE, null, ex);

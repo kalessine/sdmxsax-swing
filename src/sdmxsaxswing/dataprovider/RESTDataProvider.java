@@ -20,6 +20,7 @@ package sdmxsaxswing.dataprovider;
 import java.net.MalformedURLException;
 import java.net.URL;
 import sdmx.Registry;
+import sdmx.registry.FAORESTServiceRegistry;
 import sdmx.registry.QueryableServiceRegistry;
 import sdmx.registry.RESTServiceRegistry;
 import sdmx.version.common.Queryable;
@@ -37,7 +38,11 @@ public class RESTDataProvider extends DataProvider {
     public RESTDataProvider(String agency, String serviceURL) throws MalformedURLException {
         this.agencyId = agency;
         this.serviceURL = new URL(serviceURL);
-        this.registry = new RESTServiceRegistry(agencyId, serviceURL.toString());
+        if (this.agencyId.equals("FAO")) {
+            this.registry = new FAORESTServiceRegistry(agency, serviceURL.toString());
+        } else {
+            this.registry = new RESTServiceRegistry(agencyId, serviceURL.toString());
+        }
     }
 
     public String getAgencyId() {

@@ -71,6 +71,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jcbSaveXml = new javax.swing.JCheckBoxMenuItem();
+        jcbDumpQuery = new javax.swing.JCheckBoxMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(400, 500));
@@ -98,6 +99,15 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
         jMenu2.add(jcbSaveXml);
+
+        jcbDumpQuery.setSelected(true);
+        jcbDumpQuery.setText("Dump Query");
+        jcbDumpQuery.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jcbDumpQueryActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jcbDumpQuery);
 
         jMenuBar1.add(jMenu2);
 
@@ -141,6 +151,10 @@ public class MainJFrame extends javax.swing.JFrame {
         SdmxIO.setSaveXml(jcbSaveXml.isSelected());
     }//GEN-LAST:event_jcbSaveXmlActionPerformed
 
+    private void jcbDumpQueryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbDumpQueryActionPerformed
+        SdmxIO.setDumpQuery(jcbDumpQuery.isSelected());
+    }//GEN-LAST:event_jcbDumpQueryActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -181,6 +195,7 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JCheckBoxMenuItem jcbDumpQuery;
     private javax.swing.JCheckBoxMenuItem jcbSaveXml;
     private sdmxsaxswing.LoadDataJPanel loadDataJPanel1;
     // End of variables declaration//GEN-END:variables

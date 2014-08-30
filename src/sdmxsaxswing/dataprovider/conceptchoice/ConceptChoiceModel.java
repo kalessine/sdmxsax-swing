@@ -1,20 +1,19 @@
 /**
- *  This file is part of SdmxSax.
+ * This file is part of SdmxSax.
  *
- *   SdmxSax is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- 
- *  SdmxSax is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
+ * SdmxSax is free software: you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  *
- *   You should have received a copy of the GNU General Public License
- *   along with SdmxSax.  If not, see <http://www.gnu.org/licenses/>.
+ * SdmxSax is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
- *  Copyright James Gardner 2014
+ * You should have received a copy of the GNU General Public License along with
+ * SdmxSax. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Copyright James Gardner 2014
  */
 package sdmxsaxswing.dataprovider.conceptchoice;
 
@@ -26,6 +25,7 @@ import java.util.Map;
 import sdmx.Registry;
 import sdmx.commonreferences.ConceptReferenceType;
 import sdmx.commonreferences.DataStructureReferenceType;
+import sdmx.commonreferences.DataflowReferenceType;
 import sdmx.commonreferences.IDType;
 import sdmx.commonreferences.NestedIDType;
 import sdmx.commonreferences.NestedNCNameIDType;
@@ -88,7 +88,7 @@ public class ConceptChoiceModel {
     private DataStructureType structure = null;
 
     public void setDataStructure(Registry registry, DataflowType flow) {
-        this.dataflow=flow;
+        this.dataflow = flow;
         DataStructureReferenceType ref = flow.getStructure();
         conceptChoices = new ArrayList<ConceptChoice>();
         NestedNCNameIDType agency = ref.getAgencyId();
@@ -109,7 +109,7 @@ public class ConceptChoiceModel {
             }
             conceptChoices.add(choice);
         }
-        for(int i=0;i<ds.getDataStructureComponents().getMeasureList().size();i++) {
+        for (int i = 0; i < ds.getDataStructureComponents().getMeasureList().size(); i++) {
             MeasureDimensionType dim = ds.getDataStructureComponents().getMeasureList().getMeasure(i);
             String concept = dim.getConceptIdentity().getId().toString();
             SingleValueConceptChoice choice = new SingleValueConceptChoice(registry, structure, concept);
@@ -140,7 +140,7 @@ public class ConceptChoiceModel {
         RepresentationType rep = null;
         ConceptType concept = null;
         if (conceptRef != null) {
-            ConceptSchemeType con = registry.findConceptScheme(struct.getAgencyID(), conceptRef.getMaintainableParentId());
+            ConceptSchemeType con = registry.findConceptScheme(conceptRef.getAgencyId(), conceptRef);
             if (con == null) {
                 System.out.println("Cant find concept:" + conceptRef.getMaintainableParentId().getString());
             }
@@ -154,12 +154,12 @@ public class ConceptChoiceModel {
         if (rep != null) {
             if (rep.getEnumeration() != null) {
                 ItemSchemeType codelist = null;
-                if( rep.getEnumeration().getRefClass().toInt()==ObjectTypeCodelistType.CONCEPTSCHEME.toInt()){
-                    codelist = registry.findConceptScheme(rep.getEnumeration().getAgencyId(),rep.getEnumeration().getId().asID());
-                }else {
+                if (rep.getEnumeration().getRefClass().toInt() == ObjectTypeCodelistType.CONCEPTSCHEME.toInt()) {
+                    codelist = registry.findConceptScheme(rep.getEnumeration().getAgencyId(), rep.getEnumeration().getId().asID());
+                } else {
                     codelist = registry.findCodelist(rep.getEnumeration());
                 }
-                
+
                 if (codelist == null) {
                     throw new RuntimeException("Cant find codelist");
                 } else {
@@ -170,17 +170,19 @@ public class ConceptChoiceModel {
         return null;
     }
 
-
     public void setConceptChoice(String concept, ConceptChoice cc) {
-        for(int i=0;i<conceptChoices.size();i++) {
-            if( conceptChoices.get(i).getId().equals(concept)){
+        for (int i = 0; i < conceptChoices.size(); i++) {
+            if (conceptChoices.get(i).getId().equals(concept)) {
                 conceptChoices.set(i, cc);
             }
         }
     }
+
     public ConceptChoice getConceptChoice(String concept) {
-        for(int i=0;i<conceptChoices.size();i++) {
-            if( conceptChoices.get(i).getId().equals(concept))return conceptChoices.get(i);
+        for (int i = 0; i < conceptChoices.size(); i++) {
+            if (conceptChoices.get(i).getId().equals(concept)) {
+                return conceptChoices.get(i);
+            }
         }
         return null;
     }
@@ -220,7 +222,7 @@ public class ConceptChoiceModel {
     public ConceptChoice getConceptChoice(int i) {
         return conceptChoices.get(i);
     }
-    
+
     public int size() {
         return this.conceptChoices.size();
     }
@@ -228,12 +230,14 @@ public class ConceptChoiceModel {
     public DataQueryMessage toDataQuery() {
         DataQueryMessage query = new DataQueryMessage();
         //if (registry instanceof Sdmx20SDWSOAPQueryable) {
-         //   Sdmx20SDWSOAPQueryable soap = (Sdmx20SDWSOAPQueryable) registry;
-         //   query.setHeader(soap.getBaseHeader());
+        //   Sdmx20SDWSOAPQueryable soap = (Sdmx20SDWSOAPQueryable) registry;
+        //   query.setHeader(soap.getBaseHeader());
         //}
         DataQuery q = new DataQuery();
         DataParametersAndType dw = new DataParametersAndType();
-        dw.setDataSetId(Collections.singletonList(new QueryIDType(dataflow.getId().toString())));
+        List<DataflowReferenceType> dflow = new ArrayList<DataflowReferenceType>(0);
+        dflow.add((DataflowReferenceType) dataflow.asReference());
+        dw.setDataflow(dflow);
         List<DataParametersOrType> ors = new ArrayList<DataParametersOrType>();
         for (int i = 0; i < conceptChoices.size(); i++) {
             DataParametersOrType or = new DataParametersOrType();
@@ -241,8 +245,10 @@ public class ConceptChoiceModel {
             for (int j = 0; j < conceptChoices.get(i).getChoiceList().size(); j++) {
                 dims.add(new DimensionValueType(conceptChoices.get(i).getId(), conceptChoices.get(i).getChoiceList().get(j)));
             }
-            or.setDimensionValue(dims);
-            ors.add(or);
+            if (dims.size() > 0) {
+                or.setDimensionValue(dims);
+                ors.add(or);
+            }
         }
         dw.setOr(ors);
         dw.setTimeDimensionValue(Collections.singletonList(new TimeDimensionValueType(new TimeValue(getTime().getFrom().toString()), new TimeValue(getTime().getTo().toString()))));
@@ -268,10 +274,11 @@ public class ConceptChoiceModel {
     public void setTime(TimeValueConceptChoice time) {
         this.time = time;
     }
+
     public void dump() {
-        for(int i=0;i<conceptChoices.size();i++) {
+        for (int i = 0; i < conceptChoices.size(); i++) {
             conceptChoices.get(i).dump();
         }
     }
-    
+
 }
