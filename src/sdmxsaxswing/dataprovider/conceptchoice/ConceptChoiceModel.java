@@ -92,8 +92,8 @@ public class ConceptChoiceModel {
         DataStructureReferenceType ref = flow.getStructure();
         conceptChoices = new ArrayList<ConceptChoice>();
         NestedNCNameIDType agency = ref.getAgencyId();
-        NestedIDType id = ref.getId();
-        VersionType vers = ref.getVersion();
+        NestedIDType id = ref.getMaintainableParentId();
+        VersionType vers = ref.getMaintainedParentVersion();
         this.setStructureRef(ref);
         DataStructureType ds = registry.findDataStructure(agency, new IDType(id.toString()), vers);
         this.setStructure(ds);
@@ -155,7 +155,8 @@ public class ConceptChoiceModel {
             if (rep.getEnumeration() != null) {
                 ItemSchemeType codelist = null;
                 if (rep.getEnumeration().getRefClass().toInt() == ObjectTypeCodelistType.CONCEPTSCHEME.toInt()) {
-                    codelist = registry.findConceptScheme(rep.getEnumeration().getAgencyId(), rep.getEnumeration().getId().asID());
+                    codelist = registry.findConceptScheme(rep.getEnumeration().getAgencyId(), rep.getEnumeration().getMaintainableParentId());
+                    
                 } else {
                     codelist = registry.findCodelist(rep.getEnumeration());
                 }

@@ -46,6 +46,7 @@ public class DataProvider {
             LIST.add(new NSIDataProvider("UIS","http://data.un.org/ws/NSIStdV20Service.asmx","http://ec.europa.eu/eurostat/sri/service/2.0"));
             LIST.add(new NSIDataProvider("INEGI","http://www.snieg.mx/opendata/NSIStdV20Service.asmx","http://ec.europa.eu/eurostat/sri/service/2.0"));
             LIST.add(new RESTDataProvider("FAO","http://data.fao.org/sdmx"));
+            LIST.add(new RESTDataProvider("ILO","http://www.ilo.org/ilostat/sdmx/ws/rest"));
             
         } catch (MalformedURLException ex) {
             Logger.getLogger(DataProvider.class.getName()).log(Level.SEVERE, null, ex);

@@ -82,6 +82,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
         jpAll = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jlConceptName = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
         jlConceptDescription = new javax.swing.JLabel();
 
         buttonGroup1.add(jrSingle);
@@ -126,10 +127,10 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
             .addGroup(jpSingleLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addGroup(jpSingleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jcbSingleValue, javax.swing.GroupLayout.Alignment.TRAILING, 0, 373, Short.MAX_VALUE)
+                    .addComponent(jcbSingleValue, javax.swing.GroupLayout.Alignment.TRAILING, 0, 277, Short.MAX_VALUE)
                     .addGroup(jpSingleLayout.createSequentialGroup()
                         .addComponent(jLabel1)
-                        .addGap(0, 260, Short.MAX_VALUE)))
+                        .addGap(0, 201, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jpSingleLayout.setVerticalGroup(
@@ -171,14 +172,14 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
             .addGroup(jpManyLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jpManyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 147, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 98, Short.MAX_VALUE)
                     .addComponent(jbAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jpManyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 233, Short.MAX_VALUE)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE)
                     .addGroup(jpManyLayout.createSequentialGroup()
                         .addComponent(jbRemove, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 184, Short.MAX_VALUE))))
+                        .addGap(0, 135, Short.MAX_VALUE))))
         );
         jpManyLayout.setVerticalGroup(
             jpManyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -205,7 +206,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
             .addGroup(jpAllLayout.createSequentialGroup()
                 .addGap(105, 105, 105)
                 .addComponent(jLabel4)
-                .addContainerGap(102, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jpAllLayout.setVerticalGroup(
             jpAllLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -220,6 +221,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
         jlConceptName.setText("Concept");
 
         jlConceptDescription.setText("jLabel5");
+        jScrollPane3.setViewportView(jlConceptDescription);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -229,15 +231,15 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jrMany, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jrAll, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jrSingle)
-                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addComponent(jrAll, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(3, 3, 3))
-                    .addComponent(jlConceptDescription, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jlConceptName, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jlConceptName, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jrMany, javax.swing.GroupLayout.DEFAULT_SIZE, 219, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jrSingle)
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
@@ -248,12 +250,12 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
                 .addGap(2, 2, 2)
                 .addComponent(jlConceptName)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jlConceptDescription, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jrSingle)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jrMany)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(4, 4, 4)
                 .addComponent(jrAll)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -326,6 +328,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JButton jbAdd;
     private javax.swing.JButton jbRemove;
     private javax.swing.JComboBox jcbSingleValue;
