@@ -95,7 +95,10 @@ public class ConceptChoiceModel {
         NestedIDType id = ref.getMaintainableParentId();
         VersionType vers = ref.getMaintainedParentVersion();
         this.setStructureRef(ref);
+        System.out.println("ID="+id.toString());
         DataStructureType ds = registry.findDataStructure(agency, new IDType(id.toString()), vers);
+        System.out.println("DataStructure="+ds);
+        System.out.println("DataStructureComps="+ds.getDataStructureComponents());
         this.setStructure(ds);
         this.registry = registry;
         for (int i = 0; i < ds.getDataStructureComponents().getDimensionList().size(); i++) {
