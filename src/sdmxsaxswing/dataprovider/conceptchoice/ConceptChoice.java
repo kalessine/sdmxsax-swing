@@ -21,10 +21,10 @@ package sdmxsaxswing.dataprovider.conceptchoice;
 
 import java.util.List;
 import java.util.Locale;
-import sdmx.Registry;
+import sdmx.Queryable;
 import sdmx.common.Description;
 import sdmx.common.Name;
-import sdmx.commonreferences.ConceptReferenceType;
+import sdmx.commonreferences.ConceptReference;
 import sdmx.structure.base.Component;
 import sdmx.structure.base.ItemSchemeType;
 import sdmx.structure.codelist.CodelistType;
@@ -58,12 +58,12 @@ public abstract class ConceptChoice {
     public static final int DISPLAY_Y = 3;
     
     
-    private Registry registry = null;
+    private Queryable queryable = null;
     private DataStructureType structure = null;
     private int boundTo = DISPLAY_X;
-    public ConceptChoice(Registry reg, DataStructureType struct,String concept){
+    public ConceptChoice(Queryable q, DataStructureType struct,String concept){
         this.id=concept;
-        this.registry=reg;
+        this.queryable=q;
         this.structure=struct;
     }
     
@@ -103,15 +103,15 @@ public abstract class ConceptChoice {
     /**
      * @return the registry
      */
-    public Registry getRegistry() {
-        return registry;
+    public Queryable getQueryable() {
+        return queryable;
     }
 
     /**
      * @param registry the registry to set
      */
-    public void setRegistry(Registry registry) {
-        this.registry = registry;
+    public void setQueryable(Queryable q) {
+        this.queryable=q;
     }
 
     /**
@@ -128,17 +128,13 @@ public abstract class ConceptChoice {
         this.structure = structure;
     }
     public String getName() {
-        Registry registry = ConceptChoiceModel.MODEL.getRegistry();
+        Queryable q = ConceptChoiceModel.MODEL.getQueryable();
         String conceptString = getId().toString();
         Component c = ConceptChoiceModel.MODEL.getStructure().getDataStructureComponents().findDimension(conceptString);
-        ConceptReferenceType conceptRef = c.getConceptIdentity();
+        ConceptReference conceptRef = c.getConceptIdentity();
         ConceptType concept = null;
         if (conceptRef != null) {
-            ConceptSchemeType con = registry.findConceptScheme(conceptRef.getAgencyId(), conceptRef.getMaintainableParentId());
-            if (con == null) {
-                System.out.println("Cant find concept:" + conceptRef.getMaintainableParentId());
-            }
-            concept = con.findConcept(c.getConceptIdentity().getId());
+            concept = q.getRegistry().find(conceptRef);
             if( concept==null) System.out.println("Can't find concept::"+c.getConceptIdentity().getId().toString());
             Locale loc = Locale.getDefault();
             Name name = concept==null?null:concept.findName(loc.getLanguage());
@@ -150,17 +146,13 @@ public abstract class ConceptChoice {
         return conceptString;
     }
     public String getDescription() {
-        Registry registry = ConceptChoiceModel.MODEL.getRegistry();
+        Queryable q = ConceptChoiceModel.MODEL.getQueryable();
         String conceptString = getId().toString();
         Component c = ConceptChoiceModel.MODEL.getStructure().getDataStructureComponents().findDimension(conceptString);
-        ConceptReferenceType conceptRef = c.getConceptIdentity();
+        ConceptReference conceptRef = c.getConceptIdentity();
         ConceptType concept = null;
         if (conceptRef != null) {
-            ConceptSchemeType con = registry.findConceptScheme(conceptRef.getAgencyId(), conceptRef.getMaintainableParentId());
-            if (con == null) {
-                System.out.println("Cant find concept:" + conceptRef.getMaintainableParentId());
-            }
-            concept = con.findConcept(c.getConceptIdentity().getId());
+            concept = q.getRegistry().find(conceptRef);
             Locale loc = Locale.getDefault();
             Description name = concept==null?null:concept.findDescription(loc.getLanguage());
             if (name == null) {
@@ -180,11 +172,11 @@ public abstract class ConceptChoice {
         System.out.println("ID:"+this.id);
         System.out.println("Name:"+this.getName());
         System.out.println("Desc:"+this.getDescription());
-        Registry registry = ConceptChoiceModel.MODEL.getRegistry();
+        Queryable queryable = ConceptChoiceModel.MODEL.getQueryable();
         String conceptString = getId().toString();
         Component c = ConceptChoiceModel.MODEL.getStructure().getDataStructureComponents().findDimension(conceptString);
         System.out.println("Component:"+c);
-        ConceptReferenceType conceptRef = c.getConceptIdentity();
+        ConceptReference conceptRef = c.getConceptIdentity();
         System.out.println("ConceptRef:"+conceptRef.getId().toString());
         for(int i=0;i<getChoiceList().size();i++) {
             System.out.println("Choice:"+i+":"+getChoiceList().get(i));

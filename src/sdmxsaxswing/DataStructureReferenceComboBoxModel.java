@@ -24,11 +24,11 @@ import javax.swing.ComboBoxModel;
 import javax.swing.ListModel;
 import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
-import sdmx.commonreferences.DataStructureReferenceType;
+import sdmx.commonreferences.DataStructureReference;
 import sdmx.commonreferences.IDType;
-import sdmx.commonreferences.NestedIDType;
-import sdmx.commonreferences.NestedNCNameIDType;
-import sdmx.commonreferences.VersionType;
+import sdmx.commonreferences.NestedID;
+import sdmx.commonreferences.NestedNCNameID;
+import sdmx.commonreferences.Version;
 
 /**
  *
@@ -40,9 +40,9 @@ public class DataStructureReferenceComboBoxModel implements ComboBoxModel {
     
     }
     
-    List<DataStructureReferenceType> list = null;
+    List<DataStructureReference> list = null;
     
-    DataStructureReferenceType selected = null;
+    DataStructureReference selected = null;
     
     @Override
     public int getSize() {
@@ -52,7 +52,7 @@ public class DataStructureReferenceComboBoxModel implements ComboBoxModel {
 
     @Override
     public Object getElementAt(int index) {
-        DataStructureReferenceType ref = list.get(index);
+        DataStructureReference ref = list.get(index);
         return ref;
     }
 
@@ -68,20 +68,20 @@ public class DataStructureReferenceComboBoxModel implements ComboBoxModel {
     public void removeListDataListener(ListDataListener l) {
         listeners.remove(l);
     }
-    public void setList(List<DataStructureReferenceType> list) {
+    public void setList(List<DataStructureReference> list) {
         this.list=list;
         ListDataEvent event = new ListDataEvent(this,ListDataEvent.CONTENTS_CHANGED,0,list.size());
         for(int i=0;i<listeners.size();i++) {
             listeners.get(i).contentsChanged(event);
         }
     }
-    public DataStructureReferenceType getDataStructureReference(int i) {
+    public DataStructureReference getDataStructureReference(int i) {
         return list.get(i);
     }
 
     @Override
     public void setSelectedItem(Object anItem) {
-    selected = (DataStructureReferenceType)anItem;
+    selected = (DataStructureReference)anItem;
     }
 
     @Override

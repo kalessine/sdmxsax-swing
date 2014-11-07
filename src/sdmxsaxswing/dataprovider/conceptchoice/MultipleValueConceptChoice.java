@@ -20,7 +20,7 @@ package sdmxsaxswing.dataprovider.conceptchoice;
 
 import java.util.ArrayList;
 import java.util.List;
-import sdmx.Registry;
+import sdmx.Queryable;
 import sdmx.structure.datastructure.DataStructureType;
 
 /**
@@ -43,8 +43,8 @@ import sdmx.structure.datastructure.DataStructureType;
  */
 public class MultipleValueConceptChoice extends ConceptChoice {
 
-    public MultipleValueConceptChoice(Registry reg, DataStructureType struct, String concept) {
-        super(reg,struct,concept);
+    public MultipleValueConceptChoice(Queryable q, DataStructureType struct, String concept) {
+        super(q,struct,concept);
         
     }
     

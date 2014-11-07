@@ -1,20 +1,19 @@
 /**
- *  This file is part of SdmxSax.
+ * This file is part of SdmxSax.
  *
- *   SdmxSax is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- 
- *  SdmxSax is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
+ * SdmxSax is free software: you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
  *
- *   You should have received a copy of the GNU General Public License
- *   along with SdmxSax.  If not, see <http://www.gnu.org/licenses/>.
+ * SdmxSax is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
- *  Copyright James Gardner 2014
+ * You should have received a copy of the GNU General Public License along with
+ * SdmxSax. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Copyright James Gardner 2014
  */
 package sdmxsaxswing;
 
@@ -23,7 +22,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import javax.swing.SwingUtilities;
-import sdmx.commonreferences.DataStructureReferenceType;
+import sdmx.commonreferences.DataStructureReference;
 import sdmx.message.DataMessage;
 import sdmx.message.StructureType;
 import sdmx.structure.datastructure.DataStructureType;
@@ -37,6 +36,7 @@ import sdmxsaxswing.dataandstructure.CombinedDataJFrame;
 public class ChooseDataStructureJDialog extends javax.swing.JDialog {
 
     DataStructureReferenceListModel model = new DataStructureReferenceListModel();
+
     /**
      * Creates new form ChooseDataStructureJDialog
      */
@@ -44,7 +44,6 @@ public class ChooseDataStructureJDialog extends javax.swing.JDialog {
         super(parent, modal);
         initComponents();
     }
-
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -109,9 +108,9 @@ public class ChooseDataStructureJDialog extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        dataMessage.setDataStructure(model.getDataStructureReference(this.jList1.getSelectedIndex()),null);
+        dataMessage.setDataStructure(model.getDataStructureReference(this.jList1.getSelectedIndex()), null);
         final CombinedDataJFrame frame = new CombinedDataJFrame();
-        StructuredDataMessage cds= new StructuredDataMessage(dataMessage,structure);
+        StructuredDataMessage cds = new StructuredDataMessage(dataMessage, structure);
         frame.setCombinedDataAndStructure(cds);
         MainJFrame.FRAME.showRequest(frame);
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -194,9 +193,11 @@ public class ChooseDataStructureJDialog extends javax.swing.JDialog {
      */
     public void setStructure(StructureType structure) {
         this.structure = structure;
-        List<DataStructureReferenceType> list = new LinkedList<DataStructureReferenceType>();
+        List<DataStructureReference> list = new LinkedList<DataStructureReference>();
         Iterator<DataStructureType> it = structure.getStructures().getDataStructures().getDataStructures().iterator();
-        while(it.hasNext())list.add(it.next().asReference());
+        while (it.hasNext()) {
+            list.add(it.next().asReference());
+        }
         this.model.setList(list);
     }
 

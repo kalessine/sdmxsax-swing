@@ -23,11 +23,11 @@ import java.util.List;
 import javax.swing.ListModel;
 import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
-import sdmx.commonreferences.DataStructureReferenceType;
+import sdmx.commonreferences.DataStructureReference;
 import sdmx.commonreferences.IDType;
-import sdmx.commonreferences.NestedIDType;
-import sdmx.commonreferences.NestedNCNameIDType;
-import sdmx.commonreferences.VersionType;
+import sdmx.commonreferences.NestedID;
+import sdmx.commonreferences.NestedNCNameID;
+import sdmx.commonreferences.Version;
 
 /**
  *
@@ -37,7 +37,7 @@ public class DataStructureReferenceListModel implements ListModel {
 
     public DataStructureReferenceListModel(){}
     
-    List<DataStructureReferenceType> list = null;
+    List<DataStructureReference> list = null;
     
     @Override
     public int getSize() {
@@ -47,10 +47,10 @@ public class DataStructureReferenceListModel implements ListModel {
 
     @Override
     public Object getElementAt(int index) {
-        DataStructureReferenceType ref = list.get(index);
-        NestedNCNameIDType agency = ref.getAgencyId();
-        NestedIDType id = ref.getId();
-        VersionType vers = ref.getVersion();
+        DataStructureReference ref = list.get(index);
+        NestedNCNameID agency = ref.getAgencyId();
+        NestedID id = ref.getId();
+        Version vers = ref.getVersion();
         return "Agency:"+agency.toString()+", ID:"+id.toString()+": Version:"+(vers==null?"":vers.toString());
     }
 
@@ -66,14 +66,14 @@ public class DataStructureReferenceListModel implements ListModel {
     public void removeListDataListener(ListDataListener l) {
         listeners.remove(l);
     }
-    public void setList(List<DataStructureReferenceType> list) {
+    public void setList(List<DataStructureReference> list) {
         this.list=list;
         ListDataEvent event = new ListDataEvent(this,ListDataEvent.CONTENTS_CHANGED,0,list.size());
         for(int i=0;i<listeners.size();i++) {
             listeners.get(i).contentsChanged(event);
         }
     }
-    public DataStructureReferenceType getDataStructureReference(int i) {
+    public DataStructureReference getDataStructureReference(int i) {
         return list.get(i);
     }
 }

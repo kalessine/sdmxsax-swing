@@ -22,10 +22,10 @@ import java.awt.CardLayout;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import sdmx.Registry;
+import sdmx.Queryable;
 import sdmx.common.Description;
 import sdmx.common.Name;
-import sdmx.commonreferences.ConceptReferenceType;
+import sdmx.commonreferences.ConceptReference;
 import sdmx.structure.base.Component;
 import sdmx.structure.base.ItemType;
 import sdmx.structure.codelist.CodeType;
@@ -271,7 +271,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
     private void jrSingleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jrSingleActionPerformed
         CardLayout layout = (CardLayout) jPanel1.getLayout();
         layout.show(jPanel1, "Single");
-        ConceptChoice cc2 = new SingleValueConceptChoice(ConceptChoiceModel.MODEL.getRegistry(), ConceptChoiceModel.MODEL.getStructure(), getId());
+        ConceptChoice cc2 = new SingleValueConceptChoice(ConceptChoiceModel.MODEL.getQueryable(), ConceptChoiceModel.MODEL.getStructure(), getId());
         ConceptChoiceModel.MODEL.setConceptChoice(getId(), cc2);
         get();
 
@@ -280,7 +280,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
     private void jrManyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jrManyActionPerformed
         CardLayout layout = (CardLayout) jPanel1.getLayout();
         layout.show(jPanel1, "Many");
-        ConceptChoice cc2 = new MultipleValueConceptChoice(ConceptChoiceModel.MODEL.getRegistry(), ConceptChoiceModel.MODEL.getStructure(), getId());
+        ConceptChoice cc2 = new MultipleValueConceptChoice(ConceptChoiceModel.MODEL.getQueryable(), ConceptChoiceModel.MODEL.getStructure(), getId());
         ConceptChoiceModel.MODEL.setConceptChoice(id, cc2);
         available = new CodelistListModel();
         available.setCodelist(cc2.getCodes());
@@ -292,7 +292,7 @@ public class ConceptChoiceJPanel extends javax.swing.JPanel {
     private void jrAllActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jrAllActionPerformed
         CardLayout layout = (CardLayout) jPanel1.getLayout();
         layout.show(jPanel1, "All");
-        ConceptChoice cc2 = new AllValueConceptChoice(ConceptChoiceModel.MODEL.getRegistry(), ConceptChoiceModel.MODEL.getStructure(), getId());
+        ConceptChoice cc2 = new AllValueConceptChoice(ConceptChoiceModel.MODEL.getQueryable(), ConceptChoiceModel.MODEL.getStructure(), getId());
         ConceptChoiceModel.MODEL.setConceptChoice(getId(), cc2);
         get();
     }//GEN-LAST:event_jrAllActionPerformed

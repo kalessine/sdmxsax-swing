@@ -35,8 +35,7 @@ import javax.swing.SwingUtilities;
 import sdmx.SdmxIO;
 import sdmx.exception.ParseException;
 import sdmx.message.DataMessage;
-import sdmx.registry.LocalRegistry;
-
+import sdmx.net.LocalRegistry;
 /**
  *
  * @author James
@@ -184,6 +183,7 @@ public class MainJFrame extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                SdmxIO.setLogLevel(7);
                 MainJFrame.FRAME = new MainJFrame();
                 FRAME.setVisible(true);
             }

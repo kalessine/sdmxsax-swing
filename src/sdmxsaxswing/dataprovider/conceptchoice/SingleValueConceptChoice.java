@@ -20,7 +20,7 @@ package sdmxsaxswing.dataprovider.conceptchoice;
 
 import java.util.ArrayList;
 import java.util.List;
-import sdmx.Registry;
+import sdmx.Queryable;
 import sdmx.message.DataStructure;
 import sdmx.structure.datastructure.DataStructureType;
 
@@ -50,8 +50,8 @@ public class SingleValueConceptChoice extends ConceptChoice {
     private int type = SINGLE_CHOICE_DROPDOWN;
     private List<String> choiceList = null;
     
-    public SingleValueConceptChoice(Registry reg, DataStructureType struct, String concept) {
-        super(reg,struct,concept);
+    public SingleValueConceptChoice(Queryable q, DataStructureType struct, String concept) {
+        super(q,struct,concept);
         
     }
     @Override

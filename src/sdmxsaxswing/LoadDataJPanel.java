@@ -30,23 +30,20 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
-import sdmx.Registry;
 import sdmx.SdmxIO;
-import sdmx.commonreferences.DataStructureReferenceType;
+import sdmx.commonreferences.DataStructureReference;
 import sdmx.exception.ParseException;
 import sdmx.message.DataMessage;
 import sdmx.message.StructureType;
-import sdmx.registry.LocalRegistry;
-import sdmx.registry.QueryableServiceRegistry;
 import sdmx.structure.dataflow.DataflowType;
 import sdmx.structureddata.StructuredDataMessage;
-import sdmx.version.common.Queryable;
 import sdmxsaxswing.dataandstructure.CombinedDataJFrame;
 import sdmxsaxswing.dataonly.DisplayDataMessageJFrame;
-import sdmxsaxswing.dataprovider.DataProvider;
 import sdmxsaxswing.dataprovider.DataProviderComboBoxModel;
 import sdmxsaxswing.dataprovider.DataProviderJFrame;
-
+import sdmx.net.LocalRegistry;
+import sdmx.Queryable;
+import sdmx.net.list.DataProvider;
 /**
  *
  * @author James
@@ -373,8 +370,8 @@ public class LoadDataJPanel extends javax.swing.JPanel {
 
     private void jcbProviderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbProviderActionPerformed
         try {
-            Registry reg = ((DataProvider) jcbProvider.getSelectedItem()).getRegistry();
-            refModel.setList(reg.listDataflows());
+            Queryable q = ((DataProvider) jcbProvider.getSelectedItem()).getQueryable();
+            refModel.setList(q.getRegistry().listDataflows());
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
             ex.printStackTrace();
@@ -388,9 +385,9 @@ public class LoadDataJPanel extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         DataProviderJFrame frame = new DataProviderJFrame();
-        Registry reg = ((DataProvider) jcbProvider.getSelectedItem()).getRegistry();
-        reg.reset();
-        frame.setDataStructure(((DataProvider) jcbProvider.getSelectedItem()).getRegistry(), (DataflowType) refModel.getSelectedItem());
+        Queryable q = ((DataProvider) jcbProvider.getSelectedItem()).getQueryable();
+        q.getRegistry().clear();
+        frame.setDataStructure(((DataProvider) jcbProvider.getSelectedItem()).getQueryable(), (DataflowType) refModel.getSelectedItem());
         MainJFrame.FRAME.showRequest(frame);
     }//GEN-LAST:event_jButton1ActionPerformed
 

@@ -26,11 +26,11 @@ import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
 import sdmx.common.Description;
 import sdmx.common.Name;
-import sdmx.commonreferences.DataStructureReferenceType;
+import sdmx.commonreferences.DataStructureReference;
 import sdmx.commonreferences.IDType;
-import sdmx.commonreferences.NestedIDType;
-import sdmx.commonreferences.NestedNCNameIDType;
-import sdmx.commonreferences.VersionType;
+import sdmx.commonreferences.NestedID;
+import sdmx.commonreferences.NestedNCNameID;
+import sdmx.commonreferences.Version;
 import sdmx.structure.dataflow.DataflowType;
 
 /**

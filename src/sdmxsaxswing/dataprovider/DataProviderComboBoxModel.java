@@ -23,6 +23,7 @@ import java.util.List;
 import javax.swing.ComboBoxModel;
 import javax.swing.ListModel;
 import javax.swing.event.ListDataListener;
+import sdmx.net.list.DataProvider;
 
 /**
  *

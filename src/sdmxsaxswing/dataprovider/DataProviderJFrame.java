@@ -23,25 +23,23 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JPanel;
-import sdmx.Registry;
-import sdmx.commonreferences.DataStructureReferenceType;
+import sdmx.commonreferences.DataStructureReference;
 import sdmx.commonreferences.IDType;
-import sdmx.commonreferences.VersionType;
+import sdmx.commonreferences.Version;
 import sdmx.exception.QueryableException;
 import sdmx.message.DataMessage;
 import sdmx.message.DataQueryMessage;
 import sdmx.query.data.DataQuery;
-import sdmx.registry.QueryableServiceRegistry;
 import sdmx.structure.dataflow.DataflowType;
 import sdmx.structure.datastructure.DataStructureType;
 import sdmx.structureddata.StructuredDataMessage;
-import sdmx.version.twopointzero.Sdmx20SDWSOAPQueryable;
 import sdmxsaxswing.MainJFrame;
 import sdmxsaxswing.dataandstructure.CombinedDataJFrame;
 import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoice;
 import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoiceJPanel;
 import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoiceModel;
-
+import sdmx.Queryable;
+import sdmx.NewRegistry;
 /**
  *
  * @author James
@@ -105,16 +103,15 @@ public class DataProviderJFrame extends javax.swing.JFrame {
         DataQueryMessage q = ConceptChoiceModel.MODEL.toDataQuery();
         //System.out.println("Blah!" + registry);
         //System.out.println("Query");
-        Registry soap = registry;
-        DataMessage message = soap.query(q);
+        DataMessage message = queryable.getRepository().query(q);
         //System.out.println("Got DataMessage");
         message.setDataStructure(ref, null);
             //System.out.println("REg=" + registry);
         //System.out.println("Ref=" + ref.getRef().getAgencyId() + ":" + ref.getRef().getId() + ":" + ref.getRef().getVersion());
-        DataStructureType ds = registry.findDataStructure(ref.getAgencyId(), ref.getMaintainableParentId(), ref.getMaintainedParentVersion());
+        DataStructureType ds = queryable.getRegistry().find(ref);
         //System.out.println("DS=" + ds);
 
-        StructuredDataMessage structured = new StructuredDataMessage(message, registry);
+        StructuredDataMessage structured = new StructuredDataMessage(message, queryable.getRegistry());
         //System.out.println("Made structured");
         CombinedDataJFrame frame = new CombinedDataJFrame();
         frame.setCombinedDataAndStructure(structured);
@@ -158,14 +155,14 @@ public class DataProviderJFrame extends javax.swing.JFrame {
         });
     }
 
-    private Registry registry = null;
-    private DataStructureReferenceType ref = null;
+    private Queryable queryable = null;
+    private DataStructureReference ref = null;
 
-    public void setDataStructure(Registry reg, DataflowType flow) {
+    public void setDataStructure(Queryable q, DataflowType flow) {
         this.setTitle(flow.toString());
-        this.registry = reg;
+        this.queryable = q;
         this.ref = flow.getStructure();
-        ConceptChoiceModel.MODEL.setDataStructure(reg, flow);
+        ConceptChoiceModel.MODEL.setDataStructure(queryable, flow);
         for (int i = 0; i < ConceptChoiceModel.MODEL.size(); i++) {
             ConceptChoice cc = ConceptChoiceModel.MODEL.getConceptChoice(i);
             ConceptChoiceJPanel panel = new ConceptChoiceJPanel();
