@@ -108,8 +108,8 @@ public class ConceptChoiceModel {
             }
             conceptChoices.add(choice);
         }
-        for (int i = 0; i < ds.getDataStructureComponents().getMeasureList().size(); i++) {
-            MeasureDimensionType dim = ds.getDataStructureComponents().getMeasureList().getMeasure(i);
+        if( ds.getDataStructureComponents().getDimensionList().getMeasureDimension()!=null) {
+            MeasureDimensionType dim = ds.getDataStructureComponents().getDimensionList().getMeasureDimension();
             String concept = dim.getConceptIdentity().getId().toString();
             SingleValueConceptChoice choice = new SingleValueConceptChoice(queryable, structure, concept);
             choice.setId(concept);

@@ -39,7 +39,7 @@ import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoice;
 import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoiceJPanel;
 import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoiceModel;
 import sdmx.Queryable;
-import sdmx.NewRegistry;
+import sdmx.Registry;
 /**
  *
  * @author James
