@@ -92,10 +92,7 @@ public class ConceptChoiceModel {
         DataStructureReference ref = flow.getStructure();
         conceptChoices = new ArrayList<ConceptChoice>();
         this.setStructureRef(ref);
-        System.out.println("Ref.Dump()");
-        ref.dump();
         DataStructureType ds = queryable.getRegistry().find(ref);
-        System.out.println("Strucure="+ds);
         this.setStructure(ds);
         for (int i = 0; i < ds.getDataStructureComponents().getDimensionList().size(); i++) {
             DimensionType dim = ds.getDataStructureComponents().getDimensionList().getDimension(i);
