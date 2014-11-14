@@ -368,9 +368,10 @@ public class LoadDataJPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_jbLoadBothActionPerformed
 
 
+    private Queryable q = null;
     private void jcbProviderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbProviderActionPerformed
         try {
-            Queryable q = ((DataProvider) jcbProvider.getSelectedItem()).getQueryable();
+            q = ((DataProvider) jcbProvider.getSelectedItem()).getQueryable();
             refModel.setList(q.getRegistry().listDataflows());
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
@@ -385,9 +386,9 @@ public class LoadDataJPanel extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         DataProviderJFrame frame = new DataProviderJFrame();
-        Queryable q = ((DataProvider) jcbProvider.getSelectedItem()).getQueryable();
+        //Queryable q = ((DataProvider) jcbProvider.getSelectedItem()).getQueryable();
         q.getRegistry().clear();
-        frame.setDataStructure(((DataProvider) jcbProvider.getSelectedItem()).getQueryable(), (DataflowType) refModel.getSelectedItem());
+        frame.setDataStructure(q, (DataflowType) refModel.getSelectedItem());
         MainJFrame.FRAME.showRequest(frame);
     }//GEN-LAST:event_jButton1ActionPerformed
 
