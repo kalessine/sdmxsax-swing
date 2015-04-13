@@ -65,7 +65,7 @@ public class CombinedDataTableModel implements TableModel {
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         StructuredDataSet ds = doc.getStructuredDataSet(0);
-        return ds.getDecoratedValue(rowIndex, columnIndex).toString();
+        return ds.getStructuredValue(rowIndex, columnIndex).toString();
     }
 
     @Override
