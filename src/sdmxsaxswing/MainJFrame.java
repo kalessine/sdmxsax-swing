@@ -49,8 +49,8 @@ public class MainJFrame extends javax.swing.JFrame {
      */
     public MainJFrame() {
         initComponents();
-        setSize(new Dimension(600, 600));
-        setPreferredSize(new Dimension(600, 600));
+        setSize(new Dimension(600, 800));
+        setPreferredSize(new Dimension(600, 800));
         currentFrame = this;
         jcbSaveXml.setSelected(SdmxIO.isSaveXml());
     }
