@@ -45,8 +45,10 @@ import sdmxsaxswing.dataprovider.DataProviderJFrame;
 import sdmx.net.LocalRegistry;
 import sdmx.Queryable;
 import sdmx.Registry;
+import sdmx.commonreferences.IDType;
 import sdmx.net.list.DataProvider;
 import sdmx.version.common.ParseDataCallbackHandler;
+import sdmx.version.common.ParseParams;
 import sdmx.version.twopointone.writer.Sdmx21StructureWriter;
 /**
  *
@@ -386,7 +388,9 @@ public class LoadDataJPanel extends javax.swing.JPanel {
             File data = new File(jtData.getText());
             strucFis = new FileInputStream(structure);
             dataFis = new FileInputStream(data);
-            StructureType struct = SdmxIO.parseStructure(LocalRegistry.getDefaultWorkspace(), strucFis);
+            ParseParams params = new ParseParams();
+            params.setRegistry(LocalRegistry.getDefaultWorkspace());
+            StructureType struct = SdmxIO.parseStructure(params, strucFis);
             DataMessage dataMsg = SdmxIO.parseData(dataFis);
             if (SdmxIO.isSaveXml()) {
                 File f = new File(System.currentTimeMillis() + ".xml");
@@ -465,8 +469,14 @@ public class LoadDataJPanel extends javax.swing.JPanel {
             if( f == null ) return;
             fos = new FileOutputStream(f);
             FileInputStream fis = new FileInputStream(jtStructure.getText());
-            StructureType struct = SdmxIO.parseStructure(fis);
-            SdmxIO.write((String)jcbStructureMime.getSelectedItem(), struct, fos);
+            ParseParams params = new ParseParams();
+            params.setRegistry(LocalRegistry.getDefaultWorkspace());
+            params.setUseDataflowName(true);
+            DataflowType flow = new DataflowType();
+            flow.setId(new IDType("DATAFLOW"));
+            params.setDataflow(flow);
+            StructureType struct = SdmxIO.parseStructure(params,fis);
+            SdmxIO.write(params,(String)jcbStructureMime.getSelectedItem(), struct, fos);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LoadDataJPanel.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
@@ -492,10 +502,14 @@ public class LoadDataJPanel extends javax.swing.JPanel {
             fos = new FileOutputStream(f);
             FileInputStream fis = new FileInputStream(jtStructure.getText());
             Registry registry = new LocalRegistry();
-            StructureType struct = SdmxIO.parseStructure(registry,fis);
+            ParseParams params = new ParseParams();
+            params.setRegistry(registry);
+            StructureType struct = SdmxIO.parseStructure(params,fis);
             FileInputStream dataIn = new FileInputStream(jtData.getText());
-            ParseDataCallbackHandler cbHandler = SdmxIO.openForStreamWriting((String)jcbDataMime.getSelectedItem(), fos, registry, struct.getStructures().getDataStructures().getDataStructures().get(0).asDataflow());
-            SdmxIO.parseData(dataIn, cbHandler);
+            params.setDataflow(struct.getStructures().getDataStructures().getDataStructures().get(0).asDataflow());
+            ParseDataCallbackHandler cbHandler = SdmxIO.openForStreamWriting((String)jcbDataMime.getSelectedItem(), fos, params);
+            params.setCallbackHandler(cbHandler);
+            SdmxIO.parseData(params,dataIn);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LoadDataJPanel.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {

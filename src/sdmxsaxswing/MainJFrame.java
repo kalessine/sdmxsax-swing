@@ -36,6 +36,7 @@ import sdmx.SdmxIO;
 import sdmx.exception.ParseException;
 import sdmx.message.DataMessage;
 import sdmx.net.LocalRegistry;
+import sdmx.version.common.ParseParams;
 /**
  *
  * @author James
@@ -128,7 +129,9 @@ public class MainJFrame extends javax.swing.JFrame {
             for (int i = 0; i < files.length; i++) {
                 System.out.println("Loading:"+files[i].getName());
                 fis = new FileInputStream(files[i]);
-                SdmxIO.parseStructure(LocalRegistry.getDefaultWorkspace(), fis);
+                ParseParams params = new ParseParams();
+                params.setRegistry(LocalRegistry.getDefaultWorkspace());
+                SdmxIO.parseStructure(params, fis);
             }
 
         } catch (FileNotFoundException ex) {

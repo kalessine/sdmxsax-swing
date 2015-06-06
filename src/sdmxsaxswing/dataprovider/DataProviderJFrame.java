@@ -40,6 +40,7 @@ import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoiceJPanel;
 import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoiceModel;
 import sdmx.Queryable;
 import sdmx.Registry;
+import sdmx.version.common.ParseParams;
 /**
  *
  * @author James
@@ -103,7 +104,9 @@ public class DataProviderJFrame extends javax.swing.JFrame {
         DataQueryMessage q = ConceptChoiceModel.MODEL.toDataQuery();
         //System.out.println("Blah!" + registry);
         //System.out.println("Query");
-        DataMessage message = queryable.getRepository().query(q);
+        ParseParams params = new ParseParams();
+        params.setRegistry(queryable.getRegistry());
+        DataMessage message = queryable.getRepository().query(params,q);
         //System.out.println("Got DataMessage");
         message.setDataStructure(ref, null);
             //System.out.println("REg=" + registry);
