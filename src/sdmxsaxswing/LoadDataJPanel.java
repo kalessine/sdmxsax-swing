@@ -408,9 +408,11 @@ public class LoadDataJPanel extends javax.swing.JPanel {
                 dialog.setVisible(true);
             } else if (struct.getStructures().getDataStructures().getDataStructures().size() == 1) {
                 dataMsg.setDataStructure(struct.getStructures().getDataStructures().getDataStructures().get(0).asReference(), null);
+                dataMsg.getHeader().getStructures().get(0).getStructure().dump();
                 CombinedDataJFrame frame = new CombinedDataJFrame();
                 StructuredDataMessage cds = new StructuredDataMessage(dataMsg, LocalRegistry.getDefaultWorkspace());
                 frame.setCombinedDataAndStructure(cds);
+                frame.setDataflow(struct.getStructures().getDataStructures().getDataStructures().get(0).asDataflow());
                 MainJFrame.FRAME.showRequest(frame);
             }
 

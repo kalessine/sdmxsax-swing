@@ -96,6 +96,10 @@ public class ConceptChoiceModel {
         this.setStructure(ds);
         for (int i = 0; i < ds.getDataStructureComponents().getDimensionList().size(); i++) {
             DimensionType dim = ds.getDataStructureComponents().getDimensionList().getDimension(i);
+            System.out.println("Dim="+i);
+            System.out.println("Dim2="+dim);
+            System.out.println("Dim3="+dim.getConceptIdentity());
+            System.out.println("Dim4="+dim.getConceptIdentity().getId());
             String concept = dim.getConceptIdentity().getId().toString();
             SingleValueConceptChoice choice = new SingleValueConceptChoice(queryable, structure, concept);
             choice.setId(concept);

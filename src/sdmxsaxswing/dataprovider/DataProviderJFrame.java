@@ -18,6 +18,7 @@
  */
 package sdmxsaxswing.dataprovider;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -40,6 +41,7 @@ import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoiceJPanel;
 import sdmxsaxswing.dataprovider.conceptchoice.ConceptChoiceModel;
 import sdmx.Queryable;
 import sdmx.Registry;
+import sdmx.exception.ParseException;
 import sdmx.version.common.ParseParams;
 /**
  *
@@ -106,7 +108,14 @@ public class DataProviderJFrame extends javax.swing.JFrame {
         //System.out.println("Query");
         ParseParams params = new ParseParams();
         params.setRegistry(queryable.getRegistry());
-        DataMessage message = queryable.getRepository().query(params,q);
+        DataMessage message = null;
+        try {
+            message = queryable.getRepository().query(params,q);
+        } catch (ParseException ex) {
+            Logger.getLogger(DataProviderJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(DataProviderJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        }
         //System.out.println("Got DataMessage");
         message.setDataStructure(ref, null);
             //System.out.println("REg=" + registry);

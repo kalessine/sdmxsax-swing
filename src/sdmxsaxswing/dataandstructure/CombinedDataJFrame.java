@@ -18,6 +18,7 @@
  */
 package sdmxsaxswing.dataandstructure;
 
+import java.awt.Dimension;
 import java.awt.Frame;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -29,8 +30,12 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableModel;
+import sdmx.SdmxIO;
+import sdmx.cube.Cube;
 import sdmx.message.StructureType;
+import sdmx.structure.dataflow.DataflowType;
 import sdmx.structureddata.StructuredDataMessage;
+import sdmx.version.common.ParseParams;
 import sdmxsaxswing.MainJFrame;
 
 /**
@@ -39,6 +44,7 @@ import sdmxsaxswing.MainJFrame;
  */
 public class CombinedDataJFrame extends javax.swing.JFrame {
 
+    private DataflowType dataflow = null;
     /**
      * Creates new form CombinedDataJFrame2
      */
@@ -61,8 +67,10 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jmFileOpen = new javax.swing.JMenuItem();
+        jmFileSaveJSON = new javax.swing.JMenuItem();
         jmEdit = new javax.swing.JMenu();
         jmLocale = new javax.swing.JMenuItem();
+        jmnCube = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -100,6 +108,14 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
         });
         jMenu1.add(jmFileOpen);
 
+        jmFileSaveJSON.setText("Save JSON-STAT");
+        jmFileSaveJSON.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmFileSaveJSONActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jmFileSaveJSON);
+
         jMenuBar1.add(jMenu1);
 
         jmEdit.setText("Edit");
@@ -111,6 +127,14 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
             }
         });
         jmEdit.add(jmLocale);
+
+        jmnCube.setText("Cube");
+        jmnCube.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmnCubeActionPerformed(evt);
+            }
+        });
+        jmEdit.add(jmnCube);
 
         jMenuBar1.add(jmEdit);
 
@@ -137,10 +161,44 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
 
     private void jmLocaleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmLocaleActionPerformed
         LocaleJDialog dialog = new LocaleJDialog(this,true);
+        dialog.setSize(new Dimension(300,400));
         dialog.setVisible(true);
         this.jTable2.setModel(new DefaultTableModel());
         this.jTable2.setModel(model);
     }//GEN-LAST:event_jmLocaleActionPerformed
+
+    private void jmFileSaveJSONActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmFileSaveJSONActionPerformed
+        FileOutputStream fos = null;
+        try {
+            JFileChooser jfc = new JFileChooser();
+            jfc.showSaveDialog(jMenu1);
+            File f = jfc.getSelectedFile();
+            if( f == null ) return;
+            fos = new FileOutputStream(f);
+            ParseParams params = new ParseParams();
+            params.setRegistry(cds.getRegistry());
+            params.setDataflow(dataflow);
+            SdmxIO.write(params,"application/json", cds.getDataMessage(), fos);
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            try {
+                fos.close();
+            } catch (IOException ex) {
+                Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+        
+    }//GEN-LAST:event_jmFileSaveJSONActionPerformed
+
+    private void jmnCubeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmnCubeActionPerformed
+        Cube cube = new Cube(cds.getRegistry().find(cds.getDataflow().getStructure()));
+        for(int i=0;i<cds.getDataMessage().getDataSets().get(0).size();i++) {
+            cube.putObservation(null,cds.getDataMessage().getDataSets().get(0).getColumnMapper(),cds.getDataMessage().getDataSets().get(0).getFlatObs(i));
+        }
+    }//GEN-LAST:event_jmnCubeActionPerformed
 
     /**
      * @param args the command line arguments
@@ -185,7 +243,9 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
     private javax.swing.JTable jTable2;
     private javax.swing.JMenu jmEdit;
     private javax.swing.JMenuItem jmFileOpen;
+    private javax.swing.JMenuItem jmFileSaveJSON;
     private javax.swing.JMenuItem jmLocale;
+    private javax.swing.JMenuItem jmnCube;
     // End of variables declaration//GEN-END:variables
 
     private StructuredDataMessage cds = null;
@@ -196,5 +256,19 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
         model.setCombinedDataMessage(cds);
         this.jTable2.setModel(model);
         MainJFrame.FRAME.showRequest(this);
+    }
+
+    /**
+     * @return the dataflow
+     */
+    public DataflowType getDataflow() {
+        return dataflow;
+    }
+
+    /**
+     * @param dataflow the dataflow to set
+     */
+    public void setDataflow(DataflowType dataflow) {
+        this.dataflow = dataflow;
     }
 }
