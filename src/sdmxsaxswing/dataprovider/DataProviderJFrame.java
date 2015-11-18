@@ -5,7 +5,7 @@
  *   it under the terms of the GNU General Public License as published by
  *   the Free Software Foundation, either version 3 of the License, or
  *   (at your option) any later version.
- 
+ *
  *  SdmxSax is distributed in the hope that it will be useful,
  *   but WITHOUT ANY WARRANTY; without even the implied warranty of
  *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -14,7 +14,7 @@
  *   You should have received a copy of the GNU General Public License
  *   along with SdmxSax.  If not, see <http://www.gnu.org/licenses/>.
  *
- *  Copyright James Gardner 2014
+ * Copyright James Gardner 2014
  */
 package sdmxsaxswing.dataprovider;
 
@@ -43,6 +43,7 @@ import sdmx.Queryable;
 import sdmx.Registry;
 import sdmx.exception.ParseException;
 import sdmx.version.common.ParseParams;
+
 /**
  *
  * @author James
@@ -85,18 +86,18 @@ public class DataProviderJFrame extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 568, Short.MAX_VALUE)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton1))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 568, Short.MAX_VALUE)
+                .addGroup(layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jButton1))
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 313, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
-                .addComponent(jButton1))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                        .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 313, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
+                        .addComponent(jButton1))
         );
 
         pack();
@@ -110,15 +111,17 @@ public class DataProviderJFrame extends javax.swing.JFrame {
         params.setRegistry(queryable.getRegistry());
         DataMessage message = null;
         try {
-            message = queryable.getRepository().query(params,q);
+            message = queryable.getRepository().query(params, q);
         } catch (ParseException ex) {
             Logger.getLogger(DataProviderJFrame.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(DataProviderJFrame.class.getName()).log(Level.SEVERE, null, ex);
         }
         //System.out.println("Got DataMessage");
-        message.setDataStructure(ref, null);
-            //System.out.println("REg=" + registry);
+        if (message.getHeader().getStructures() == null || message.getHeader().getStructures().size() == 0) {
+            message.setDataStructure(ref, null);
+        }
+        //System.out.println("REg=" + registry);
         //System.out.println("Ref=" + ref.getRef().getAgencyId() + ":" + ref.getRef().getId() + ":" + ref.getRef().getVersion());
         DataStructureType ds = queryable.getRegistry().find(ref);
         //System.out.println("DS=" + ds);
