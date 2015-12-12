@@ -186,6 +186,7 @@ public class MainJFrame extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                SdmxIO.setCacheDirectory(new File("./"));
                 SdmxIO.setLogLevel(7);
                 MainJFrame.FRAME = new MainJFrame();
                 FRAME.setVisible(true);
