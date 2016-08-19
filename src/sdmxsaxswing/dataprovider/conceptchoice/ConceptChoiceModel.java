@@ -55,7 +55,11 @@ import sdmx.structure.datastructure.PrimaryMeasure;
 import sdmx.structure.datastructure.TimeDimensionType;
 import sdmx.xml.DateTime;
 import sdmx.Queryable;
+import sdmx.querykey.Query;
+import sdmx.querykey.QueryDimension;
+import sdmx.querykey.impl.RegistryQuery;
 import sdmx.structureddata.ValueTypeResolver;
+
 /**
  * This file is part of SdmxSax.
  *
@@ -105,7 +109,7 @@ public class ConceptChoiceModel {
             }
             conceptChoices.add(choice);
         }
-        if( ds.getDataStructureComponents().getDimensionList().getMeasureDimension()!=null) {
+        if (ds.getDataStructureComponents().getDimensionList().getMeasureDimension() != null) {
             MeasureDimensionType dim = ds.getDataStructureComponents().getDimensionList().getMeasureDimension();
             String concept = dim.getConceptIdentity().getId().toString();
             SingleValueConceptChoice choice = new SingleValueConceptChoice(queryable, structure, concept);
@@ -117,11 +121,13 @@ public class ConceptChoiceModel {
             conceptChoices.add(choice);
         }
         TimeDimensionType timed = ds.getDataStructureComponents().getDimensionList().getTimeDimension();
-        String concept = timed.getConceptIdentity().getId().toString();
-        setTime(new TimeValueConceptChoice(queryable, structure, concept));
+        if (timed != null) {
+            String concept = timed.getConceptIdentity().getId().toString();
+            setTime(new TimeValueConceptChoice(queryable, structure, concept));
+        }
         PrimaryMeasure prim = ds.getDataStructureComponents().getMeasureList().getPrimaryMeasure();
         if (prim != null) {
-            concept = prim.getId().toString();
+            String concept = prim.getId().toString();
             obs = new ObsValueConceptChoice(queryable, structure, concept);
         }
     }
@@ -190,7 +196,11 @@ public class ConceptChoiceModel {
     public int size() {
         return this.conceptChoices.size();
     }
-
+/*
+    Deprecated by toQuery
+    
+    */
+    @Deprecated
     public DataQueryMessage toDataQuery() {
         DataQueryMessage query = new DataQueryMessage();
         //if (registry instanceof Sdmx20SDWSOAPQueryable) {
@@ -215,7 +225,9 @@ public class ConceptChoiceModel {
             }
         }
         dw.setOr(ors);
-        dw.setTimeDimensionValue(Collections.singletonList(new TimeDimensionValueType(new TimeValue(getTime().getFrom().toString()), new TimeValue(getTime().getTo().toString()))));
+        if (getStructure().getDataStructureComponents().getDimensionList().getTimeDimension() != null) {
+            dw.setTimeDimensionValue(Collections.singletonList(new TimeDimensionValueType(new TimeValue(getTime().getFrom().toString()), new TimeValue(getTime().getTo().toString()))));
+        }
         DataParametersType dpt = new DataParametersType();
         List<DataParametersAndType> ands = new ArrayList<DataParametersAndType>();
         ands.add(dw);
@@ -223,6 +235,20 @@ public class ConceptChoiceModel {
         q.setDataWhere(dpt);
         query.setQuery(q);
         return query;
+    }
+
+    public Query toQuery() {
+        Query q = new RegistryQuery(this.getStructure(),this.getQueryable().getRegistry(),this.dataflow.getId().toString());
+        q.setProviderRef(this.dataflow.getAgencyID().toString());
+        for (int i = 0; i < q.size(); i++) {
+            QueryDimension dim = q.getQueryDimension(i);
+            for (int j = 0; j < conceptChoices.get(i).getChoiceList().size(); j++) {
+                dim.addValue(conceptChoices.get(i).getChoiceList().get(j));
+            }
+        }
+        q.getQueryTime().setStartTime(this.time.getFromDate());
+        q.getQueryTime().setEndTime(this.time.getToDate());
+        return q;
     }
 
     /**

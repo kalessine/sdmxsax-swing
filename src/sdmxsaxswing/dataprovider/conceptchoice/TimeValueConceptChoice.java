@@ -18,9 +18,13 @@
  */
 package sdmxsaxswing.dataprovider.conceptchoice;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import sdmx.Queryable;
 import sdmx.structure.datastructure.DataStructureType;
 import sdmx.xml.DateTime;
@@ -54,15 +58,23 @@ public class TimeValueConceptChoice extends ConceptChoice {
     public List<String> getChoiceList() {
         return Collections.EMPTY_LIST;
     }
-
-    private String from = "2008";
-    private String to = "2014";
+    public static final SimpleDateFormat displayFormat = new SimpleDateFormat("yyyy-MM-dd");
+    private String from = "2000-01-01";
+    private String to = "2016-08-01";
 
     /**
      * @return the from
      */
     public String getFrom() {
         return from;
+    }
+    public Date getFromDate() {
+        try {
+            return displayFormat.parse(this.from);
+        } catch (ParseException ex) {
+            Logger.getLogger(TimeValueConceptChoice.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return new Date();
     }
 
     /**
@@ -78,7 +90,14 @@ public class TimeValueConceptChoice extends ConceptChoice {
     public String getTo() {
         return to;
     }
-
+    public Date getToDate() {
+        try {
+            return displayFormat.parse(to);
+        } catch (ParseException ex) {
+            Logger.getLogger(TimeValueConceptChoice.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return new Date();
+    }
     /**
      * @param to the to to set
      */

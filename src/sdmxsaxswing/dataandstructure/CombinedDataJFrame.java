@@ -68,6 +68,7 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jmFileOpen = new javax.swing.JMenuItem();
         jmFileSaveJSON = new javax.swing.JMenuItem();
+        jmSaveCSV = new javax.swing.JMenuItem();
         jmEdit = new javax.swing.JMenu();
         jmLocale = new javax.swing.JMenuItem();
         jmnCube = new javax.swing.JMenuItem();
@@ -115,6 +116,14 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
             }
         });
         jMenu1.add(jmFileSaveJSON);
+
+        jmSaveCSV.setText("Save as CSV");
+        jmSaveCSV.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmSaveCSVActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jmSaveCSV);
 
         jMenuBar1.add(jMenu1);
 
@@ -177,7 +186,6 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
             fos = new FileOutputStream(f);
             ParseParams params = new ParseParams();
             params.setRegistry(cds.getRegistry());
-            params.setDataflow(dataflow);
             SdmxIO.write(params,"application/json", cds.getDataMessage(), fos);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
@@ -199,6 +207,30 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
             cube.putObservation(null,cds.getDataMessage().getDataSets().get(0).getColumnMapper(),cds.getDataMessage().getDataSets().get(0).getFlatObs(i));
         }
     }//GEN-LAST:event_jmnCubeActionPerformed
+
+    private void jmSaveCSVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmSaveCSVActionPerformed
+        FileOutputStream fos = null;
+        try {
+            JFileChooser jfc = new JFileChooser();
+            jfc.showSaveDialog(jMenu1);
+            File f = jfc.getSelectedFile();
+            if( f == null ) return;
+            fos = new FileOutputStream(f);
+            ParseParams params = new ParseParams();
+            params.setRegistry(cds.getRegistry());
+            SdmxIO.write(params,"text/csv", cds.getDataMessage(), fos);
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            try {
+                fos.close();
+            } catch (IOException ex) {
+                Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jmSaveCSVActionPerformed
 
     /**
      * @param args the command line arguments
@@ -245,6 +277,7 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
     private javax.swing.JMenuItem jmFileOpen;
     private javax.swing.JMenuItem jmFileSaveJSON;
     private javax.swing.JMenuItem jmLocale;
+    private javax.swing.JMenuItem jmSaveCSV;
     private javax.swing.JMenuItem jmnCube;
     // End of variables declaration//GEN-END:variables
 
