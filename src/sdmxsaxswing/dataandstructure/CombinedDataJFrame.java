@@ -186,7 +186,7 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
             fos = new FileOutputStream(f);
             ParseParams params = new ParseParams();
             params.setRegistry(cds.getRegistry());
-            SdmxIO.write(params,"application/json", cds.getDataMessage(), fos);
+            SdmxIO.writeDataMessage(params,"application/json", cds.getDataMessage(), fos);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
@@ -218,7 +218,7 @@ public class CombinedDataJFrame extends javax.swing.JFrame {
             fos = new FileOutputStream(f);
             ParseParams params = new ParseParams();
             params.setRegistry(cds.getRegistry());
-            SdmxIO.write(params,"text/csv", cds.getDataMessage(), fos);
+            SdmxIO.writeDataMessage(params,"text/csv", cds.getDataMessage(), fos);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(CombinedDataJFrame.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
