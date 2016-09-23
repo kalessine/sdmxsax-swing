@@ -119,12 +119,11 @@ public class DataProviderJFrame extends javax.swing.JFrame {
             Logger.getLogger(DataProviderJFrame.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        //System.out.println("Got DataMessage");
         if (message.getHeader().getStructures() == null || message.getHeader().getStructures().size() == 0) {
             message.setDataStructure(ref, null);
         }
         //System.out.println("REg=" + registry);
-        //System.out.println("Ref=" + ref.getRef().getAgencyId() + ":" + ref.getRef().getId() + ":" + ref.getRef().getVersion());
+        System.out.println("Ref=" + ref.getAgencyId() + ":" + ref.getMaintainableParentId() + ":" + ref.getVersion());
         DataStructureType ds = queryable.getRegistry().find(ref);
         //System.out.println("DS=" + ds);
 

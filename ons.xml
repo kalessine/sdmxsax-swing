@@ -3,7 +3,7 @@
     <mes:Header>
         <mes:ID>none</mes:ID>
         <mes:Test>false</mes:Test>
-        <mes:Prepared>2016-02-26T20:13:08.347+08:00</mes:Prepared>
+        <mes:Prepared>2016-09-06T22:06:33.514+08:00</mes:Prepared>
         <mes:Sender id="Sdmx-Sax"/>
         <mes:Receiver id="ONS"/>
     </mes:Header>
@@ -14,41 +14,6 @@
                 <com:Name xml:lang="en">Census Members of the Armed Forces by residence type by sex by age 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_AF001EW_2011STATH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Census_AF002EW_2011STATH">
-                <com:Name xml:lang="cy">Census Personau Cyswllt y Cartref sy'n aelodau o'r Lluoedd Arfog a phersonau cysylltiedig  mewn cartrefi ag aelodau o'r Lluoedd Arfog yn ôl rhyw ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Household Reference Persons (HRPs) who are members of the Armed Forces and  associated persons in households with members of the Armed Forces by sex by age 2011 Statistical Geography Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Census_AF002EW_2011STATH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Census_AF003EW_2011STATH">
-                <com:Name xml:lang="cy">Census Gweithgarwch economaidd pobl gysylltiedig mewn cartrefi ag aelodau o'r Lluoedd Arfog yn ôl rhyw Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Economic activity of associated people in households with members of the Armed Forces by sex 2011 Statistical Geography Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Census_AF003EW_2011STATH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Census_AF004EW_2011STATH">
-                <com:Name xml:lang="cy">Census Aelodau o?r Lluoedd Arfog yn ôl cyfeiriad y gweithle, rhyw ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Members of the Armed Forces by workplace address by sex by age 2011 Statistical Geography Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Census_AF004EW_2011STATH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Census_AF005EW_2011STATH">
-                <com:Name xml:lang="cy">Census Aelodau o?r Lluoedd Arfog yn ôl gr?p ethnig a rhyw Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Members of the Armed Forces by ethnic group by sex 2011 Statistical Geography Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Census_AF005EW_2011STATH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Census_AF006EW_2011STATH">
-                <com:Name xml:lang="cy">Census Aelodau o?r Lluoedd Arfog Tramor yn ôl rhyw ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Members of the Foreign Armed Forces by sex by age 2011 Statistical Geography Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Census_AF006EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_AP1101EW_2011WARDH">
@@ -157,7 +122,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_CT0067_2011STATH">
-                <com:Name xml:lang="cy">Census Iechyd cyffredinol yn ôl blwyddyn cyrraedd y DU a gwlad enedigol ac oedran (cenedlaethol) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Iechyd cyffredinol yn ôl blwyddyn cyrraedd Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census General health by year of arrival in the UK by country of birth by age (national) 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_CT0067_2011STATH" version="1.0"/>
@@ -213,7 +178,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_CT0075_2011STATH">
-                <com:Name xml:lang="cy">Census Diwydiant yn ôl blwyddyn cyr Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Diwydiant yn ôl blwyddyn cyrraedd y DU a gwlad enedigol (cenedlaethol) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Industry by year of arrival in the UK by country of birth (national) 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_CT0075_2011STATH" version="1.0"/>
@@ -325,7 +290,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC1107EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Statws priodasol a phartneriaeth sifil yn ôl rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifiad 20</com:Name>
+                <com:Name xml:lang="cy">Census Statws priodasol a phartneriaeth sifil yn ôl rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifiad 201</com:Name>
                 <com:Name xml:lang="en">Census Marital and civil partnership status by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC1107EW_2011HTWARDH" version="1.0"/>
@@ -368,7 +333,7 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC1112EWla_2011CMLADH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl math o gartref, rhyw ac oedran Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by household type by sex by age 2011 Census merged local authority district hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by hous 2011 Census merged local authority district hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC1112EWla_2011CMLADH" version="1.0"/>
                 </str:Structure>
@@ -781,14 +746,14 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC2203WA_2011STATH">
                 <com:Name xml:lang="cy">Census Y gallu i siarad Cymraeg yn ôl hunaniaeth genedlaethol, rhyw ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Ability to speak Welsh by national identity by sex by age 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Ability to speak Welsh by national ident 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC2203WA_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC2203WA_2011HTWARDH">
                 <com:Name xml:lang="cy">Census Y gallu i siarad Cymraeg yn ôl hunaniaeth genedlaethol, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
-                <com:Name xml:lang="en">Census Ability to speak Welsh by national identity by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Ability to speak Welsh by national ident 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC2203WA_2011HTWARDH" version="1.0"/>
                 </str:Structure>
@@ -878,7 +843,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC2301EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Gr?p ethnig yn ôl darparu gofal di-dâl, ac iechyd cyffredinol Hierarchaeth Wardiau Cyfunol</com:Name>
+                <com:Name xml:lang="cy">Census Gr?p ethnig yn ôl darparu gofal di-dâl, ac iechyd cyffredinol Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Ethnic group by provision of unpaid care by general health 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC2301EW_2011HTWARDH" version="1.0"/>
@@ -899,7 +864,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC2303EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Medrusrwydd yn Saesneg yn ôl iechyd cyffredinol, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfr</com:Name>
+                <com:Name xml:lang="cy">Census Medrusrwydd yn Saesneg yn ôl iechyd cyffredinol, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfri</com:Name>
                 <com:Name xml:lang="en">Census Proficiency in English by general health by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC2303EW_2011HTWARDH" version="1.0"/>
@@ -1004,7 +969,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC2604EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Medrusrwydd yn Saesneg yn ôl diwydiant a gweithgarwch economaidd Hierarchaeth Wardiau Cyfunol Cy</com:Name>
+                <com:Name xml:lang="cy">Census Medrusrwydd yn Saesneg yn ôl diwydiant a gweithgarwch economaidd Hierarchaeth Wardiau Cyfunol Cyf</com:Name>
                 <com:Name xml:lang="en">Census Proficiency in English by industry by economic activity 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC2604EW_2011HTWARDH" version="1.0"/>
@@ -1199,20 +1164,6 @@
                     <Ref agencyID="ONS" id="Census_DC3202WA_2011HTWARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC3203EW_2011STATH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl iechyd cyffredinol, crefydd, rhyw ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Long-term health problem or disability by general health by religion by sex by age 2011 Statistical Geography Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Census_DC3203EW_2011STATH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC3203EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl iechyd cyffredinol, crefydd, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
-                <com:Name xml:lang="en">Census Long-term health problem or disability by general health by religion by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Census_DC3203EW_2011HTWARDH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC3204EWr_2011STATH">
                 <com:Name xml:lang="cy">Census Iechyd cyffredinol yn ôl gr?p ethnig, rhyw ac oedran (rhanbarthol) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census General health by ethnic group by sex by age (regional) 2011 Statistical Geography Hierarchy</com:Name>
@@ -1235,7 +1186,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC3301EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Darparu gofal di-dâl yn ôl iechyd cyffredinol, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyf</com:Name>
+                <com:Name xml:lang="cy">Census Darparu gofal di-dâl yn ôl iechyd cyffredinol, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfr</com:Name>
                 <com:Name xml:lang="en">Census Provision of unpaid care by general health by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC3301EW_2011HTWARDH" version="1.0"/>
@@ -1607,7 +1558,7 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC4209EW_2011HTWARDH">
                 <com:Name xml:lang="cy">Census Nifer y bobl fesul ystafell yn y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
-                <com:Name xml:lang="en">Census Number of persons per room in household by ethnic group of Household Reference Person (HRP) 2011 Census Merged Ward Hiera</com:Name>
+                <com:Name xml:lang="en">Census Number of persons per room in household by ethnic group of Household Reference Person (HRP) 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC4209EW_2011HTWARDH" version="1.0"/>
                 </str:Structure>
@@ -1627,14 +1578,14 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC4402EW_2011STATH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl y math o wr Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl y math o wres canolog yn y cartref a deiliadaeth Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by type of central heating in household by tenure 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC4402EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC4402EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl y math o wr Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl y math o wres canolog yn y cartref a deiliadaeth Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by type of central heating in household by tenure 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC4402EW_2011HTWARDH" version="1.0"/>
@@ -1676,7 +1627,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC4405EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl maint y cartref a nifer yr ystafelloedd gwely Hierarchaeth Wardiau Cyfunol Cyfrifiad 20</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl maint y cartref a nifer yr ystafelloedd gwely Hierarchaeth Wardiau Cyfunol Cyfrifiad 2</com:Name>
                 <com:Name xml:lang="en">Census Tenure by household size by number of bedrooms 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC4405EW_2011HTWARDH" version="1.0"/>
@@ -1739,7 +1690,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC4416EWla_2011CMLADH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by number of usual residents aged 17 or over in household 2011 Census merged local authority district hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC4416EWla_2011CMLADH" version="1.0"/>
@@ -1858,7 +1809,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC5103EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Lefel uchaf o gymhwyster yn ôl cyfansoddiad y cartref Hierarchaeth Wardiau Cyfunol Cyfrifiad 201</com:Name>
+                <com:Name xml:lang="cy">Census Lefel uchaf o gymhwyster yn ôl cyfansoddiad y cartref Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Highest level of qualification by household composition 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC5103EW_2011HTWARDH" version="1.0"/>
@@ -1935,7 +1886,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC5205EWr_2011STATH">
-                <com:Name xml:lang="cy">Census Lefel uchaf o gymhwyster yn ôl gwlad ene Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Lefel uchaf o gymhwyster yn ôl gwlad enedigol ac oedran (rhanbarthol) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Highest level of qualification by country of birth by age (regional) 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC5205EWr_2011STATH" version="1.0"/>
@@ -1949,7 +1900,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC5206EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Lefel uchaf o gymhwyster yn ôl pasbortau a ddelir ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifi</com:Name>
+                <com:Name xml:lang="cy">Census Lefel uchaf o gymhwyster yn ôl pasbortau a ddelir ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifia</com:Name>
                 <com:Name xml:lang="en">Census Highest level of qualification by passports held by age 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC5206EW_2011HTWARDH" version="1.0"/>
@@ -2020,7 +1971,7 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC5603EWr_2011STATH">
                 <com:Name xml:lang="cy">Census Lefel uchaf o gymhwyster yn ôl gweithgarwch economaidd a gwlad enedigol (rhanbarthol) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Highest level of qualification by economic activit 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Highest level of qualification by economic activity by country of birth 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC5603EWr_2011STATH" version="1.0"/>
                 </str:Structure>
@@ -2096,7 +2047,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6105EWla_2011CMLADH">
-                <com:Name xml:lang="cy">Census Galwedigaeth yn ôl rhyw ac oedran - Preswylwyr sefydliadau cymunedol Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="cy">Census Galwedigaeth yn ôl rhyw ac oedran - Preswylwy Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Occupation by sex by age - Communal establishment residents 2011 Census merged local authority district hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6105EWla_2011CMLADH" version="1.0"/>
@@ -2250,14 +2201,14 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6124EW_2011STATH">
-                <com:Name xml:lang="cy">Census Graddfa gymdeithasol fras yn ôl r Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Graddfa gymdeithasol fras yn ôl rhyw ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Approximated social grade by sex by age 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6124EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6124EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Graddfa gymdeithasol fras yn ôl r Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="cy">Census Graddfa gymdeithasol fras yn ôl rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Approximated social grade by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6124EW_2011HTWARDH" version="1.0"/>
@@ -2299,7 +2250,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6127EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Graddfa gymdeithasol fras yn ôl cyfansoddiad cartrefi Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="cy">Census Graddfa gymdeithasol fras yn ôl cyfansoddiad cartrefi Hierarchaeth Wardiau Cyfunol</com:Name>
                 <com:Name xml:lang="en">Census Approximated social grade by household composition 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6127EW_2011HTWARDH" version="1.0"/>
@@ -2327,7 +2278,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6203EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Gweithgarwch economaidd yn ôl gwlad enedigol, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifiad</com:Name>
+                <com:Name xml:lang="cy">Census Gweithgarwch economaidd yn ôl gwlad enedigol, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Economic activity by country of birth by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6203EW_2011HTWARDH" version="1.0"/>
@@ -2341,7 +2292,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6204EW_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Gweithgarwch economaidd yn ôl y pasbortau a ddelir, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrif</com:Name>
+                <com:Name xml:lang="cy">Census Gweithgarwch economaidd yn ôl y pasbortau a ddelir, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifi</com:Name>
                 <com:Name xml:lang="en">Census Economic activity by passports held by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6204EW_2011HTWARDH" version="1.0"/>
@@ -2349,14 +2300,14 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6205EW_2011STATH">
                 <com:Name xml:lang="cy">Census Gweithgarwch economaidd yn ôl crefydd, rhyw ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Economic activity by religion by sex by age 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Economic activity by religion by sex 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6205EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6205EW_2011HTWARDH">
                 <com:Name xml:lang="cy">Census Gweithgarwch economaidd yn ôl crefydd, rhyw ac oedran Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
-                <com:Name xml:lang="en">Census Economic activity by religion by sex by age 2011 Census Merged Ward Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Economic activity by religion by sex 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6205EW_2011HTWARDH" version="1.0"/>
                 </str:Structure>
@@ -2566,7 +2517,7 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC6303EWr_2011STATH">
                 <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol yn ôl iechyd cyffredinol, rhyw ac oedran (rhanbarthol) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census NS-SeC by general health by sex by age (regional) 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census NS-SeC by general health by sex by age (region 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC6303EWr_2011STATH" version="1.0"/>
                 </str:Structure>
@@ -2734,7 +2685,7 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC7101EWla_2011CMLADH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl rhyw ac oedran Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by sex by age 2011 Census merged local authority district hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specific 2011 Census merged local authority district hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC7101EWla_2011CMLADH" version="1.0"/>
                 </str:Structure>
@@ -2873,14 +2824,14 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC8203W_2011STATH">
-                <com:Name xml:lang="cy">Census Mudo o fewn Cymru yn ôl cartrefi sy'n siarad Cymraeg Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Mudo o fewn Cymru yn ôl cartrefi sy'n siarad Cymraeg a phlant dibynnol Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Migration within Wales by Welsh speaking households by dependent children 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC8203W_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_DC8203W_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Mudo o fewn Cymru yn ôl cartrefi sy'n siarad Cymraeg Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="cy">Census Mudo o fewn Cymru yn ôl cartrefi sy'n siarad Cymraeg a phlant dibynnol Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Migration within Wales by Welsh speaking households by dependent children 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_DC8203W_2011HTWARDH" version="1.0"/>
@@ -4119,7 +4070,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_KS404EW_2013HEALTHH">
-                <com:Name xml:lang="cy">Census Argaeledd car neu fan 2013 Hierarchaeth Ardal lechy</com:Name>
+                <com:Name xml:lang="cy">Census Argaeledd car neu fan 2013 Hierarchaeth Ardal lech</com:Name>
                 <com:Name xml:lang="en">Census Car or van availability 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_KS404EW_2013HEALTHH" version="1.0"/>
@@ -5232,7 +5183,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1103WA_2011NAWH">
-                <com:Name xml:lang="cy">Census Cyfansoddiad cartrefi Cymru yn ôl oedran y plentyn dibynnol ieuengaf 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
+                <com:Name xml:lang="cy">Census Cyfansoddiad cartrefi Cymru yn ôl oedran y plentyn dibynnol ieuengaf 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiad</com:Name>
                 <com:Name xml:lang="en">Census Welsh household composition by age of youngest dependent child 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1103WA_2011NAWH" version="1.0"/>
@@ -5583,56 +5534,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1110EW_2011STATH">
                 <com:Name xml:lang="cy">Census Statws teulu cudd yn ôl y math o deulu, plant dibynnol ac oedran Person Cyswllt y Teulu (FRP) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Concealed family status by family type by dependent child 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Concealed family status by family type by dependent children by age of Family Reference Person (FRP) 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1110EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1110EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Statws teulu cudd yn ôl y math o deulu, plant dibynnol ac oedran Person Cyswllt y Teulu (FRP) Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Concealed family status by family type by dependent child 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Concealed family status by family type by dependent children by age of Family Reference Person (FRP) 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1110EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1110EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Statws teulu cudd yn ôl y math o deulu, plant dibynnol ac oedran Person Cyswllt y Teulu (FRP) Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Concealed family status by family type by dependent child 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Concealed family status by family type by dependent children by age of Family Reference Person (FRP) 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1110EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1110EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Statws teulu cudd yn ôl y math o deulu, plant dibynnol ac oedran Person Cyswllt y Teulu (FRP) Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Concealed family status by family type by dependent child 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Concealed family status by family type by dependent children by age of Family Reference Person (FRP) 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1110EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1110EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Statws teulu cudd yn ôl y math o deulu, plant dibynnol ac oedran Person Cyswllt y Teulu (FRP) Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Concealed family status by family type by dependent child 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Concealed family status by family type by dependent children by age of Family Reference Person (FRP) 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1110EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1110EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Statws teulu cudd yn ôl y math o deulu, plant dibynnol ac oedran Person Cyswllt y Teulu (FRP) 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Concealed family status by family type by dependent child 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Concealed family status by family type by dependent children by age of Family Reference Person (FRP) 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1110EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1110EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Statws teulu cudd yn ôl y math o deulu, plant dibynnol ac oedran Person Cyswllt y Teulu (FRP) 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Concealed family status by family type by dependent child 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Concealed family status by family type by dependent children by age of Family Reference Person (FRP) 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1110EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1110EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Statws teulu cudd yn ôl y math o deulu, plant dibynnol ac oedran Person Cyswllt y Teulu (FRP) Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census Concealed family status by family type by dependent child 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Concealed family status by family type by dependent children by age of Family Reference Person (FRP) 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1110EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -5807,56 +5758,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1115EW_2011STATH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl y math o deulu ac oedran Person Cyswllt y Teulu Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference Person (FRP) 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1115EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1115EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl y math o deulu ac oedran Person Cyswllt y Teulu Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference Person (FRP) 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1115EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1115EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl y math o deulu ac oedran Person Cyswllt y Teulu Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference Person (FRP) 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1115EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1115EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl y math o deulu ac oedran Person Cyswllt y Teulu Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference Person (FRP) 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1115EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1115EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl y math o deulu ac oedran Person Cyswllt y Teulu Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference Person (FRP) 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1115EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1115EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl y math o deulu ac oedran Person Cyswllt y Teulu 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference Person (FRP) 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1115EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1115EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl y math o deulu ac oedran Person Cyswllt y Teulu 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference Person (FRP) 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1115EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1115EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Oedran y plentyn dibynnol ieuengaf yn ôl y math o deulu ac oedran Person Cyswllt y Teulu Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Age of youngest dependent child by family type by age of Family Reference Person (FRP) 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1115EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -5975,56 +5926,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1201EW_2011STATH">
                 <com:Name xml:lang="cy">Census Cyfansoddiad y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Household composition by ethnic group of Household Reference Person (HRP) 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Household composition by ethnic group of Household R 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1201EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1201EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Cyfansoddiad y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Household composition by ethnic group of Household Reference Person (HRP) 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Household composition by ethnic group of Household R 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1201EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1201EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Cyfansoddiad y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Household composition by ethnic group of Household Reference Person (HRP) 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Household composition by ethnic group of Household R 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1201EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1201EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Cyfansoddiad y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Household composition by ethnic group of Household Reference Person (HRP) 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Household composition by ethnic group of Household R 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1201EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1201EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Cyfansoddiad y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Household composition by ethnic group of Household Reference Person (HRP) 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Household composition by ethnic group of Household R 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1201EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1201EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Cyfansoddiad y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Household composition by ethnic group of Household Reference Person (HRP) 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Household composition by ethnic group of Household R 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1201EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1201EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Cyfansoddiad y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Household composition by ethnic group of Household Reference Person (HRP) 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Household composition by ethnic group of Household R 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1201EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC1201EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Cyfansoddiad y cartref yn ôl gr?p ethnig Person Cyswllt y Cartref (HRP) Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census Household composition by ethnic group of Household Reference Person (HRP) 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Household composition by ethnic group of Household R 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC1201EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -6423,56 +6374,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2102EW_2011STATH">
                 <com:Name xml:lang="cy">Census Hunaniaeth genedlaethol yn ôl rhyw ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census National Identity by sex by age 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census National Ident 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2102EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2102EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Hunaniaeth genedlaethol yn ôl rhyw ac oedran Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census National Identity by sex by age 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census National Ident 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2102EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2102EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Hunaniaeth genedlaethol yn ôl rhyw ac oedran Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census National Identity by sex by age 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census National Ident 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2102EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2102EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Hunaniaeth genedlaethol yn ôl rhyw ac oedran Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census National Identity by sex by age 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census National Ident 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2102EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2102EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Hunaniaeth genedlaethol yn ôl rhyw ac oedran Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census National Identity by sex by age 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census National Ident 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2102EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2102EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Hunaniaeth genedlaethol yn ôl rhyw ac oedran 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census National Identity by sex by age 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census National Ident 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2102EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2102EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Hunaniaeth genedlaethol yn ôl rhyw ac oedran 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census National Identity by sex by age 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census National Ident 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2102EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2102EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Hunaniaeth genedlaethol yn ôl rhyw ac oedran Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census National Identity by sex by age 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census National Ident 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2102EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -7576,6 +7527,13 @@
                     <Ref agencyID="ONS" id="Census_LC2207EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2207EW_2013HEALTHH">
+                <com:Name xml:lang="cy">Census Gwlad enedigol yn ôl crefydd a rhyw 2013 Hierarchaeth Ardal lechyd</com:Name>
+                <com:Name xml:lang="en">Census Country of birth by religion by sex 2013 Health Area Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Census_LC2207EW_2013HEALTHH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2207EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Gwlad enedigol yn ôl crefydd a rhyw Adeiledig-up hierarchaeth ardal 2011</com:Name>
                 <com:Name xml:lang="en">Census Country of birth by religion by sex 2011 Built-up area hierarchy</com:Name>
@@ -8505,6 +8463,13 @@
                 <com:Name xml:lang="en">Census Country of birth by year of arrival in the UK 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC2804EW_2011PCONH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2804EW_2011NAWH">
+                <com:Name xml:lang="cy">Census Gwlad enedigol yn ôl blwyddyn cyrraedd y DU 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
+                <com:Name xml:lang="en">Census Country of birth by year of arrival in the UK 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Census_LC2804EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC2804EW_2013HEALTHH">
@@ -9481,56 +9446,56 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC3405EW_2011STATH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl argaeledd car neu fan a rhyw Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Long-term health problem or disability by car or van availability by sex 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC3405EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC3405EW_2014WARDH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl argaeledd car neu fan a rhyw Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn Hierarchaeth Weinyddol 2014</com:Name>
                 <com:Name xml:lang="en">Census Long-term health problem or disability by car or van availability by sex 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC3405EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC3405EW_2011WARDH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl argaeledd car neu fan a rhyw Hierarchaeth Weinyddol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn Hierarchaeth Weinyddol 2011</com:Name>
                 <com:Name xml:lang="en">Census Long-term health problem or disability by car or van availability by sex 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC3405EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC3405EW_2011PARISH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl argaeledd car neu fan a rhyw Hierarchaeth Plwyfi 2011</com:Name>
+                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn Hierarchaeth Plwyfi 2011</com:Name>
                 <com:Name xml:lang="en">Census Long-term health problem or disability by car or van availability by sex 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC3405EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC3405EW_2011PCONH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl argaeledd car neu fan a rhyw Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
+                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
                 <com:Name xml:lang="en">Census Long-term health problem or disability by car or van availability by sex 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC3405EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC3405EW_2011NAWH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl argaeledd car neu fan a rhyw 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
+                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
                 <com:Name xml:lang="en">Census Long-term health problem or disability by car or van availability by sex 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC3405EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC3405EW_2013HEALTHH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl argaeledd car neu fan a rhyw 2013 Hierarchaeth Ardal lechyd</com:Name>
+                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn 2013 Hierarchaeth Ardal lechyd</com:Name>
                 <com:Name xml:lang="en">Census Long-term health problem or disability by car or van availability by sex 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC3405EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC3405EW_2011BUAH">
-                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn ôl argaeledd car neu fan a rhyw Adeiledig-up hierarchaeth ardal 2011</com:Name>
+                <com:Name xml:lang="cy">Census Problem iechyd neu anabledd hirdymor yn Adeiledig-up hierarchaeth ardal 2011</com:Name>
                 <com:Name xml:lang="en">Census Long-term health problem or disability by car or van availability by sex 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC3405EW_2011BUAH" version="1.0"/>
@@ -9985,56 +9950,56 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4103EW_2011STATH">
-                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oe Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oedran plant dibynnol Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Number of bedrooms by tenure by age of dependent children 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4103EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4103EW_2014WARDH">
-                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oe Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oedran plant dibynnol Hierarchaeth Weinyddol 2014</com:Name>
                 <com:Name xml:lang="en">Census Number of bedrooms by tenure by age of dependent children 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4103EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4103EW_2011WARDH">
-                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oe Hierarchaeth Weinyddol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oedran plant dibynnol Hierarchaeth Weinyddol 2011</com:Name>
                 <com:Name xml:lang="en">Census Number of bedrooms by tenure by age of dependent children 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4103EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4103EW_2011PARISH">
-                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oe Hierarchaeth Plwyfi 2011</com:Name>
+                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oedran plant dibynnol Hierarchaeth Plwyfi 2011</com:Name>
                 <com:Name xml:lang="en">Census Number of bedrooms by tenure by age of dependent children 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4103EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4103EW_2011PCONH">
-                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oe Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
+                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oedran plant dibynnol Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
                 <com:Name xml:lang="en">Census Number of bedrooms by tenure by age of dependent children 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4103EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4103EW_2011NAWH">
-                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oe 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
+                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oedran plant dibynnol 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
                 <com:Name xml:lang="en">Census Number of bedrooms by tenure by age of dependent children 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4103EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4103EW_2013HEALTHH">
-                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oe 2013 Hierarchaeth Ardal lechyd</com:Name>
+                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oedran plant dibynnol 2013 Hierarchaeth Ardal lechyd</com:Name>
                 <com:Name xml:lang="en">Census Number of bedrooms by tenure by age of dependent children 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4103EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4103EW_2011BUAH">
-                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oe Adeiledig-up hierarchaeth ardal 2011</com:Name>
+                <com:Name xml:lang="cy">Census Nifer yr ystafelloedd gwely yn ôl deiliadaeth ac oedran plant dibynnol Adeiledig-up hierarchaeth ardal 2011</com:Name>
                 <com:Name xml:lang="en">Census Number of bedrooms by tenure by age of dependent children 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4103EW_2011BUAH" version="1.0"/>
@@ -10545,56 +10510,56 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4204EW_2011STATH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a chrefydd Person Cyswllt y Cartref Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by religion of Household Reference Person (HRP) 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4204EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4204EW_2014WARDH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a chrefydd Person Cyswllt y Cartref Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd Hierarchaeth Weinyddol 2014</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by religion of Household Reference Person (HRP) 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4204EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4204EW_2011WARDH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a chrefydd Person Cyswllt y Cartref Hierarchaeth Weinyddol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd Hierarchaeth Weinyddol 2011</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by religion of Household Reference Person (HRP) 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4204EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4204EW_2011PARISH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a chrefydd Person Cyswllt y Cartref Hierarchaeth Plwyfi 2011</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd Hierarchaeth Plwyfi 2011</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by religion of Household Reference Person (HRP) 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4204EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4204EW_2011PCONH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a chrefydd Person Cyswllt y Cartref Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by religion of Household Reference Person (HRP) 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4204EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4204EW_2011NAWH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a chrefydd Person Cyswllt y Cartref 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by religion of Household Reference Person (HRP) 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4204EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4204EW_2013HEALTHH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a chrefydd Person Cyswllt y Cartref 2013 Hierarchaeth Ardal lechyd</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd 2013 Hierarchaeth Ardal lechyd</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by religion of Household Reference Person (HRP) 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4204EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4204EW_2011BUAH">
-                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd car neu fan a chrefydd Person Cyswllt y Cartref Adeiledig-up hierarchaeth ardal 2011</com:Name>
+                <com:Name xml:lang="cy">Census Deiliadaeth yn ôl argaeledd Adeiledig-up hierarchaeth ardal 2011</com:Name>
                 <com:Name xml:lang="en">Census Tenure by car or van availability by religion of Household Reference Person (HRP) 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4204EW_2011BUAH" version="1.0"/>
@@ -11442,56 +11407,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4413EW_2011STATH">
                 <com:Name xml:lang="cy">Census Cyfradd ddeiliadaeth (ystafelloedd) yn ôl y math o wres canolog yn y cartref Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of central heating in household 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of cent 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4413EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4413EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Cyfradd ddeiliadaeth (ystafelloedd) yn ôl y math o wres canolog yn y cartref Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of central heating in household 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of cent 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4413EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4413EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Cyfradd ddeiliadaeth (ystafelloedd) yn ôl y math o wres canolog yn y cartref Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of central heating in household 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of cent 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4413EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4413EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Cyfradd ddeiliadaeth (ystafelloedd) yn ôl y math o wres canolog yn y cartref Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of central heating in household 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of cent 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4413EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4413EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Cyfradd ddeiliadaeth (ystafelloedd) yn ôl y math o wres canolog yn y cartref Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of central heating in household 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of cent 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4413EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4413EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Cyfradd ddeiliadaeth (ystafelloedd) yn ôl y math o wres canolog yn y cartref 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of central heating in household 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of cent 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4413EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4413EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Cyfradd ddeiliadaeth (ystafelloedd) yn ôl y math o wres canolog yn y cartref 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of central heating in household 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of cent 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4413EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4413EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Cyfradd ddeiliadaeth (ystafelloedd) yn ôl y math o wres canolog yn y cartref Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of central heating in household 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Occupancy rating (rooms) by type of cent 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4413EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -11553,56 +11518,56 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4415EW_2011STATH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu f Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by car or van availability by number of usual residents aged 17 or over in household 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4415EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4415EW_2014WARDH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu f Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref Hierarchaeth Weinyddol 2014</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by car or van availability by number of usual residents aged 17 or over in household 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4415EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4415EW_2011WARDH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu f Hierarchaeth Weinyddol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref Hierarchaeth Weinyddol 2011</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by car or van availability by number of usual residents aged 17 or over in household 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4415EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4415EW_2011PARISH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu f Hierarchaeth Plwyfi 2011</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref Hierarchaeth Plwyfi 2011</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by car or van availability by number of usual residents aged 17 or over in household 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4415EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4415EW_2011PCONH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu f Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by car or van availability by number of usual residents aged 17 or over in household 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4415EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4415EW_2011NAWH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu f 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by car or van availability by number of usual residents aged 17 or over in household 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4415EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4415EW_2013HEALTHH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu f 2013 Hierarchaeth Ardal lechyd</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref 2013 Hierarchaeth Ardal lechyd</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by car or van availability by number of usual residents aged 17 or over in household 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4415EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4415EW_2011BUAH">
-                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu f Adeiledig-up hierarchaeth ardal 2011</com:Name>
+                <com:Name xml:lang="cy">Census Math o lety yn ôl argaeledd car neu fan a nifer y preswylwyr arferol 17 oed neu drosodd yn y cartref Adeiledig-up hierarchaeth ardal 2011</com:Name>
                 <com:Name xml:lang="en">Census Accommodation type by car or van availability by number of usual residents aged 17 or over in household 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4415EW_2011BUAH" version="1.0"/>
@@ -11778,49 +11743,49 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4602EW_2011STATH">
                 <com:Name xml:lang="cy">Census Deiliadaeth yn ôl diwydiant - Person Cyswllt y Cartref Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Tenure by industry - Household Reference 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Tenure by industry - Household Reference Persons 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4602EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4602EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Deiliadaeth yn ôl diwydiant - Person Cyswllt y Cartref Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Tenure by industry - Household Reference 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Tenure by industry - Household Reference Persons 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4602EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4602EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Deiliadaeth yn ôl diwydiant - Person Cyswllt y Cartref Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Tenure by industry - Household Reference 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Tenure by industry - Household Reference Persons 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4602EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4602EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Deiliadaeth yn ôl diwydiant - Person Cyswllt y Cartref Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Tenure by industry - Household Reference 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Tenure by industry - Household Reference Persons 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4602EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4602EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Deiliadaeth yn ôl diwydiant - Person Cyswllt y Cartref Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Tenure by industry - Household Reference 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Tenure by industry - Household Reference Persons 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4602EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4602EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Deiliadaeth yn ôl diwydiant - Person Cyswllt y Cartref 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Tenure by industry - Household Reference 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Tenure by industry - Household Reference Persons 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4602EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC4602EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Deiliadaeth yn ôl diwydiant - Person Cyswllt y Cartref 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Tenure by industry - Household Reference 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Tenure by industry - Household Reference Persons 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC4602EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
@@ -14409,56 +14374,56 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC6206EW_2011STATH">
-                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig ac oedran Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig a Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Census NS-SeC by ethnic group by age 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC6206EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC6206EW_2014WARDH">
-                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig ac oedran Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig a Hierarchaeth Weinyddol 2014</com:Name>
                 <com:Name xml:lang="en">Census NS-SeC by ethnic group by age 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC6206EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC6206EW_2011WARDH">
-                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig ac oedran Hierarchaeth Weinyddol 2011</com:Name>
+                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig a Hierarchaeth Weinyddol 2011</com:Name>
                 <com:Name xml:lang="en">Census NS-SeC by ethnic group by age 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC6206EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC6206EW_2011PARISH">
-                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig ac oedran Hierarchaeth Plwyfi 2011</com:Name>
+                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig a Hierarchaeth Plwyfi 2011</com:Name>
                 <com:Name xml:lang="en">Census NS-SeC by ethnic group by age 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC6206EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC6206EW_2011PCONH">
-                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig ac oedran Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
+                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig a Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
                 <com:Name xml:lang="en">Census NS-SeC by ethnic group by age 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC6206EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC6206EW_2011NAWH">
-                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig ac oedran 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
+                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig a 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
                 <com:Name xml:lang="en">Census NS-SeC by ethnic group by age 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC6206EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC6206EW_2013HEALTHH">
-                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig ac oedran 2013 Hierarchaeth Ardal lechyd</com:Name>
+                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig a 2013 Hierarchaeth Ardal lechyd</com:Name>
                 <com:Name xml:lang="en">Census NS-SeC by ethnic group by age 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC6206EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC6206EW_2011BUAH">
-                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig ac oedran Adeiledig-up hierarchaeth ardal 2011</com:Name>
+                <com:Name xml:lang="cy">Census Dosbarthiad Economaidd-gymdeithasol Ystadegau Gwladol (NS-SeC) yn ôl gr?p ethnig a Adeiledig-up hierarchaeth ardal 2011</com:Name>
                 <com:Name xml:lang="en">Census NS-SeC by ethnic group by age 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC6206EW_2011BUAH" version="1.0"/>
@@ -15474,56 +15439,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7201EW_2011STATH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl gr?p ethnig Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by ethnic group 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7201EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7201EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl gr?p ethnig Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by ethnic group 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7201EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7201EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl gr?p ethnig Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by ethnic group 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7201EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7201EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl gr?p ethnig Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by ethnic group 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7201EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7201EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl gr?p ethnig Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by ethnic group 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7201EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7201EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl gr?p ethnig 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by ethnic group 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7201EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7201EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl gr?p ethnig 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by ethnic group 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7201EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7201EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl gr?p ethnig Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by ethnic group 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7201EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -15586,56 +15551,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7401EW_2011STATH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl argaeledd car neu fan Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or v 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or van availability 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7401EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7401EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl argaeledd car neu fan Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or v 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or van availability 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7401EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7401EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl argaeledd car neu fan Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or v 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or van availability 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7401EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7401EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl argaeledd car neu fan Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or v 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or van availability 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7401EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7401EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl argaeledd car neu fan Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or v 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or van availability 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7401EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7401EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl argaeledd car neu fan 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or v 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or van availability 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7401EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7401EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl argaeledd car neu fan 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or v 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or van availability 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7401EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7401EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl argaeledd car neu fan Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or v 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by car or van availability 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7401EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -15698,56 +15663,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7501EW_2011STATH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl y lefel uchaf o gymhwyster Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qual 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qualification 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7501EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7501EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl y lefel uchaf o gymhwyster Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qual 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qualification 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7501EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7501EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl y lefel uchaf o gymhwyster Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qual 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qualification 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7501EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7501EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl y lefel uchaf o gymhwyster Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qual 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qualification 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7501EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7501EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl y lefel uchaf o gymhwyster Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qual 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qualification 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7501EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7501EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl y lefel uchaf o gymhwyster 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qual 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qualification 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7501EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7501EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl y lefel uchaf o gymhwyster 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qual 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qualification 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7501EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7501EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl y lefel uchaf o gymhwyster Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qual 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by highest level of qualification 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7501EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -15922,56 +15887,56 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7603EW_2011STATH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl galwedigaeth Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by oc 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by occupation 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7603EW_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7603EW_2014WARDH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl galwedigaeth Hierarchaeth Weinyddol 2014</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by oc 2014 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by occupation 2014 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7603EW_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7603EW_2011WARDH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl galwedigaeth Hierarchaeth Weinyddol 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by oc 2011 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by occupation 2011 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7603EW_2011WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7603EW_2011PARISH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl galwedigaeth Hierarchaeth Plwyfi 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by oc 2011 Parish Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by occupation 2011 Parish Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7603EW_2011PARISH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7603EW_2011PCONH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl galwedigaeth Hierarchaeth Etholaethau Seneddol San Steffan 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by oc 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by occupation 2011 Westminster Parliamentary Constituency Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7603EW_2011PCONH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7603EW_2011NAWH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl galwedigaeth 2011 Cynulliad Cenedlaethol Cymru Hieararchy Etholiadol</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by oc 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by occupation 2011 National Assembley for Wales Electoral Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7603EW_2011NAWH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7603EW_2013HEALTHH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl galwedigaeth 2013 Hierarchaeth Ardal lechyd</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by oc 2013 Health Area Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by occupation 2013 Health Area Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7603EW_2013HEALTHH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_LC7603EW_2011BUAH">
                 <com:Name xml:lang="cy">Census Y dull o deithio i?r gwaith (manyleb 2001) yn ôl galwedigaeth Adeiledig-up hierarchaeth ardal 2011</com:Name>
-                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by oc 2011 Built-up area hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Method of travel to work (2001 specification) by occupation 2011 Built-up area hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_LC7603EW_2011BUAH" version="1.0"/>
                 </str:Structure>
@@ -21500,8 +21465,8 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_SA002EW_2011STATH">
-                <com:Name xml:lang="cy">Census Usual residents with a second address in a different area by sex, broad age group and second address type Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Usual residents with a second address in a different area by sex, broad age group and second address type 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="cy">Census Usual residents with a second address in a different area by sex, broad age gr Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Census Usual residents with a second address in a different area by sex, broad age gr 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_SA002EW_2011STATH" version="1.0"/>
                 </str:Structure>
@@ -21584,8 +21549,8 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_SP009_2011CMLADH">
-                <com:Name xml:lang="cy">Census Sex by five-year age (Ethnic Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
-                <com:Name xml:lang="en">Census Sex by five-year age (Ethnic 2011 Census merged local authority district hierarchy</com:Name>
+                <com:Name xml:lang="cy">Census Sex by five-year age (Ethnic group - Somali) Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="en">Census Sex by five-year age (Ethnic group - Somali) 2011 Census merged local authority district hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_SP009_2011CMLADH" version="1.0"/>
                 </str:Structure>
@@ -21668,7 +21633,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_ST212EWla_2011CMLADH">
-                <com:Name xml:lang="cy">Census Pasbortau a ddelir (manwl) (preswylwyr byrdymor na chawsant eu geni yn y DU) Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="cy">Census Pasbortau a ddelir (manwl) (preswylwyr b Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
                 <com:Name xml:lang="en">Census Passports held (detailed) (non-UK born short-term residents) 2011 Census merged local authority district hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_ST212EWla_2011CMLADH" version="1.0"/>
@@ -21697,7 +21662,7 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_ST601EWla_2011CMLADH">
                 <com:Name xml:lang="cy">Census Gweithgarwch economaidd (preswylwyr byrdymor na chawsant eu geni yn y DU) Hierarchaeth dosbarth awdurdod lleol cyfunol Cyfrifiad 2011</com:Name>
-                <com:Name xml:lang="en">Census Economic activity (non-UK born short-te 2011 Census merged local authority district hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Economic activity (non-UK born short-term residents) 2011 Census merged local authority district hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_ST601EWla_2011CMLADH" version="1.0"/>
                 </str:Structure>
@@ -21878,7 +21843,7 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_UKMIG013_2011HTWARDH">
-                <com:Name xml:lang="cy">Census Household migration by NS-SeC of Household Reference Person (HRP) Hierarchaeth Wardiau Cyfunol Cyfrifiad 2011</com:Name>
+                <com:Name xml:lang="cy">Census Household migration by NS-SeC of Household Reference Person (HRP) Hierarchaeth Wardiau Cyfunol Cyfrifiad</com:Name>
                 <com:Name xml:lang="en">Census Household migration by NS-SeC of Household Reference Person (HRP) 2011 Census Merged Ward Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_UKMIG013_2011HTWARDH" version="1.0"/>
@@ -21998,7 +21963,7 @@
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Census_WD1117EW_2011STATH">
                 <com:Name xml:lang="cy">Census Rhyw fesul blwyddyn oedran unigol (Poblogaeth diwrnod gwaith) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Census Sex by single year of age (Workday popul 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="en">Census Sex by single year of age (Workday population) 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Census_WD1117EW_2011STATH" version="1.0"/>
                 </str:Structure>
@@ -23081,13 +23046,6 @@
                     <Ref agencyID="ONS" id="Economic_ASHE07H_2013WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_CPI_2011STATH">
-                <com:Name xml:lang="cy">Economic Consumer Prices Index (COICOP) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Economic Consumer Prices Index (COICOP) 2011 Statistical Geography Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Economic_CPI_2011STATH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Economic_CPI15_2011STATH">
                 <com:Name xml:lang="cy">Economic Consumer Prices Index (COICOP) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
                 <com:Name xml:lang="en">Economic Consumer Prices Index (COICOP) 2011 Statistical Geography Hierarchy</com:Name>
@@ -23100,13 +23058,6 @@
                 <com:Name xml:lang="en">Economic Consumer Prices Index (Special Aggregates) 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Economic_CPISA15_2011STATH" version="1.0"/>
-                </str:Structure>
-            </str:Dataflow>
-            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_CPISpecAgg_2011STATH">
-                <com:Name xml:lang="cy">Economic Consumer Prices Index (Special Aggregates) Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Economic Consumer Prices Index (Special Aggregates) 2011 Statistical Geography Hierarchy</com:Name>
-                <str:Structure>
-                    <Ref agencyID="ONS" id="Economic_CPISpecAgg_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Economic_ETBDCP_2011STATH">
@@ -23177,6 +23128,41 @@
                 <com:Name xml:lang="en">Economic Index of Labour Costs per Hour - Level 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Economic_ILCHLEVEL_2011STATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_JOBS1_2011STATH">
+                <com:Name xml:lang="cy">Economic Workforce Jobs UK Totals (by component), Seasonally Adjusted Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Economic Workforce Jobs UK Totals (by component), Seasonally Adjusted 2011 Statistical Geography Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Economic_JOBS1_2011STATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_JOBS2_2011STATH">
+                <com:Name xml:lang="cy">Economic Workforce Jobs by Industry Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Economic Workforce Jobs by Industry 2011 Statistical Geography Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Economic_JOBS2_2011STATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_JOBS3_2011STATH">
+                <com:Name xml:lang="cy">Economic Employee Jobs by Industry - UK and GB, Not Seasonally Adjusted Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Economic Employee Jobs by Industry - UK and GB, Not Seasonally Adjusted 2011 Statistical Geography Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Economic_JOBS3_2011STATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_JOBS4_2011STATH">
+                <com:Name xml:lang="cy">Economic Self Employed Jobs by Industry Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Economic Self Employed Jobs by Industry 2011 Statistical Geography Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Economic_JOBS4_2011STATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_JOBS5_2011STATH">
+                <com:Name xml:lang="cy">Economic Workforce Jobs Regional Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Economic Workforce Jobs Regional 2011 Statistical Geography Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Economic_JOBS5_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Economic_MQ5AAL_2011STATH">
@@ -23340,6 +23326,13 @@
                     <Ref agencyID="ONS" id="Economic_PRODPROD_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_PRODSE_2011STATH">
+                <com:Name xml:lang="cy">Economic PRODCOM Standard Errors Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Economic PRODCOM Standard Errors 2011 Statistical Geography Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Economic_PRODSE_2011STATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Economic_RGDHI01_2015EUROSTATH">
                 <com:Name xml:lang="cy">Economic Regional Gross Disposable Household Income £ millions 2015 NUTS</com:Name>
                 <com:Name xml:lang="en">Economic Regional Gross Disposable Household Income £ millions 2015 NUTS</com:Name>
@@ -23387,6 +23380,20 @@
                 <com:Name xml:lang="en">Economic RSI Internet Sales 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Economic_RSIINT_2011STATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_RegGVA01_2015EUROSTATH">
+                <com:Name xml:lang="cy">Economic Regional Gross Value Added by Component and Industry 2015 NUTS</com:Name>
+                <com:Name xml:lang="en">Economic Regional Gross Value Added by Component and Industry 2015 NUTS</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Economic_RegGVA01_2015EUROSTATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Economic_RegGVA02_2015EUROSTATH">
+                <com:Name xml:lang="cy">Economic Regional Gross Value Added per Head and per Head Indices 2015 NUTS</com:Name>
+                <com:Name xml:lang="en">Economic Regional Gross Value Added per Head and per Head Indices 2015 NUTS</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Economic_RegGVA02_2015EUROSTATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Economic_TIG01_2011STATH">
@@ -23502,15 +23509,15 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Economic_UKBAC_2011STATH">
-                <com:Name xml:lang="cy">Economic Enterprise/local units by Industry, Employment size band and Le Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Economic Enterprise/local units by Industry, Employment size band and Le 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="cy">Economic Enterprise/local units by Industry, Employment size band and Legal status Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Economic Enterprise/local units by Industry, Employment size band and Legal status 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Economic_UKBAC_2011STATH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Economic_UKBAD01_2013WARDH">
-                <com:Name xml:lang="cy">Economic Enterprise/local units by Employment size band and GB Local Authority Districts (including UK total) Hierarchaeth Weinyddol 2013</com:Name>
-                <com:Name xml:lang="en">Economic Enterprise/local units by Employment size band and GB Local Authority Districts (including UK total) 2013 Administrative Hierarchy</com:Name>
+                <com:Name xml:lang="cy">Economic Enterprise/local units by Employment size band and GB Local Authority Districts (including Hierarchaeth Weinyddol 2013</com:Name>
+                <com:Name xml:lang="en">Economic Enterprise/local units by Employment size band and GB Local Authority Districts (including 2013 Administrative Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Economic_UKBAD01_2013WARDH" version="1.0"/>
                 </str:Structure>
@@ -23551,8 +23558,8 @@
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Economic_UKBAF03_2011STATH">
-                <com:Name xml:lang="cy">Economic Enterprise by Turnover size band and Parliamentary Constitue Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
-                <com:Name xml:lang="en">Economic Enterprise by Turnover size band and Parliamentary Constitue 2011 Statistical Geography Hierarchy</com:Name>
+                <com:Name xml:lang="cy">Economic Enterprise by Turnover size band and Parliamentary Constituency Hierarchaeth Daearyddiaeth Ystadegol 2011</com:Name>
+                <com:Name xml:lang="en">Economic Enterprise by Turnover size band and Parliamentary Constituency 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Economic_UKBAF03_2011STATH" version="1.0"/>
                 </str:Structure>
@@ -23718,6 +23725,34 @@
                     <Ref agencyID="ONS" id="Social_2012SNPPMigration_2012WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Social_2014SNPP_2014WARDH">
+                <com:Name xml:lang="cy">Social Projected Population, 2014-based Subnational Population Projections Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="en">Social Projected Population, 2014-based Subnational Population Projections 2014 Administrative Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Social_2014SNPP_2014WARDH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Social_2014SNPPBirths_2014WARDH">
+                <com:Name xml:lang="cy">Social Projected Births, 2014-based Subnational Population Projections Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="en">Social Projected Births, 2014-based Subnational Population Projections 2014 Administrative Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Social_2014SNPPBirths_2014WARDH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Social_2014SNPPCCG_2013HEALTHH">
+                <com:Name xml:lang="cy">Social Projected Population by Clinical Commissioning Groups, 2014-based Subnational Population Projections 2013 Hierarchaeth Ardal lechyd</com:Name>
+                <com:Name xml:lang="en">Social Projected Population by Clinical Commissioning Groups, 2014-based Subnational Population Projections 2013 Health Area Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Social_2014SNPPCCG_2013HEALTHH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Social_2014SNPPDeaths_2014WARDH">
+                <com:Name xml:lang="cy">Social Projected Deaths, 2014-based Subnational Population Projections Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="en">Social Projected Deaths, 2014-based Subnational Population Projections 2014 Administrative Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Social_2014SNPPDeaths_2014WARDH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Social_MARRAREA_2011WARDH">
                 <com:Name xml:lang="cy">Social Marriages in England and Wales by Area Hierarchaeth Weinyddol 2011</com:Name>
                 <com:Name xml:lang="en">Social Marriages in England and Wales by Area 2011 Administrative Hierarchy</com:Name>
@@ -23737,6 +23772,13 @@
                 <com:Name xml:lang="en">Social Small Area Population Estimates 2011 Statistical Geography Hierarchy</com:Name>
                 <str:Structure>
                     <Ref agencyID="ONS" id="Social_SAPEDE_2011STATH" version="1.0"/>
+                </str:Structure>
+            </str:Dataflow>
+            <str:Dataflow agencyID="ONS" version="1.0" id="Social_SAPEDE_2014WARDH">
+                <com:Name xml:lang="cy">Social Small Area Population Estimates Hierarchaeth Weinyddol 2014</com:Name>
+                <com:Name xml:lang="en">Social Small Area Population Estimates 2014 Administrative Hierarchy</com:Name>
+                <str:Structure>
+                    <Ref agencyID="ONS" id="Social_SAPEDE_2014WARDH" version="1.0"/>
                 </str:Structure>
             </str:Dataflow>
             <str:Dataflow agencyID="ONS" version="1.0" id="Social_SAPEDE_2011WARDH">
